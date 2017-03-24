@@ -1,0 +1,193 @@
+
+#hed{
+  font-family: 'Roboto', sans-serif; 
+  font-size: 2.0em;
+  color: #333;
+  margin-bottom: 0px;
+  line-height: 34px;
+  
+}
+
+
+.section{
+ font-family: 'Open Sans', sans-serif; 
+  font-size: 1.2em;
+  font-weight: 600;
+  color:  #004685;
+  margin-bottom: 0px;
+  line-height: 34px; 
+}
+
+
+#m_bottom_ad{
+}
+
+.panel{
+  height: 100px;
+
+}
+
+#dek{
+  font-size: 14px;
+    float: none;
+}
+
+#players{
+  font-family: "Roboto", sans-serif;
+}
+
+blue{
+  color: #1C2841;
+}
+
+orange{
+  color: #c35521;
+}
+
+.aplayer{
+  height: 0px;
+}
+.name{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em;
+  margin: 0px;
+  padding: 0px;
+}
+
+.button.radius{
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 300;
+  background-color: #f7f7f7;
+  color: #525252;
+  border: 0px;
+  margin-right: 11px;
+}
+
+.button.keep:hover, .button.keep:focus{
+  background-color: #75a841;
+}
+
+.button.keep:active{
+  background-color: #69983a;
+}
+
+.button.dump:hover, .button.dump:focus{
+  background-color: #d93b3c;
+}
+
+.button.dump:active{
+  background-color:#bb3637;
+  }
+  
+  
+.social{
+  display: none;
+  width: 100px;
+  position: absolute;
+  left: 240px;
+  top: 290px;
+}
+
+
+.facebook{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+/*   margin-right: 11px; */
+  cursor: pointer;
+}
+
+
+.facebook:hover{
+  background-position: 2px -31px;
+}
+
+.twitter{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -30px 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+  cursor: pointer;
+}
+
+.twitter:hover{
+  background-position: -30px -31px;
+}
+
+
+
+.panel.results{
+    display: none;
+    font-size: 12px;
+    background-color: #13161c
+}
+.result_num{
+  padding-left: 4px;
+  float: left;
+  position: relative;
+  top: -6px;
+  font-size: 16px;
+}
+
+.your_vote{
+  color: #999999;
+}
+
+.keep{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -8px -86px;
+  padding-left: 16px;
+}
+
+.dump{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -8px -73px;
+  padding-left: 16px;
+}
+
+.keep_holder{
+  position: relative;
+  top: 15px;
+
+}
+
+.clear{
+  cursor: pointer;
+  z-index: 5000;
+  position: relative;
+  top: 60px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.clear:hover{
+  color: #e0e0e0;
+}
+
+#box_ad{
+  width: 300px;
+  height:290px;
+  background-color: #ffffff;
+    
+  
+}
+
+.stuck {
+  position:fixed;
+  top:0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 12px -9px rgba(0,0,0,0.14);
+  z-index: 100000;
+
+}
+
+#credits{padding-bottom:11px;font-size:11px;color:#999;font-family:Arial;font-weight:400}

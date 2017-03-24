@@ -1,0 +1,417 @@
+{
+	"Players": [{
+		"0": {
+			"id": "0",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"1": {
+			"id": "62",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"2": {
+			"id": "2",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"3": {
+			"id": "3",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"4": {
+			"id": "4",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"5": {
+			"id": "5",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"6": {
+			"id": "6",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"7": {
+			"id": "7",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"8": {
+			"id": "8",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"9": {
+			"id": "9",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"10": {
+			"id": "10",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"11": {
+			"id": "11",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"12": {
+			"id": "12",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"13": {
+			"id": "13",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"14": {
+			"id": "14",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"15": {
+			"id": "15",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"16": {
+			"id": "16",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"17": {
+			"id": "17",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"19": {
+			"id": "19",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"20": {
+			"id": "20",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"21": {
+			"id": "21",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"22": {
+			"id": "22",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"23": {
+			"id": "23",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"24": {
+			"id": "24",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"25": {
+			"id": "25",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"26": {
+			"id": "26",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "OFFENSE"
+		},
+		"27": {
+			"id": "27",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"28": {
+			"id": "28",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"29": {
+			"id": "29",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"30": {
+			"id": "30",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"31": {
+			"id": "31",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"32": {
+			"id": "32",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"33": {
+			"id": "33",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"34": {
+			"id": "34",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"36": {
+			"id": "36",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"37": {
+			"id": "37",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"38": {
+			"id": "38",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"39": {
+			"id": "39",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"40": {
+			"id": "40",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"41": {
+			"id": "41",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"42": {
+			"id": "42",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"43": {
+			"id": "43",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"44": {
+			"id": "44",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"45": {
+			"id": "45",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"46": {
+			"id": "46",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"47": {
+			"id": "47",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"48": {
+			"id": "48",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"49": {
+			"id": "49",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"50": {
+			"id": "50",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"51": {
+			"id": "51",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"52": {
+			"id": "52",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "DEFENSE"
+		},
+		"53": {
+			"id": "53",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "SPECIAL"
+		},
+		"54": {
+			"id": "54",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "SPECIAL"
+		},
+		"55": {
+			"id": "55",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "SPECIAL"
+		},
+		"56": {
+			"id": "56",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "BRASS"
+		},
+		"57": {
+			"id": "57",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "BRASS"
+		},
+		"58": {
+			"id": "58",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "BRASS"
+		},
+		"59": {
+			"id": "59",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "BRASS"
+		},
+		"60": {
+			"id": "60",
+			"name": "",
+			"photo": "xxx",
+			"credit": "",
+			"position": "BRASS"
+		}
+	}]
+}
