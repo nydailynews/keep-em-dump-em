@@ -66,6 +66,69 @@ var quizzer = {
           })
         })
     },
+    subtract_vote: function (int, player)
+    {
+        var random = makeid();
+
+        if (window.XMLHttpRequest) {
+            // code for IE7+, Firefox, Chrome, Opera, Safari
+            xmlhttp=new XMLHttpRequest();
+        } else {  // code for IE6, IE5
+            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
+        }
+
+        xmlhttp.open("GET","php/vote_subtract.php?vote="+int+"&player="+player+"&"+random,true);
+        xmlhttp.send();
+        if(int == 0){
+            $("#"+player).find(".your_vote").removeClass("keep")
+        }else{
+            $("#"+player).find(".your_vote").removeClass("dump")
+        }
+    },
+    get_vote: function (int, player, firstname, playername) {
+        var random = this.make_id();
+
+        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&"+random, function(data) {
+            keep = eval(data.split("||")[0]);
+            dump = eval(data.split("||")[1]);
+
+
+            console.log(playername)
+            percent_k = Math.round((keep/(dump+keep))*100);
+            percent_d = Math.round((dump/(dump+keep))*100);
+            if(int == 0){
+                $("#"+player).find(".your_vote").addClass("keep");
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to keep "+playername+". Cast your Keep 'em, Dump 'em vote now:")
+            }else{
+                $("#"+player).find(".your_vote").addClass("dump");
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to dump "+playername+". Cast your Keep 'em, Dump 'em vote now:")
+            }
+            $("#"+player).find(".clear").attr("vote", int)
+            $("#"+player).find(".dump_bar").css('width', percent_d/2+"%");
+            $("#"+player).find(".keep_bar").css('width', percent_k/2+"%");
+            $("#"+player).find(".keep_result_num").html(percent_k+"%");
+            $("#"+player).find(".dump_result_num").html(percent_d+"%");
+
+            if(percent_d != 100){
+                $("#"+player).find(".keep_holder").css("left", "-"+(percent_d/2)-12+"%");
+            }else{
+                $("#"+player).find(".keep_holder").css("left", "-65%");   
+            }
+            if(percent_k == 100){
+                $("#"+player).find(".keep_holder").css("left", "-9%");
+            }
+        });
+    },
+    make_id: function()
+    {
+        var text = "";
+        var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
+
+        for( var i=0; i < 5; i++ )
+            text += possible.charAt(Math.floor(Math.random() * possible.length));
+
+        return text;
+    },
     init: function() 
     {
         // Populate the things that need populating
@@ -73,101 +136,22 @@ var quizzer = {
         // Config handling. External config objects must be named quiz_config
         if ( typeof window.app_config !== 'undefined' ) { this.update_config(app_config); }
 
+      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
+          $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');
+        }else{
+          $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');    
+          
+          var waypoint = new Waypoint({
+            element: document.getElementById('m_bottom_ad'),
+            handler: function(direction) {}
+          });
+          
+          var banner_sticky = new Waypoint.Sticky({
+            element: $('#m_bottom_ad')[0]
+          });
+        }
         this.get_players();
     }
 };
 
 var myPlayer,myVote,percent_d,percent_k;
-
-$(function () {
-   
-  if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
-      $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');
-    }else{
-      $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');    
-      
-      var waypoint = new Waypoint({
-        element: document.getElementById('m_bottom_ad'),
-        handler: function(direction) {
-         
-        }
-      })
-      
-      var banner_sticky = new Waypoint.Sticky({
-        element: $('#m_bottom_ad')[0]
-      }) 
-      
-      
-    }
-  
-  getPlayers();  
- });
-
-
-function makeid()
-{
-    var text = "";
-    var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
-
-    for( var i=0; i < 5; i++ )
-        text += possible.charAt(Math.floor(Math.random() * possible.length));
-
-    return text;
-}
-
- 
- function subtractVote(int, player) {
-   var random = makeid();
-   
-   
-    if (window.XMLHttpRequest) {
-      // code for IE7+, Firefox, Chrome, Opera, Safari
-      xmlhttp=new XMLHttpRequest();
-    } else {  // code for IE6, IE5
-      xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-    }
-
-    xmlhttp.open("GET","php/vote_subtract.php?vote="+int+"&player="+player+"&"+random,true);
-    xmlhttp.send();
-    if(int == 0){
-      $("#"+player).find(".your_vote").removeClass("keep")
-    }else{
-      $("#"+player).find(".your_vote").removeClass("dump")
-    }
-}
-
-
-function getVote(int, player, firstname, playername) {
-   var random = makeid();
-
-    jQuery.get("php/vote.php?vote="+int+"&player="+player+"&"+random, function(data) {
-    keep = eval(data.split("||")[0]);
-    dump = eval(data.split("||")[1]);
-    
-    
-    console.log(playername)
-    percent_k = Math.round((keep/(dump+keep))*100);
-    percent_d = Math.round((dump/(dump+keep))*100);
-    if(int == 0){
-      $("#"+player).find(".your_vote").addClass("keep");
-      $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to keep "+playername+". Cast your Keep 'em, Dump 'em vote now:")
-    }else{
-      $("#"+player).find(".your_vote").addClass("dump");
-      $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to dump "+playername+". Cast your Keep 'em, Dump 'em vote now:")
-    }
-    $("#"+player).find(".clear").attr("vote", int)
-    $("#"+player).find(".dump_bar").css('width', percent_d/2+"%");
-    $("#"+player).find(".keep_bar").css('width', percent_k/2+"%");
-    $("#"+player).find(".keep_result_num").html(percent_k+"%");
-    $("#"+player).find(".dump_result_num").html(percent_d+"%");
-    
-    if(percent_d != 100){
-        $("#"+player).find(".keep_holder").css("left", "-"+(percent_d/2)-12+"%");
-      }else{
-        $("#"+player).find(".keep_holder").css("left", "-65%");   
-      }
-    if(percent_k == 100){
-      $("#"+player).find(".keep_holder").css("left", "-9%");
-    }
-  });
-}
