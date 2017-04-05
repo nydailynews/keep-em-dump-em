@@ -32,11 +32,11 @@ var keepem = {
                 var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
                 if(item.name == "promo")
                 {
-                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
                 }
                 else if(item.name == "promo2")
                 {
-                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
                 }
                 else if(item.name != "ad")
                 {
@@ -45,11 +45,10 @@ var keepem = {
 <img src="img/'+photo+'">\n\
     <div id="'+playerID+'_vote" class="panel">\n\
         <p class="name">'+item.name.toUpperCase()+'</p>\n\
-        <span  id="0" class="button radius keep">KEEP HIM</span>\n\
-        <span id="1" class="button radius dump">DUMP HIM</span>\n\
+        <button id="0" class="button radius keep">KEEP HIM</button>\n\
+        <button id="1" class="button radius dump">DUMP HIM</button>\n\
     </div>\n\
     <div id="'+playerID+'_results" class="panel results">\n\
-        <div style="float:right" vote="" class="clear">CLEAR</div>\n\
         <div class="your_vote" style="font-size:10px;">YOUR VOTE</div>\n\
         <div>\n\
             <div>DUMP HIM</div>\n\
@@ -148,16 +147,11 @@ var keepem = {
     },
     init: function() 
     {
-        // Populate the things that need populating
-
         // Config handling. External config objects must be named quiz_config
         if ( typeof window.app_config !== 'undefined' ) { this.update_config(app_config); }
 
-      if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) { 
-          $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');
-        }else{
-          $("#hed").html('2016 KEEP \'EM OR DUMP \'EM: <blue>GIANTS</blue>');    
-          
+        if( is_mobile )
+        {
           var waypoint = new Waypoint({
             element: document.getElementById('m_bottom_ad'),
             handler: function(direction) {}
