@@ -1,4 +1,11 @@
-<!DOCTYPE HTML>
+<?php
+$append = '';
+$version = '';
+if ( $_SERVER['QUERY_STRING'] !== '' ):
+	$version = substr(htmlspecialchars($_SERVER['QUERY_STRING']), 0, 11);
+	$append = '?' . $version;
+endif; 
+?><!DOCTYPE HTML>
 <html class="no-js" lang="en">
   <head>
 
@@ -19,9 +26,9 @@
         <meta name="parsely-title" content="TITLE" />
 
         <!-- Description-->
-        <meta name="description" content="" />
-        <meta property="og:description" content="" />
-        <meta name="twitter:description" content="" />
+        <meta name="description" content="DESCRIPTION" />
+        <meta property="og:description" content="DESCRIPTION" />
+        <meta name="twitter:description" content="DESCRIPTION" />
 
         <!-- KEYWORD -->
         <meta name="keywords" content="KEYWORDS" />
@@ -132,7 +139,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="../css/main.css" />
+    <link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
     <link rel="stylesheet" href="../css/foundation.css" />
     
 <!--
@@ -152,43 +159,19 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
   js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
-   <script>
-		
+	   <script>
 		  var _gaq = _gaq || [];
-		    
 		  _gaq.push(['_setAccount', 'UA-20856122-5']);
 		  _gaq.push(['_trackPageview']);
-		  
-		  
-		  
-		  
 		  var _googleTrackerCount = 1;
-		
 		  (function() {
 		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
 		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
 		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 		  })();
-		
 		</script>
-		
-		
-		
-			
-
-
-
-
-
-
-
-
-	
 	
 <!-- http://www.nydailynews.com/cmlink/content.localedge.header.html -->
-	
-	
-
 
    <!-- HTML Element: 7.2210747 -->   <!--[if lt IE 9]>
 <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -264,7 +247,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
  <div class="main_content">
    <div id="top" class="row"> 
       <br clear="all">
-        <h1 id="hed" class="columns">Keep 'em or Dump 'em: 2016 Giants</h1>        
+        <h1 id="hed" class="columns">Keep 'em or Dump 'em: YEAR TEAM</h1>        
         <h2 id="dek" class="large-12 columns"></h2>
         <p></p>
    </div>
