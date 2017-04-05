@@ -1,3 +1,29 @@
+var quizzer = {
+    config: 
+    { 
+        slug: '',
+        log_url: '',
+        log_answers: 0,
+    },
+    update_config: function(config) {
+        // Take an external config object and update this config object.
+        for ( var key in config )
+        {
+            if ( config.hasOwnProperty(key) )
+            {
+                this.config[key] = config[key];
+            }
+        }
+    },
+    init: function() 
+    {
+        // Populate the things that need populating
+
+        // Config handling. External config objects must be named quiz_config
+        if ( typeof window.app_config !== 'undefined' ) { this.update_config(app_config); }
+    }
+};
+
 var myPlayer,myVote,percent_d,percent_k;
 
 $(function () {

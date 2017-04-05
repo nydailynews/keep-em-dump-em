@@ -244,6 +244,17 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
          
   </div>
 -->
+<script>
+var app_config = { 
+        team: 'TEAM',
+        year: 'YEAR',
+        version: '<?php echo $version; ?>',
+        log_url: '../',
+        has_photos: 1,
+        log_answers: 0,
+    };
+if ( is_mobile() === 1 ) quiz_config.has_photos = 0;
+</script>
  <div class="main_content">
    <div id="top" class="row"> 
       <br clear="all">
