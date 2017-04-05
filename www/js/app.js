@@ -3,6 +3,8 @@ var keepem = {
     config: 
     { 
         slug: '',
+        canonical: '',
+        description: '',
         log_url: '',
         log_answers: 0,
     },
@@ -38,7 +40,8 @@ var keepem = {
             }
             else if(item.name != "ad")
             {
-                $('#'+section).append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" >\n\
+                $('#'+section).append('\n\
+<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" >\n\
 <img src="img/'+photo+'">\n\
     <div id="'+playerID+'_vote" class="panel">\n\
         <p class="name">'+item.name.toUpperCase()+'</p>\n\
@@ -60,19 +63,19 @@ var keepem = {
         </div>\n\
     </div>\n\
     <div class="social">\n\
-        <a class="fb-share" href="http://www.facebook.com/sharer.php?u=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em/" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
-        <a class="tweet" href="https://twitter.com/share?url=nydn.us/goldenglobesvote&text=TEXT GOES HERE" target="_new"><div class="twitter"></div></a>\n\
+        <a class="fb-share" href="http://www.facebook.com/sharer.php?u=' + keepem.config.canonical + '" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
+        <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '" target="_new"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
             //$("#credits").append(item.name+", "+item.credit+"; ");
             }
             else
             {
-                if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                if( !is_mobile ) {
                     $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
                 }
             }
-            if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            if( !is_mobile ) {
                 $("#box_ad").show();
                }else{
                  $("#box_ad").hide();
@@ -179,3 +182,4 @@ var keepem = {
 //function get_vote(int, player, firstname, playername) {
 //    return keepem.get_vote(int, player, firstname, playername);
 //}
+var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);

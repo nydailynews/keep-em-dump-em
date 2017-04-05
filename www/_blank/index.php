@@ -246,12 +246,12 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 -->
 <script>
 var app_config = { 
+		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
+		description: 'DESCRIPTION',
         team: 'TEAM',
         year: 'YEAR',
         version: '<?php echo $version; ?>',
         log_url: '../',
-        has_photos: 1,
-        log_answers: 0,
     };
 </script>
  <div class="main_content">
