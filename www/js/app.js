@@ -2,12 +2,12 @@ var keepem = {
     //myPlayer,myVote,percent_d,percent_k;
     config: 
     { 
+		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
         gender: 'HIM',
-        slug: '',
-        canonical: '',
+        team: '',
+        year: '',
         description: '',
-        log_url: '',
-        log_answers: 0,
+        version: '',
     },
     update_config: function(config) {
         // Take an external config object and update this config object.
@@ -72,7 +72,7 @@ var keepem = {
                 else
                 {
                     if( !is_mobile ) {
-                        $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
+                        $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
                     }
                 }
                 if( !is_mobile ) {
