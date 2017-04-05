@@ -2,6 +2,7 @@ var keepem = {
     //myPlayer,myVote,percent_d,percent_k;
     config: 
     { 
+        gender: 'HIM',
         slug: '',
         canonical: '',
         description: '',
@@ -32,32 +33,32 @@ var keepem = {
                 var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
                 if(item.name == "promo")
                 {
-                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
                 }
                 else if(item.name == "promo2")
                 {
-                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
                 }
                 else if(item.name != "ad")
                 {
                     $('#'+section).append('\n\
-<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" >\n\
+<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns left">\n\
 <img src="img/'+photo+'">\n\
     <div id="'+playerID+'_vote" class="panel">\n\
         <p class="name">'+item.name.toUpperCase()+'</p>\n\
-        <button id="0" class="button radius keep">KEEP HIM</button>\n\
-        <button id="1" class="button radius dump">DUMP HIM</button>\n\
+        <button id="0" class="button radius keep">KEEP ' + keepem.config.gender + '</button>\n\
+        <button id="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
     </div>\n\
     <div id="'+playerID+'_results" class="panel results">\n\
         <div class="your_vote" style="font-size:10px;">YOUR VOTE</div>\n\
         <div>\n\
-            <div>DUMP HIM</div>\n\
-            <div class="dump_bar" style="height:12px; background-color:#f23f3f; float:left" ></div>\n\
+            <div>DUMP ' + keepem.config.gender + '</div>\n\
+            <div class="dump_bar"></div>\n\
             <div class="dump_result_num result_num"></div>\n\
         </div>\n\
         <div class="keep_holder">\n\
-            <div>KEEP HIM</div>\n\
-            <div class="keep_bar" style="height:12px; background-color:#74a840; float:left" ></div>\n\
+            <div>KEEP ' + keepem.config.gender + '</div>\n\
+            <div class="keep_bar"></div>\n\
             <div class="keep_result_num result_num"></div>\n\
         </div>\n\
     </div>\n\

@@ -257,7 +257,7 @@ var app_config = {
  <div class="main_content">
    <div id="top" class="row"> 
       <br clear="all">
-        <h1 id="hed" class="columns">Keep 'em or Dump 'em: YEAR TEAM</h1>        
+        <h1 id="hed" class="columns">YEAR Keep 'em or Dump 'em: TEAM</h1>        
         <h2 id="dek" class="large-12 columns"></h2>
         <p></p>
    </div>

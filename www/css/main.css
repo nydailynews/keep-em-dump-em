@@ -191,3 +191,12 @@ orange{
 }
 
 #credits{padding-bottom:11px;font-size:11px;color:#999;font-family:Arial;font-weight:400}
+
+.keep_bar, .dump_bar {
+    height:12px;
+    background-color:#f23f3f;
+    float:left;
+}
+.keep_bar { background-color:#74a840; }
+.left { float: left; }
+.right{ float: right; }
