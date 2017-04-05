@@ -1,4 +1,5 @@
-var quizzer = {
+var keepem = {
+    //myPlayer,myVote,percent_d,percent_k;
     config: 
     { 
         slug: '',
@@ -20,50 +21,73 @@ var quizzer = {
         $.getJSON('js/players.json?v2', function(data) {
       
           $.each(data.Players[0], function(i, item) {
+            //console.log(item);
+            if ( item.name == '' ) return false;
             var playerID = item.id;
             var lastname = item.name.split(" ")[1];
             var firstname = item.name.split(" ")[0];
             var section = item.position;
             var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
-            console.log(photo)
-            if(item.name == "promo"){
-            $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
+            if(item.name == "promo")
+            {
+                $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
             }
-             else if(item.name == "promo2"){
-            $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
-            }else if(item.name != "ad"){
-            $('#'+section).append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><img src="img/'+photo+'"><div id="'+playerID+'_vote" class="panel"><p class="name">'+item.name.toUpperCase()+'</p><span  id="0" class="button radius keep">KEEP HIM</span><span id="1" class="button radius dump">DUMP HIM</span></div> <div id="'+playerID+'_results" class="panel results"><div style="float:right" vote="" class="clear">CLEAR</div><div class="your_vote" style="font-size:10px;">YOUR VOTE</div><div><div>DUMP HIM</div><div class="dump_bar" style="height:12px; background-color:#f23f3f; float:left" ></div><div class="dump_result_num result_num"></div></div><div class="keep_holder"><div>KEEP HIM</div><div class="keep_bar" style="height:12px; background-color:#74a840; float:left" ></div><div class="keep_result_num result_num"></div></div></div><div class="social"><a class="fb-share" href="http://www.facebook.com/sharer.php?u=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em/" target="_blank"><div class="facebook" class="small-text-center"></div></a><a class="tweet" href="https://twitter.com/share?url=nydn.us/goldenglobesvote&text=TEXT GOES HERE" target="_new"><div class="twitter"></div></a></div></div>')
+            else if(item.name == "promo2")
+            {
+                $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+            }
+            else if(item.name != "ad")
+            {
+                $('#'+section).append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" >\n\
+<img src="img/'+photo+'">\n\
+    <div id="'+playerID+'_vote" class="panel">\n\
+        <p class="name">'+item.name.toUpperCase()+'</p>\n\
+        <span  id="0" class="button radius keep">KEEP HIM</span>\n\
+        <span id="1" class="button radius dump">DUMP HIM</span>\n\
+    </div>\n\
+    <div id="'+playerID+'_results" class="panel results">\n\
+        <div style="float:right" vote="" class="clear">CLEAR</div>\n\
+        <div class="your_vote" style="font-size:10px;">YOUR VOTE</div>\n\
+        <div>\n\
+            <div>DUMP HIM</div>\n\
+            <div class="dump_bar" style="height:12px; background-color:#f23f3f; float:left" ></div>\n\
+            <div class="dump_result_num result_num"></div>\n\
+        </div>\n\
+        <div class="keep_holder">\n\
+            <div>KEEP HIM</div>\n\
+            <div class="keep_bar" style="height:12px; background-color:#74a840; float:left" ></div>\n\
+            <div class="keep_result_num result_num"></div>\n\
+        </div>\n\
+    </div>\n\
+    <div class="social">\n\
+        <a class="fb-share" href="http://www.facebook.com/sharer.php?u=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em/" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
+        <a class="tweet" href="https://twitter.com/share?url=nydn.us/goldenglobesvote&text=TEXT GOES HERE" target="_new"><div class="twitter"></div></a>\n\
+    </div>\n\
+</div>');
             //$("#credits").append(item.name+", "+item.credit+"; ");
-            }else{
-              if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-                $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
-              }      
             }
-             if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+            else
+            {
+                if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+                    $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
+                }
+            }
+            if( !/Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
                 $("#box_ad").show();
                }else{
                  $("#box_ad").hide();
                }
           })      
-          $(".button").on('click', function(){
+          $(".button").on('click', function() {
             myPlayer = $(this).parent().parent().attr('id');
             playerFirst = $(this).parent().parent().attr('first');
             playername = $(this).parent().text().split("KEEP")[0];
             $('#'+myPlayer+"_vote").hide();
             $('#'+myPlayer+"_results").fadeIn('slow');
             $("#"+myPlayer).find(".social").fadeIn('slow');
-            myVote = ($(this).attr("id"))
-            getVote(myVote, myPlayer, playerFirst, playername)
-            
-          })
-          $(".clear").on('click', function(){
-             myPlayer = $(this).parent().parent().attr('id');
-            $('#'+myPlayer+"_vote").fadeIn('slow');
-            $('#'+myPlayer+"_results").hide();
-            $("#"+myPlayer).find(".social").hide();
-            myVote = $("#"+myPlayer).find(".clear").attr("vote");
-            subtractVote(myVote, myPlayer);
-          })
+            myVote = ($(this).attr("id"));
+            keepem.get_vote(myVote, myPlayer, playerFirst, playername)
+          });
         })
     },
     subtract_vote: function (int, player)
@@ -92,8 +116,7 @@ var quizzer = {
             keep = eval(data.split("||")[0]);
             dump = eval(data.split("||")[1]);
 
-
-            console.log(playername)
+            //console.log(playername)
             percent_k = Math.round((keep/(dump+keep))*100);
             percent_d = Math.round((dump/(dump+keep))*100);
             if(int == 0){
@@ -153,5 +176,6 @@ var quizzer = {
         this.get_players();
     }
 };
-
-var myPlayer,myVote,percent_d,percent_k;
+//function get_vote(int, player, firstname, playername) {
+//    return keepem.get_vote(int, player, firstname, playername);
+//}

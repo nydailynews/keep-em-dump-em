@@ -253,7 +253,6 @@ var app_config = {
         has_photos: 1,
         log_answers: 0,
     };
-if ( is_mobile() === 1 ) quiz_config.has_photos = 0;
 </script>
  <div class="main_content">
    <div id="top" class="row"> 
@@ -325,6 +324,7 @@ if ( is_mobile() === 1 ) quiz_config.has_photos = 0;
     <script src="../js/sticky.js"></script>
     <script src="../js/app.js"></script>
     <script>
+		keepem.init();
         $(document).foundation();
     </script>
     <script>_satellite.pageBottom();</script>
