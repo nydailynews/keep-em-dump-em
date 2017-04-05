@@ -93,25 +93,6 @@ var keepem = {
           });
         })
     },
-    subtract_vote: function (int, player)
-    {
-        var random = makeid();
-
-        if (window.XMLHttpRequest) {
-            // code for IE7+, Firefox, Chrome, Opera, Safari
-            xmlhttp=new XMLHttpRequest();
-        } else {  // code for IE6, IE5
-            xmlhttp=new ActiveXObject("Microsoft.XMLHTTP");
-        }
-
-        xmlhttp.open("GET","php/vote_subtract.php?vote="+int+"&player="+player+"&"+random,true);
-        xmlhttp.send();
-        if(int == 0){
-            $("#"+player).find(".your_vote").removeClass("keep")
-        }else{
-            $("#"+player).find(".your_vote").removeClass("dump")
-        }
-    },
     get_vote: function (int, player, firstname, playername) {
         var random = this.make_id();
 
