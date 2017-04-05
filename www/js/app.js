@@ -165,7 +165,4 @@ var keepem = {
         this.get_players();
     }
 };
-//function get_vote(int, player, firstname, playername) {
-//    return keepem.get_vote(int, player, firstname, playername);
-//}
 var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
