@@ -22,25 +22,25 @@ var keepem = {
     {
         $.getJSON('js/players.json?v2', function(data) {
       
-          $.each(data.Players[0], function(i, item) {
-            //console.log(item);
-            if ( item.name == '' ) return false;
-            var playerID = item.id;
-            var lastname = item.name.split(" ")[1];
-            var firstname = item.name.split(" ")[0];
-            var section = item.position;
-            var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
-            if(item.name == "promo")
-            {
-                $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
-            }
-            else if(item.name == "promo2")
-            {
-                $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
-            }
-            else if(item.name != "ad")
-            {
-                $('#'+section).append('\n\
+            $.each(data.Players[0], function(i, item) {
+                //console.log(item);
+                if ( item.name == '' ) return false;
+                var playerID = item.id;
+                var lastname = item.name.split(" ")[1];
+                var firstname = item.name.split(" ")[0];
+                var section = item.position;
+                var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
+                if(item.name == "promo")
+                {
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
+                }
+                else if(item.name == "promo2")
+                {
+                    $('#players').append('<div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" ><a href=" http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+                }
+                else if(item.name != "ad")
+                {
+                    $('#'+section).append('\n\
 <div id="'+playerID+'" first="'+playerID+'" class="large-4 medium-6 small-12 columns" style="float:left" >\n\
 <img src="img/'+photo+'">\n\
     <div id="'+playerID+'_vote" class="panel">\n\
@@ -67,48 +67,54 @@ var keepem = {
         <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '" target="_new"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
-            //$("#credits").append(item.name+", "+item.credit+"; ");
-            }
-            else
-            {
-                if( !is_mobile ) {
-                    $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
+                //$("#credits").append(item.name+", "+item.credit+"; ");
                 }
-            }
-            if( !is_mobile ) {
-                $("#box_ad").show();
-               }else{
-                 $("#box_ad").hide();
-               }
-          })      
-          $(".button").on('click', function() {
-            myPlayer = $(this).parent().parent().attr('id');
-            playerFirst = $(this).parent().parent().attr('first');
-            playername = $(this).parent().text().split("KEEP")[0];
-            $('#'+myPlayer+"_vote").hide();
-            $('#'+myPlayer+"_results").fadeIn('slow');
-            $("#"+myPlayer).find(".social").fadeIn('slow');
-            myVote = ($(this).attr("id"));
-            keepem.get_vote(myVote, myPlayer, playerFirst, playername)
-          });
-        })
+                else
+                {
+                    if( !is_mobile ) {
+                        $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns" style="float:left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
+                    }
+                }
+                if( !is_mobile ) {
+                    $("#box_ad").show();
+                }
+                else
+                {
+                    $("#box_ad").hide();
+                }
+            });
+            $(".button").on('click', function() {
+                myPlayer = $(this).parent().parent().attr('id');
+                playerFirst = $(this).parent().parent().attr('first');
+                playername = $(this).parent().text().split("KEEP")[0];
+                $('#'+myPlayer+"_vote").hide();
+                $('#'+myPlayer+"_results").fadeIn('slow');
+                $("#"+myPlayer).find(".social").fadeIn('slow');
+                myVote = ($(this).attr("id"));
+                keepem.get_vote(myVote, myPlayer, playerFirst, playername)
+            });
+        });
     },
     get_vote: function (int, player, firstname, playername) {
         var random = this.make_id();
 
-        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&"+random, function(data) {
+        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&"+random, function(data)
+        {
             keep = eval(data.split("||")[0]);
             dump = eval(data.split("||")[1]);
 
             //console.log(playername)
             percent_k = Math.round((keep/(dump+keep))*100);
             percent_d = Math.round((dump/(dump+keep))*100);
-            if(int == 0){
+            if(int == 0)
+            {
                 $("#"+player).find(".your_vote").addClass("keep");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to keep "+playername+". Cast your Keep 'em, Dump 'em vote now:")
-            }else{
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+playername+". Cast your Keep 'em, Dump 'em vote now:")
+            }
+            else
+            {
                 $("#"+player).find(".your_vote").addClass("dump");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=http://interactive.nydailynews.com/2016/12/2016-giants-keep-em-dump-em&text=I voted to dump "+playername+". Cast your Keep 'em, Dump 'em vote now:")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+playername+". Cast your Keep 'em, Dump 'em vote now:")
             }
             $("#"+player).find(".clear").attr("vote", int)
             $("#"+player).find(".dump_bar").css('width', percent_d/2+"%");
@@ -116,12 +122,16 @@ var keepem = {
             $("#"+player).find(".keep_result_num").html(percent_k+"%");
             $("#"+player).find(".dump_result_num").html(percent_d+"%");
 
-            if(percent_d != 100){
+            if(percent_d != 100)
+            {
                 $("#"+player).find(".keep_holder").css("left", "-"+(percent_d/2)-12+"%");
-            }else{
+            }
+            else
+            {
                 $("#"+player).find(".keep_holder").css("left", "-65%");   
             }
-            if(percent_k == 100){
+            if(percent_k == 100)
+            {
                 $("#"+player).find(".keep_holder").css("left", "-9%");
             }
         });
