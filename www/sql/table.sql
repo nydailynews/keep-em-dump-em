@@ -1,5 +1,5 @@
 CREATE TABLE `kd_TEAMNAME` (
-  `id` int(11) NOT NULL,
+  `id` int(11) NOT NULL AUTO_INCREMENT,
   `name` int(10) DEFAULT NULL,
   `year` int(4) DEFAULT NULL,
   `section` varchar(30) DEFAULT NULL,
