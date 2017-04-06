@@ -24,12 +24,12 @@ var keepem = {
         $.getJSON('js/players.json?v2', function(data) {
       
             $.each(data, function(i, item) {
-                console.log(i, item);
+                //console.log(i, item);
                 if ( item.name == '' ) return false;
                 if ( item.name == 'ad' )
                 {
                     if( !is_mobile ) $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">'); 
-                    return false;
+                    return;
                 }
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
