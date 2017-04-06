@@ -110,7 +110,7 @@ var keepem = {
     get_vote: function (int, player, firstname, playername) {
         var random = this.make_id();
 
-        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&"+random, function(data)
+        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
         {
             keep = eval(data.split("||")[0]);
             dump = eval(data.split("||")[1]);
