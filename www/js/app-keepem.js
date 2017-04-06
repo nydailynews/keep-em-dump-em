@@ -1,7 +1,6 @@
 var keepem = {
     //myPlayer,myVote,percent_d,percent_k;
-    config: 
-    { 
+    config: { 
 		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
         gender: 'HIM',
         team: '',
@@ -19,9 +18,17 @@ var keepem = {
             }
         }
     },
-    get_players: function()
-    {
-        $.getJSON('js/players.json?v2', function(data) {
+    slugify: function (text) {
+        // from https://gist.github.com/mathewbyrne/1280286
+        return text.toString().toLowerCase()
+            .replace(/\s+/g, '-')           // Replace spaces with -
+            .replace(/[^\w\-]+/g, '')       // Remove all non-word chars
+            .replace(/\-\-+/g, '-')         // Replace multiple - with single -
+            .replace(/^-+/, '')             // Trim - from start of text
+            .replace(/-+$/, '');            // Trim - from end of text
+    },
+    get_players: function() {
+        $.getJSON('js/players.json' + this.config.version, function(data) {
       
             $.each(data, function(i, item) {
                 //console.log(i, item);
@@ -31,9 +38,10 @@ var keepem = {
                     if( !is_mobile ) $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">'); 
                     return;
                 }
+
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
-                var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
+                var photo = keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
                 if(item.name == "promo")
                 {
                     $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
