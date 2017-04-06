@@ -42,6 +42,10 @@ var keepem = {
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
                 var photo = keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
+
+                // Allow us to override the id var if we need to
+                if ( item.hasOwnProperty('id') ) i = item.id;
+
                 if(item.name == "promo")
                 {
                     $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
