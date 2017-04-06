@@ -46,6 +46,8 @@ var keepem = {
                 // Allow us to override the id var if we need to
                 if ( item.hasOwnProperty('id') ) i = item.id;
 
+                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (id, name, year) VALUES (" + i + ", '" + item.name + "', '" + keepem.config.year + "');";
+
                 if(item.name == "promo")
                 {
                     $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
@@ -106,6 +108,7 @@ var keepem = {
                 keepem.get_vote(myVote, myPlayer, playerFirst, playername)
             });
         });
+        if ( document.location.hash == '#dev' ) console.log(query);
     },
     get_vote: function (int, player, firstname, playername) {
         var random = this.make_id();
@@ -178,3 +181,4 @@ var keepem = {
     }
 };
 var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
+var query = '';
