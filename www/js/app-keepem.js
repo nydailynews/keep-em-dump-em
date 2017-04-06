@@ -23,31 +23,31 @@ var keepem = {
     {
         $.getJSON('js/players.json?v2', function(data) {
       
-            $.each(data.Players[0], function(i, item) {
-                //console.log(item);
+            $.each(data.players[0], function(i, item) {
+                //console.log(i, item);
                 if ( item.name == '' ) return false;
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
                 var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
                 if(item.name == "promo")
                 {
-                    $('#players').append('<div id="'+item.id+'" first="'+item.id+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
+                    $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
                 }
                 else if(item.name == "promo2")
                 {
-                    $('#players').append('<div id="'+item.id+'" first="'+item.id+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+                    $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
                 }
                 else if(item.name != "ad")
                 {
                     $('#'+item.position).append('\n\
-<div id="'+item.id+'" first="'+item.id+'" class="large-4 medium-6 small-12 columns left">\n\
+<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left">\n\
 <img src="img/'+photo+'">\n\
-    <div id="'+item.id+'_vote" class="panel">\n\
+    <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name.toUpperCase()+'</p>\n\
         <button id="0" class="button radius keep">KEEP ' + keepem.config.gender + '</button>\n\
         <button id="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
     </div>\n\
-    <div id="'+item.id+'_results" class="panel results">\n\
+    <div id="'+i+'_results" class="panel results">\n\
         <div class="your_vote" style="font-size:10px;">YOUR VOTE</div>\n\
         <div>\n\
             <div>DUMP ' + keepem.config.gender + '</div>\n\

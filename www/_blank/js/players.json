@@ -1,355 +1,296 @@
 {
-	"Players": [{
+	"players": [{
 		"0": {
-			"id": "0",
 			"name": "Testy McTestface",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"1": {
-			"id": "1",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"2": {
-			"id": "2",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"3": {
-			"id": "3",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"4": {
-			"id": "4",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"5": {
-			"id": "5",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"6": {
-			"id": "6",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"7": {
-			"id": "7",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"8": {
-			"id": "8",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"9": {
-			"id": "9",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"10": {
-			"id": "10",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"11": {
-			"id": "11",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"12": {
-			"id": "12",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"13": {
-			"id": "13",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"14": {
-			"id": "14",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"15": {
-			"id": "15",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"16": {
-			"id": "16",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"17": {
-			"id": "17",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"19": {
-			"id": "19",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"20": {
-			"id": "20",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"21": {
-			"id": "21",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"22": {
-			"id": "22",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"23": {
-			"id": "23",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"24": {
-			"id": "24",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"25": {
-			"id": "25",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"26": {
-			"id": "26",
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
 		"27": {
-			"id": "27",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"28": {
-			"id": "28",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"29": {
-			"id": "29",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"30": {
-			"id": "30",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"31": {
-			"id": "31",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"32": {
-			"id": "32",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"33": {
-			"id": "33",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"34": {
-			"id": "34",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"36": {
-			"id": "36",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"37": {
-			"id": "37",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"38": {
-			"id": "38",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"39": {
-			"id": "39",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"40": {
-			"id": "40",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"41": {
-			"id": "41",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"42": {
-			"id": "42",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"43": {
-			"id": "43",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"44": {
-			"id": "44",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"45": {
-			"id": "45",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"46": {
-			"id": "46",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"47": {
-			"id": "47",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"48": {
-			"id": "48",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"49": {
-			"id": "49",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"50": {
-			"id": "50",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"51": {
-			"id": "51",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"52": {
-			"id": "52",
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
 		"53": {
-			"id": "53",
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
 		"54": {
-			"id": "54",
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
 		"55": {
-			"id": "55",
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
 		"56": {
-			"id": "56",
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
 		"57": {
-			"id": "57",
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
 		"58": {
-			"id": "58",
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
 		"59": {
-			"id": "59",
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
 		"60": {
-			"id": "60",
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
