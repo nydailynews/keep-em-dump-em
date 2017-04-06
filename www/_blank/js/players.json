@@ -1,299 +1,297 @@
-{
-	"players": [{
-		"0": {
+[
+		{
 			"name": "Testy McTestface",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"1": {
+		{
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"2": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"3": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"4": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"5": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"6": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"7": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"8": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"9": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"10": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"11": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"12": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"13": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"14": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"15": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"16": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"17": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"19": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"20": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"21": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"22": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"23": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"24": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"25": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"26": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "OFFENSE"
 		},
-		"27": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"28": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"29": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"30": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"31": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"32": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"33": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"34": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"36": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"37": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"38": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"39": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"40": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"41": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"42": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"43": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"44": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"45": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"46": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"47": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"48": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"49": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"50": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"51": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"52": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "DEFENSE"
 		},
-		"53": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
-		"54": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
-		"55": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "SPECIAL"
 		},
-		"56": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
-		"57": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
-		"58": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
-		"59": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		},
-		"60": {
+        {
 			"name": "",
 			"credit": "",
 			"position": "BRASS"
 		}
-	}]
-}
+]

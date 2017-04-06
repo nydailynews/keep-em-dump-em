@@ -23,9 +23,14 @@ var keepem = {
     {
         $.getJSON('js/players.json?v2', function(data) {
       
-            $.each(data.players[0], function(i, item) {
-                //console.log(i, item);
+            $.each(data, function(i, item) {
+                console.log(i, item);
                 if ( item.name == '' ) return false;
+                if ( item.name == 'ad' )
+                {
+                    if( !is_mobile ) $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">'); 
+                    return false;
+                }
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
                 var photo = firstname.toLowerCase()+"_"+lastname.toLowerCase()+".jpg";
@@ -65,13 +70,10 @@ var keepem = {
         <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '" target="_new"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
-                //$("#credits").append(item.name+", "+item.credit+"; ");
+                    if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
                 }
                 else
                 {
-                    if( !is_mobile ) {
-                        $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">')   
-                    }
                 }
                 if( !is_mobile ) {
                     $("#box_ad").show();
