@@ -260,6 +260,7 @@ var app_config = {
 		<h2 id="dek" class="large-12 columns"></h2>
 		<p></p>
 	</div>
+	<?php include('../php/stats.php'); ?>
 	<div id="players" class="row">
 		<div class="columns">
 			<h2 class="section">OFFENSE</h2>
