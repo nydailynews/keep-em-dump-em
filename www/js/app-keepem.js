@@ -32,10 +32,10 @@ var keepem = {
       
             $.each(data, function(i, item) {
                 //console.log(i, item);
-                if ( item.name == '' ) return false;
+                if ( item.name == '' ) return;
                 if ( item.name == 'ad' )
                 {
-                    if( !is_mobile ) $('#forward').append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script type="text/javascript">googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div><br clear="all">'); 
+                    if( !is_mobile ) $('#'+item.position).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script>googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div>'); 
                     return;
                 }
 
@@ -46,7 +46,7 @@ var keepem = {
                 // Allow us to override the id var if we need to
                 if ( item.hasOwnProperty('id') ) i = item.id;
 
-                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (id, name, year) VALUES (" + i + ", '" + item.name + "', '" + keepem.config.year + "');";
+                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (id, name, year, section, keep, dump) VALUES (" + i + ", '" + item.name + "', '" + keepem.config.year + "', '" + item.position + "', 0, 0);";
 
                 if(item.name == "promo")
                 {
@@ -56,7 +56,7 @@ var keepem = {
                 {
                     $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
                 }
-                else if(item.name != "ad")
+                else 
                 {
                     $('#'+item.position).append('\n\
 <div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left">\n\
@@ -86,9 +86,7 @@ var keepem = {
 </div>');
                     if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
                 }
-                else
-                {
-                }
+
                 if( !is_mobile ) {
                     $("#box_ad").show();
                 }
