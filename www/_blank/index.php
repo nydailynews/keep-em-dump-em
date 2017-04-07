@@ -140,7 +140,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     <meta name="searchBinding" content="/search" />
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" type="text/css" media="all" />
     <link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
     <link rel="stylesheet" href="../css/foundation.css" />
     
