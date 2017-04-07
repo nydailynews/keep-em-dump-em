@@ -246,41 +246,41 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
          
   </div>
 -->
-<script>
-var app_config = { 
-	description: 'DESCRIPTION',
-	team: 'TEAM',
-	year: 'YEAR',
-	version: '<?php echo $version; ?>',
-};
-</script>
-<main>
-	<div id="top" class="row"> 
-		<h1 id="hed" class="columns">YEAR Keep 'em or Dump 'em: TEAM</h1>        
-		<h2 id="dek" class="large-12 columns"></h2>
-		<p></p>
-	</div>
-	<?php include('../php/stats.php'); ?>
-	<div id="players" class="row">
-		<div class="columns">
-			<h2 class="section">OFFENSE</h2>
-			<section id="OFFENSE"></section>
+	<script>
+	var app_config = { 
+		description: 'DESCRIPTION',
+		team: 'TEAM',
+		year: 'YEAR',
+		version: '<?php echo $version; ?>',
+	};
+	</script>
+	<main>
+		<div id="top" class="row"> 
+			<h1 id="hed" class="columns">YEAR Keep 'em or Dump 'em: TEAM</h1>        
+			<h2 id="dek" class="large-12 columns"></h2>
+			<p></p>
 		</div>
-		<div class="columns">
-			<h2 class="section">DEFENSE</h2>
-			<section id="DEFENSE"></section>
-		</div>
-		<div class="columns">
-			<h2 class="section">SPECIAL TEAMS</h2>
-			<section id="SPECIAL"></section>
-		</div>
-		<div class="columns">
-			<h2 class="section">THE BRASS</h2>
-			<section id="BRASS"></section>
-		</div>
-	</div>   
-</main>   
-<!-- mobile ad -->
+		<?php include('../php/stats.php'); ?>
+		<div id="players" class="row">
+			<div class="columns">
+				<h2 class="section">OFFENSE</h2>
+				<section id="OFFENSE"></section>
+			</div>
+			<div class="columns">
+				<h2 class="section">DEFENSE</h2>
+				<section id="DEFENSE"></section>
+			</div>
+			<div class="columns">
+				<h2 class="section">SPECIAL TEAMS</h2>
+				<section id="SPECIAL"></section>
+			</div>
+			<div class="columns">
+				<h2 class="section">THE BRASS</h2>
+				<section id="BRASS"></section>
+			</div>
+		</div>   
+	</main>   
+	<!-- mobile ad -->
     <div id="m_bottom_ad" align="center">
       <div id='div-gpt-ad-1423858717090-0-1'>
       </div> 
