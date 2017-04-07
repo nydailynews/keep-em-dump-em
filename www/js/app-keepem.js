@@ -118,9 +118,8 @@ var keepem = {
             keep = eval(data.split("||")[0]);
             dump = eval(data.split("||")[1]);
 
-            console.log(player_name)
-            percent_k = Math.round((keep/(dump+keep))*100);
-            percent_d = Math.round((dump/(dump+keep))*100);
+            percent_k = Math.round((keep/(dump+keep))*1000)/10;
+            percent_d = Math.round((dump/(dump+keep))*1000)/10;
             if(int == 0)
             {
                 $("#"+player).find(".your_vote").addClass("keep");
