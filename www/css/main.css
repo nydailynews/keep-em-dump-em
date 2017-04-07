@@ -17,10 +17,6 @@ h1 {
   line-height: 34px; 
 }
 
-
-#m_bottom_ad{
-}
-
 .panel{
   height: 100px;
 
@@ -185,7 +181,13 @@ h1 {
 
 }
 
-#credits{padding-bottom:11px;font-size:11px;color:#999;font-family:Arial;font-weight:400}
+#credits{
+    padding-bottom:11px;
+    font-size:11px;
+    color:#999;
+    font-family:Arial;
+    font-weight:400;
+}
 
 .keep_bar, .dump_bar {
     height:12px;
