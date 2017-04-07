@@ -141,8 +141,8 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     <meta name="localeCountry" content="US"/>
     <meta name="localeLanguage" content="en" />
 	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" type="text/css" media="all" />
-    <link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
     <link rel="stylesheet" href="../css/foundation.css" />
+    <link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
     
 <!--
     <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.11/themes/css/cartodb.css" />
@@ -256,26 +256,26 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 	</script>
 	<main>
 		<div id="top" class="row"> 
-			<h1 id="hed" class="columns">YEAR Keep 'em or Dump 'em: TEAM</h1>        
-			<h2 id="dek" class="large-12 columns"></h2>
+			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
+			<h2 class="large-12 columns"></h2>
 			<p></p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
 			<div class="columns">
-				<h2 class="section">OFFENSE</h2>
+				<h2 class="section">Offense</h2>
 				<section id="OFFENSE"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">DEFENSE</h2>
+				<h2 class="section">Defense</h2>
 				<section id="DEFENSE"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">SPECIAL TEAMS</h2>
+				<h2 class="section">Special teams</h2>
 				<section id="SPECIAL"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">THE BRASS</h2>
+				<h2 class="section">The brass</h2>
 				<section id="BRASS"></section>
 			</div>
 		</div>   
