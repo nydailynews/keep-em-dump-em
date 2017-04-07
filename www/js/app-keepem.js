@@ -35,7 +35,7 @@ var keepem = {
                 if ( item.name == '' ) return;
                 if ( item.name == 'ad' )
                 {
-                    if( !is_mobile ) $('#'+item.position).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script>googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div>'); 
+                    if( !is_mobile ) $('#'+item.section).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script>googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div>'); 
                     return;
                 }
 
@@ -48,7 +48,7 @@ var keepem = {
                 else i += 1;
                 // ^ That's because i is 0-indexed, but mysql id's are 1-indexed.
 
-                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (name, year, section, keep, dump) VALUES ('" + item.name.replace("'", "\\'") + "', '" + keepem.config.year + "', '" + item.position + "', 0, 0);";
+                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (name, year, section, keep, dump) VALUES ('" + item.name.replace("'", "\\'") + "', '" + keepem.config.year + "', '" + item.section + "', 0, 0);";
 
                 if(item.name == "promo")
                 {
@@ -60,7 +60,7 @@ var keepem = {
                 }
                 else 
                 {
-                    $('#'+item.position).append('\n\
+                    $('#'+item.section).append('\n\
 <div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left">\n\
     <img alt="'+item.name+' photo" src="img/'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\

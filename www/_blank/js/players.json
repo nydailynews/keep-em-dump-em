@@ -1,297 +1,297 @@
 [
-		{
-			"name": "Testy McTestface",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-		{
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "OFFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "DEFENSE"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "SPECIAL"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "SPECIAL"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "SPECIAL"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "BRASS"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "BRASS"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "BRASS"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "BRASS"
-		},
-        {
-			"name": "",
-			"credit": "",
-			"position": "BRASS"
-		}
+    {
+        "name": "Testy McTestface",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "OFFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "DEFENSE"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "SPECIAL"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "SPECIAL"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "SPECIAL"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "BRASS"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "BRASS"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "BRASS"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "BRASS"
+    },
+    {
+        "name": "",
+        "id": "",
+        "section": "BRASS"
+    }
 ]
