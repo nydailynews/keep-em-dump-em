@@ -45,8 +45,10 @@ var keepem = {
 
                 // Allow us to override the id var if we need to
                 if ( item.hasOwnProperty('id') ) i = item.id;
+                else i += 1;
+                // ^ That's because i is 0-indexed, but mysql id's are 1-indexed.
 
-                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (id, name, year, section, keep, dump) VALUES (" + i + ", '" + item.name + "', '" + keepem.config.year + "', '" + item.position + "', 0, 0);";
+                if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (name, year, section, keep, dump) VALUES ('" + item.name.replace("'", "\\'") + "', '" + keepem.config.year + "', '" + item.position + "', 0, 0);";
 
                 if(item.name == "promo")
                 {
@@ -96,20 +98,19 @@ var keepem = {
                 }
             });
             $(".button").on('click', function() {
-                player_id = $(this).parent().parent().attr('id');
-                player_first = $(this).parent().parent().attr('first');
-                player_name = $(this).parent().text().split("KEEP")[0];
+                var player_id = $(this).parent().parent().attr('id');
+                var player_first = $(this).parent().parent().attr('first');
+                var player_name = $(this).parent().text().split("KEEP")[0];
                 $('#'+player_id+"_vote").hide();
                 $('#'+player_id+"_results").fadeIn('slow');
                 $("#"+player_id).find(".social").fadeIn('slow');
-                myVote = ($(this).attr("id"));
-                keepem.get_vote(myVote, player_id, player_first, player_name.trim())
+                var vote = ($(this).attr("id"));
+                keepem.get_vote(vote, player_id, player_first, player_name.trim())
             });
         });
         if ( document.location.hash == '#dev' ) console.log(query);
     },
     get_vote: function (int, player, firstname, player_name) {
-        console.log(int, player, firstname, player_name);
         var random = this.make_id();
 
         jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
