@@ -1,5 +1,4 @@
 var keepem = {
-    //myPlayer,myVote,percent_d,percent_k;
     config: { 
 		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
         gender: 'HIM',
@@ -7,7 +6,7 @@ var keepem = {
         year: '',
         description: '',
         version: '',
-        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-2'],
+        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-2', 'div-gpt-ad-1423507761396-0'],
         promos: ['<div class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>'],
     },
     update_config: function(config) {
@@ -39,7 +38,7 @@ var keepem = {
                 {
                     if ( keepem.config.ads.length === 0 ) return;
                     var ad = keepem.config.ads.pop()
-                    if( !is_mobile ) $('#'+item.section).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
+                    if( !is_mobile ) $('#'+item.section).append('<div class="box_ad large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
                     return;
                 }
 
@@ -89,14 +88,6 @@ var keepem = {
     </div>\n\
 </div>');
                     if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
-                }
-
-                if( !is_mobile ) {
-                    $("#box_ad").show();
-                }
-                else
-                {
-                    $("#box_ad").hide();
                 }
             });
             $(".button").on('click', function() {

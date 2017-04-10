@@ -90,19 +90,22 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     if( !is_mobile ) {
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","dog-park-nyc")
+            .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x101");
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
-    }
-    </script>
-    <script>
-    if( !is_mobile ) {
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","dog-park-nyc")
+            .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x102");
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
+            .setTargeting("interactive","keep-em-dump-em")
+            .setTargeting("position","x103");
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
@@ -114,19 +117,22 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     if( is_mobile ) {
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","dog-park-nyc")
+            .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x101");
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
-    }
-    </script>  
-    <script>
-    if( is_mobile ) {
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","dog-park-nyc")
+            .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x102");          
+            googletag.pubads().enableSingleRequest();
+            googletag.enableServices();
+        });
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
+            .setTargeting("interactive","keep-em-dump-em")
+            .setTargeting("position","x103");          
             googletag.pubads().enableSingleRequest();
             googletag.enableServices();
         });
