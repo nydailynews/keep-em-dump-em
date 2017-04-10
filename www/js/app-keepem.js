@@ -7,7 +7,7 @@ var keepem = {
         year: '',
         description: '',
         version: '',
-        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-1'],
+        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-2'],
         promos: ['<div class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>'],
     },
     update_config: function(config) {
@@ -37,6 +37,7 @@ var keepem = {
                 if ( item.name == '' ) return;
                 if ( item.name == 'ad' )
                 {
+                    if ( keepem.config.ads.length === 0 ) return;
                     var ad = keepem.config.ads.pop()
                     if( !is_mobile ) $('#'+item.section).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
                     return;
@@ -55,6 +56,7 @@ var keepem = {
 
                 if ( item.name == "promo" )
                 {
+                    if ( keepem.config.promos.length === 0 ) return;
                     var promo = keepem.config.promos.pop();
                     $('#players').append(promo);
                 }
