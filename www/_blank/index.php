@@ -41,11 +41,11 @@ endif;
         <meta name="parsely-link" content="CANONICALURL" />
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="CANONICALURLimg/share.jpg" />
-        <meta name="twitter:image:src" content="CANONICALURLimg/share.jpg" />
-        <meta name="parsely-image-url" content="CANONICALURLimg/share.jpg" />
-        <meta property="og:image:width" content="635" />
-        <meta property="og:image:height" content="390" />
+        <meta property="og:image" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
+        <meta name="twitter:image:src" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
+        <meta name="parsely-image-url" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
+        <meta property="og:image:width" content="1024" />
+        <meta property="og:image:height" content="512" />
 
         <!-- TIME -->
         <meta name="parsely-pub-date" content="DATET06:00:00Z" />
@@ -143,13 +143,6 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 	<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" type="text/css" media="all" />
     <link rel="stylesheet" href="../css/foundation.css" />
     <link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
-    
-<!--
-    <link rel="stylesheet" href="http://libs.cartocdn.com/cartodb.js/v3/3.11/themes/css/cartodb.css" />
-    <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css" />
--->
-
-     
     <script src="../js/vendor/modernizr.js"></script>
   </head>
   <body>
