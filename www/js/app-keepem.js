@@ -7,6 +7,8 @@ var keepem = {
         year: '',
         description: '',
         version: '',
+        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-1'],
+        promos: ['<div class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>'],
     },
     update_config: function(config) {
         // Take an external config object and update this config object.
@@ -35,7 +37,8 @@ var keepem = {
                 if ( item.name == '' ) return;
                 if ( item.name == 'ad' )
                 {
-                    if( !is_mobile ) $('#'+item.section).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="div-gpt-ad-1423507761396-1"><script>googletag.cmd.push(function(){ googletag.display("div-gpt-ad-1423507761396-1"); });</script></div></div>'); 
+                    var ad = keepem.config.ads.pop()
+                    if( !is_mobile ) $('#'+item.section).append('<div id="box_ad" class="large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
                     return;
                 }
 
@@ -50,13 +53,10 @@ var keepem = {
 
                 if ( document.location.hash == '#dev' ) query += "INSERT INTO kd_" + keepem.config.team.toLowerCase() + " (name, year, section, keep, dump) VALUES ('" + item.name.replace("'", "\\'") + "', '" + keepem.config.year + "', '" + item.section + "', 0, 0);";
 
-                if(item.name == "promo")
+                if ( item.name == "promo" )
                 {
-                    $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>')
-                }
-                else if(item.name == "promo2")
-                {
-                    $('#players').append('<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo2.jpg"></div></a>')
+                    var promo = keepem.config.promos.pop();
+                    $('#players').append(promo);
                 }
                 else 
                 {
