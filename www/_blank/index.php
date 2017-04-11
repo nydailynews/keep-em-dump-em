@@ -277,12 +277,17 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 			</div>
 		</div>   
 	</main>   
+
 	<!-- mobile ad -->
     <div id="m_bottom_ad" align="center">
-      <div id='div-gpt-ad-1423858717090-0-1'>
-      </div> 
+		<div id='div-gpt-ad-1423507761396-2'>
+			<script>
+				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
+				else $('#m_bottom_ad').remove();
+			</script>
+		</div>
     </div>  
-     <!-- end main content -->		
+	<!-- end main content -->		
   <footer id="nydn-footer">
     <div id="nydn-footer-services">
       <ul>
