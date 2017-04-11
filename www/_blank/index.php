@@ -234,17 +234,15 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     </div>
 <!--begin main content -->
 
-  <!-- banner ad -->
-<!--
-  <div class="" id="top_ad" align='center'>
-        <div id='div-gpt-ad-1423507761396-0'>
-          <script type='text/javascript'>
-          googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-0'); });
-          </script>
-        </div>
-         
-  </div>
--->
+	<!-- banner ad -->
+	<div id="top_ad" class="center">
+		<div id='div-gpt-ad-1423507761396-1'>
+			<script>
+				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
+				else $('#top_ad').remove();
+			</script>
+		</div>
+	</div>
 	<script>
 	var app_config = { 
 		description: "DESCRIPTION",
