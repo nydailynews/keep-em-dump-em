@@ -225,8 +225,8 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
                 </nav>
                 <nav id="nydn-sm">
                   <ul>
-                    <li class="facebook"><a href="https://www.facebook.com/NYDailyNews/" target="_blank">facebook</a></li>
-                     <li class="twitter"><a href="https://twitter.com/NYDailyNews" target="_blank">twitter</a></li>
+                    <li class="facebook"><a href="https://www.facebook.com/NYDailyNews/">facebook</a></li>
+                     <li class="twitter"><a href="https://twitter.com/NYDailyNews">twitter</a></li>
                   </ul>
                 </nav>
               </div>
@@ -294,10 +294,10 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
         <li><a href="http://www.nydailynews.com/services">Services</a></li>
         <li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li>
         <li><a href="http://www.nydailynews.com/autos">Autos</a></li>
-        <li><a href="https://homedelivery.nydailynews.com" target="_blank">Home Delivery</a></li>
+        <li><a href="https://homedelivery.nydailynews.com">Home Delivery</a></li>
         <li><a href="http://www.nydailynews.com/login">Newsletters</a></li>
-        <li><a href="http://local.nydailynews.com/search/en-US/"  target="_blank">Businesses</a></li>
-        <li><a href="http://nydailynews.adperfect.com" target="_blank">Place an Ad</a></li>
+        <li><a href="http://local.nydailynews.com/search/en-US/" >Businesses</a></li>
+        <li><a href="http://nydailynews.adperfect.com">Place an Ad</a></li>
         <li><a href="http://www.nydailynews.com/services/privacy-policy#third_party_ads">About our Ads</a></li>
         <li><a href="http://www.nydailynews.com/services/contact-us">Contact Us</a></li>
         <li><a href="http://www.nydailynews.com/services/careers">Careers</a></li>
