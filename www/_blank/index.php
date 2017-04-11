@@ -247,7 +247,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 -->
 	<script>
 	var app_config = { 
-		description: 'DESCRIPTION',
+		description: "DESCRIPTION",
 		team: 'TEAM',
 		year: 'YEAR',
 		version: '<?php echo $version; ?>',

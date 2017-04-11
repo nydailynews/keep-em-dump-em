@@ -70,7 +70,7 @@ var keepem = {
         <button id="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
-        <div class="your_vote" style="font-size:10px;">YOUR VOTE</div>\n\
+        <div class="your_vote">Your vote</div>\n\
         <div>\n\
             <div>DUMP ' + keepem.config.gender + '</div>\n\
             <div class="dump_bar"></div>\n\
@@ -124,14 +124,14 @@ var keepem = {
                 $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:")
             }
             $("#"+player).find(".clear").attr("vote", int)
-            $("#"+player).find(".dump_bar").css('width', percent_d/2+"%");
-            $("#"+player).find(".keep_bar").css('width', percent_k/2+"%");
+            $("#"+player).find(".dump_bar").css('width', Math.floor(percent_d/2)+"%");
+            $("#"+player).find(".keep_bar").css('width', Math.floor(percent_k/2)+"%");
             $("#"+player).find(".keep_result_num").html(percent_k+"%");
             $("#"+player).find(".dump_result_num").html(percent_d+"%");
 
             if(percent_d != 100)
             {
-                $("#"+player).find(".keep_holder").css("left", "-"+(percent_d/2)-12+"%");
+                $("#"+player).find(".keep_holder").css("left", "-"+Math.floor(percent_d/2)-12+"%");
             }
             else
             {
