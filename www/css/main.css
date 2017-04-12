@@ -14,6 +14,9 @@ h2 {
     float: none;
     font-weight: bold;
 }
+p {
+    font-family: 'PT Serif', serif;
+}
 
 
 .section{
@@ -209,7 +212,7 @@ body #rh-subnav-wrap {
     text-align: center;
     margin: auto
 }
-main {
+article {
     max-width: 1100px;
     margin: auto;
 }
@@ -218,3 +221,26 @@ main {
     #rh-subscribe { top:-30px!important; }
 }
 
+
+/* BREADCRUMB STYLES */
+ul#breadcrumbs {
+    list-style-type: none;
+    margin-top: 5px;
+}
+ul#breadcrumbs li {
+    float: left;
+    font-weight: bold;
+    font-family: "PT Serif", serif;
+    padding-left: 3px;
+}
+ul#breadcrumbs li:after {
+    content: ' › ';
+}
+ul#breadcrumbs li:last-child:after { content: ''; }
+ul#breadcrumbs li:first-child { padding-left: 0; }
+@media only screen and (max-width: 800px) {
+    ul#breadcrumbs li {
+        font-size: 13px;
+    }
+}
+    

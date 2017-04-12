@@ -264,7 +264,7 @@ $csv = new parseCSV('data.csv');
         </div>
         <div id="rh-center">
             <a id="rh-logo" href="http://www.nydailynews.com">New York Daily News</a> 
-            <a id="rh-front" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/"> News Quizzes </a>
+            <a id="rh-front" href="http://interactive.nydailynews.com/poll/"> Polls </a>
         </div>
         <div id="rh-right">
             <div id="rh-ssm">
@@ -317,6 +317,7 @@ $csv = new parseCSV('data.csv');
  </div> 
 
 <main class="column">
+<article>
     <h1>Keep 'Em Dump 'Em Archives</h1>
     <p class="description">A collection of the New York Daily News' Keep 'Em Dump 'Em polls.</p>
     
@@ -347,6 +348,7 @@ endforeach;
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
         <link href="css/main.css?v2" rel="stylesheet" type="text/css" />
         <script src="js/social.js" defer></script>
+</article>
 </main>
     
 <!-- FOOTER-START -->
