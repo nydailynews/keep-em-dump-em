@@ -197,3 +197,24 @@ span.dump{
 .keep_bar { background-color:#74a840; }
 .left { float: left; }
 .right{ float: right; }
+
+/* Fixes for social menu */
+body #rh-subnav-wrap {
+    padding: 10px 20px 0;
+}
+#rh-subnav ul {
+    width: 200px;
+}
+.center {
+    text-align: center;
+    margin: auto
+}
+main {
+    max-width: 1100px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    #rh-subscribe { top:-30px!important; }
+}
+
