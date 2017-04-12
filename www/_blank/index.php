@@ -285,7 +285,7 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 	</main>   
 
 	<!-- mobile ad -->
-    <div id="m_bottom_ad" align="center">
+    <div id="m_bottom_ad" class="center">
 		<div id='div-gpt-ad-1423507761396-2'>
 			<script>
 				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
