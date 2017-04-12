@@ -253,6 +253,12 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 	</script>
 	<main>
 		<div id="top" class="row"> 
+			<ul id="breadcrumbs">
+				<li><a href="http://www.nydailynews.com/">New York Daily News</a></li>
+				<li><a href="http://www.nydailynews.com/sports">Sports</a></li>
+				<li><a href="http://interactive.nydailynews.com/poll/">Polls</a></li>
+				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
+			</ul>
 			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
 			<h2 class="large-12 columns"></h2>
 			<p></p>
@@ -315,7 +321,6 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
    
 
     <script src="../js/foundation.min.js"></script>
-    <script src="../js/jquery-ui.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/sticky.js"></script>
     <script src="../js/app-keepem.js"></script>
