@@ -39,9 +39,9 @@ $csv = new parseCSV('data.csv');
     <meta name="parsely-link" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/" />
 
     <!-- THUMBNAIL IMAGE-->
-    <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/split_0310.jpg" />
-    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/split_0310.jpg" />
-    <meta name="parsely-image-url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/split_0310.jpg" />
+    <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/share.gif" />
+    <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/share.gif" />
+    <meta name="parsely-image-url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/img/share.gif" />
     <meta property="og:image:width" content="1024" />
     <meta property="og:image:height" content="512" />
 
