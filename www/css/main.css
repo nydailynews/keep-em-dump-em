@@ -151,9 +151,10 @@ span.dump{
 }
 
 .keep_holder{
-  position: relative;
-  top: 15px;
-
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    top: -10px;
 }
 
 .clear{

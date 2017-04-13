@@ -131,11 +131,11 @@ var keepem = {
 
             if(percent_d != 100)
             {
-                $("#"+player).find(".keep_holder").css("left", "-"+Math.floor(percent_d/2)-12+"%");
+                //$("#"+player).find(".keep_holder").css("left", "-"+Math.floor(percent_d/2)-12+"%");
             }
             else
             {
-                $("#"+player).find(".keep_holder").css("left", "-65%");   
+                //$("#"+player).find(".keep_holder").css("left", "-65%");   
             }
             if(percent_k == 100)
             {
