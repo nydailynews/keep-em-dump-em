@@ -58,7 +58,7 @@ endif;
         <meta name="parsely-type" content="post" />
         <meta name="decorator" content="responsive" />
         <meta name="parsely-section" content="Interactive" />
-        <meta name="parsely-author" content="Interactive" />
+        <meta name="parsely-author" content="Interactive Poll" />
 
     
 		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-774d60efeb80c8b9f62cea9078508154c4f534ff.js"></script>

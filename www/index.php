@@ -55,7 +55,7 @@ $csv = new parseCSV('data.csv');
     <meta name="parsely-type" content="post" />
     <meta name="decorator" content="responsive" />
     <meta name="parsely-section" content="Interactive" />
-    <meta name="parsely-author" content="Interactive" />
+    <meta name="parsely-author" content="Interactive Poll" />
     <meta name="nydn_section" content="NY Daily News" />
     <meta name="msvalidate.01" content="02916AAC0DA8B068EFE01D721E03ED7E" />
     <meta name="p:domain_verify" content="78efe4f5c9935744af497772f68a0ee7" />
