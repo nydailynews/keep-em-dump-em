@@ -1,7 +1,8 @@
 <html>
+<head>
 
 
-<style>
+<style type="text/css">
   body{
     font-family: sans-serif;
   }
@@ -10,9 +11,10 @@
     border-collapse: collapse;
 }
 th, td {
-    padding: 15px;
+    padding: 5px;
 }
 
+table { width: 100%; }
 table tr:nth-child(even) {
     background-color: #eee;
 }
@@ -23,33 +25,37 @@ table  th {
     color: white;
     background-color: black;
 }
+h1 { text-transform: uppercase; }
   
   </style>
-
+</head>
 <body>
 
-<h2>KEEP 'EM DUMP OR 'EM RESULTS</h2>
+<h1>Keep 'Em Dump 'Em results</h1>
 
+<h2>Knicks 2017</h2>
 <?php
-if ( !isset($SERVER_ROOT) ) $SERVER_ROOT = '../../../../';
+if ( !isset($SERVER_ROOT) ) $SERVER_ROOT = '../../../';
 require_once ($SERVER_ROOT . 'includes/php/mysql_connect_staging.php');
 #require_once ('../../../../includes/php/mysql_connect_production.php');
+$year = 2017;
+$team = 'knicks';
+$table = 'kd_' . $team;
 
-$query = "select p.name as 'name', r.keep as 'keep', r.dump as 'dump' from yankees_kd_2016 r, yankees_kd_players_2016 p WHERE p.id = r.name";
+$query = 'select name, keep, dump from ' . $table . ' WHERE year = ' . $year;
 $result = @mysql_query($query);
-echo '<table border="1" style="width:100%">';
-echo '<tr><td>PLAYER</td><td>KEEP</td><td>DUMP</td></tr>';
+echo '<table border="1">';
+echo '<tr><td>PLAYER</td><td>KEEP</td><td>DUMP</td><td>TOTAL</td></tr>';
 
 while ($row = mysql_fetch_array($result, MYSQL_ASSOC)){
-
-echo "<tr><td><br />".$row['name']."</td><td>".$row["keep"]."</td><td>".$row["dump"]."<td/></tr>";
-
-
+	$total = intval($row["keep"]) + intval($row["dump"]);
+	echo "<tr><td>".$row['name']."</td><td>".$row["keep"]."</td><td>".$row["dump"]."</td><td>" . $total . "</td></tr>";
 }
-$query2 = "SELECT sum(keep) as 'kt', sum(dump) as 'dt' FROM Interactive.yankees_kd_2016";
+$query2 = 'SELECT sum(keep) as kt, sum(dump) as dt FROM ' . $table . ' WHERE year = ' . $year;
 $result2 = @mysql_query($query2);
 $row2 = mysql_fetch_array($result2, MYSQL_ASSOC);
-echo "<tr><td>TOTAL</td><td>".$row2["kt"]."</td><td>".$row2["dt"]."<td/></tr>";
+$total = intval($row2["kt"]) + intval($row2["dt"]);
+echo "<tr><td>GRAND TOTAL</td><td>".$row2["kt"]."</td><td>".$row2["dt"]."</td><td>" . $total . "</td></tr>";
 echo '</table>';
 
 ?>
