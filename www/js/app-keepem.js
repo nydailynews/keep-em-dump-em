@@ -128,19 +128,6 @@ var keepem = {
             $("#"+player).find(".keep_bar").css('width', Math.floor(percent_k/2)+"%");
             $("#"+player).find(".keep_result_num").html(percent_k+"%");
             $("#"+player).find(".dump_result_num").html(percent_d+"%");
-
-            if(percent_d != 100)
-            {
-                //$("#"+player).find(".keep_holder").css("left", "-"+Math.floor(percent_d/2)-12+"%");
-            }
-            else
-            {
-                //$("#"+player).find(".keep_holder").css("left", "-65%");   
-            }
-            if(percent_k == 100)
-            {
-                $("#"+player).find(".keep_holder").css("left", "-9%");
-            }
         });
     },
     make_id: function()
