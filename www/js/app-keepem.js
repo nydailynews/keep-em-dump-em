@@ -29,7 +29,7 @@ var keepem = {
             .replace(/-+$/, '');            // Trim - from end of text
     },
     get_players: function() {
-        $.getJSON('js/players.json' + this.config.version, function(data) {
+        $.getJSON('js/players.json?' + this.config.version, function(data) {
       
             $.each(data, function(i, item) {
                 //console.log(i, item);
@@ -66,8 +66,8 @@ var keepem = {
     <img alt="'+item.name+' photo" src="img/'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
-        <button id="0" class="button radius keep">KEEP ' + keepem.config.gender + '</button>\n\
-        <button id="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
+        <button name="0" class="button radius keep">KEEP ' + keepem.config.gender + '</button>\n\
+        <button name="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
         <div class="your_vote">Your vote</div>\n\
@@ -97,7 +97,7 @@ var keepem = {
                 $('#'+player_id+"_vote").hide();
                 $('#'+player_id+"_results").fadeIn('slow');
                 $("#"+player_id).find(".social").fadeIn('slow');
-                var vote = ($(this).attr("id"));
+                var vote = ($(this).attr("name"));
                 keepem.get_vote(vote, player_id, player_first, player_name.trim())
             });
         });
