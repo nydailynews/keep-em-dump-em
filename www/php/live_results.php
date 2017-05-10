@@ -1,3 +1,28 @@
+<?php
+if ( !isset($SERVER_ROOT) ) $SERVER_ROOT = '../../../';
+require_once ($SERVER_ROOT . 'includes/php/mysql_connect_staging.php');
+#require_once ('../../../../includes/php/mysql_connect_production.php');
+
+function admin_table_dump($year, $team)
+{
+	$table = 'kd_' . $team;
+	$query = 'select name, keep, dump from ' . $table . ' WHERE year = ' . $year;
+	$result = @mysql_query($query);
+	echo '<table border="1">';
+	echo '<tr><td>PLAYER</td><td>KEEP</td><td>DUMP</td><td>TOTAL</td></tr>';
+
+	while ($row = mysql_fetch_array($result, MYSQL_ASSOC)){
+		$total = intval($row["keep"]) + intval($row["dump"]);
+		echo "<tr><td>".$row['name']."</td><td>".$row["keep"]."</td><td>".$row["dump"]."</td><td>" . $total . "</td></tr>";
+	}
+	$query2 = 'SELECT sum(keep) as kt, sum(dump) as dt FROM ' . $table . ' WHERE year = ' . $year;
+	$result2 = @mysql_query($query2);
+	$row2 = mysql_fetch_array($result2, MYSQL_ASSOC);
+	$total = intval($row2["kt"]) + intval($row2["dt"]);
+	echo "<tr><td>GRAND TOTAL</td><td>".$row2["kt"]."</td><td>".$row2["dt"]."</td><td>" . $total . "</td></tr>";
+	echo '</table>';
+}
+?>
 <html>
 <head>
 
@@ -33,30 +58,19 @@ h1 { text-transform: uppercase; }
 
 <h1>Keep 'Em Dump 'Em results</h1>
 
+<h2>Rangers 2017</h2>
+<?php
+$year = 2017;
+$team = 'rangers';
+admin_table_dump($year, $team);
+?>
+
 <h2>Knicks 2017</h2>
 <?php
-if ( !isset($SERVER_ROOT) ) $SERVER_ROOT = '../../../';
-require_once ($SERVER_ROOT . 'includes/php/mysql_connect_staging.php');
-#require_once ('../../../../includes/php/mysql_connect_production.php');
 $year = 2017;
 $team = 'knicks';
-$table = 'kd_' . $team;
-
-$query = 'select name, keep, dump from ' . $table . ' WHERE year = ' . $year;
-$result = @mysql_query($query);
-echo '<table border="1">';
-echo '<tr><td>PLAYER</td><td>KEEP</td><td>DUMP</td><td>TOTAL</td></tr>';
-
-while ($row = mysql_fetch_array($result, MYSQL_ASSOC)){
-	$total = intval($row["keep"]) + intval($row["dump"]);
-	echo "<tr><td>".$row['name']."</td><td>".$row["keep"]."</td><td>".$row["dump"]."</td><td>" . $total . "</td></tr>";
-}
-$query2 = 'SELECT sum(keep) as kt, sum(dump) as dt FROM ' . $table . ' WHERE year = ' . $year;
-$result2 = @mysql_query($query2);
-$row2 = mysql_fetch_array($result2, MYSQL_ASSOC);
-$total = intval($row2["kt"]) + intval($row2["dt"]);
-echo "<tr><td>GRAND TOTAL</td><td>".$row2["kt"]."</td><td>".$row2["dt"]."</td><td>" . $total . "</td></tr>";
-echo '</table>';
+admin_table_dump($year, $team);
+?>
 
 ?>
 
