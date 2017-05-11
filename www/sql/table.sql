@@ -16,6 +16,7 @@ ALTER TABLE `kd_TEAMNAME`
 
 CREATE TABLE `kd_answers` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `timestamp` TIMESTAMP NOT NULL,
   `ip` varchar(100) DEFAULT NULL,
   `year` int(4) DEFAULT NULL,
   `team` varchar(50) DEFAULT NULL,
@@ -31,6 +32,7 @@ ALTER TABLE `kd_answers`
 
 CREATE TABLE `kd_answers_section` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
+  `timestamp` TIMESTAMP NOT NULL,
   `ip` varchar(100) DEFAULT NULL,
   `year` int(4) DEFAULT NULL,
   `team` varchar(50) DEFAULT NULL,

@@ -111,13 +111,15 @@ var keepem = {
                 $('#'+player_id+"_results").fadeIn('slow');
                 $("#"+player_id).find(".social").fadeIn('slow');
                 var vote = ($(this).attr("name"));
+                keepem.get_vote(vote, player_id, player_first, player_name.trim());
+
+                // ENDVOTE
                 keepem.votes.total += 1;
                 var kd = 'keep';
                 if ( vote == 0 ) kd = 'dump';
                 keepem.votes[kd] += 1;
                 keepem.votes.section[section][kd] += 1;
                 if ( keepem.votes.total == keepem.player_count ) keepem.finish();
-                keepem.get_vote(vote, player_id, player_first, player_name.trim());
             });
         });
         if ( document.location.hash == '#dev' ) console.log(query);
@@ -151,6 +153,14 @@ var keepem = {
     },
     finish: function() {
         // Do some fun things for the reader when they've made all their votes.
+        // Like show a new ad.
+        // ENDVOTE
+        var random = this.make_id();
+        var query = jQuery.param(this.votes);
+        console.log(query);
+        jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+random, function(data)
+        {
+        });
     },
     make_id: function()
     {
