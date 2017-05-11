@@ -1,4 +1,11 @@
 var keepem = {
+    player_count: 0,
+    votes: {
+        total: 0,
+        keep: 0,
+        dump: 0,
+        section: {}
+    },
     config: { 
 		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
         gender: 'HIM',
@@ -32,7 +39,6 @@ var keepem = {
         $.getJSON('js/players.json?' + this.config.version, function(data) {
       
             $.each(data, function(i, item) {
-                //console.log(i, item);
                 if ( item.name == '' ) return;
                 if ( item.name == 'ad' )
                 {
@@ -89,16 +95,29 @@ var keepem = {
 </div>');
                     if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
                 }
+                // Handle the stat-keeping for the end-of-poll tallies
+                keepem.player_count += 1;
+                if ( !keepem.votes.section.hasOwnProperty(item.section) ) 
+                {
+                    keepem.votes.section[item.section] = { keep: 0, dump: 0 }
+                }
             });
             $(".button").on('click', function() {
                 var player_id = $(this).parent().parent().attr('id');
                 var player_first = $(this).parent().parent().attr('first');
                 var player_name = $(this).parent().text().split("KEEP")[0];
+                var section = $(this).parent().parent().parent().attr('id');
                 $('#'+player_id+"_vote").hide();
                 $('#'+player_id+"_results").fadeIn('slow');
                 $("#"+player_id).find(".social").fadeIn('slow');
                 var vote = ($(this).attr("name"));
-                keepem.get_vote(vote, player_id, player_first, player_name.trim())
+                keepem.votes.total += 1;
+                var kd = 'keep';
+                if ( vote == 0 ) kd = 'dump';
+                keepem.votes[kd] += 1;
+                keepem.votes.section[section][kd] += 1;
+                if ( keepem.votes.total == keepem.player_count ) keepem.finish();
+                keepem.get_vote(vote, player_id, player_first, player_name.trim());
             });
         });
         if ( document.location.hash == '#dev' ) console.log(query);
@@ -129,6 +148,9 @@ var keepem = {
             $("#"+player).find(".keep_result_num").html(percent_k+"%");
             $("#"+player).find(".dump_result_num").html(percent_d+"%");
         });
+    },
+    finish: function() {
+        // Do some fun things for the reader when they've made all their votes.
     },
     make_id: function()
     {
