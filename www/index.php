@@ -28,9 +28,9 @@ $csv = new parseCSV('data.csv');
     <meta name="twitter:description" content="A collection of the New York Daily News' Keep 'Em Dump 'Em's" />
 
     <!-- KEYWORD -->
-    <meta name="keywords" content="Pulitzer,Pulitzer Prize,New York Daily News" />
-    <meta name="news_keywords" content="Pulitzer,Pulitzer Prize,New York Daily News" />
-    <meta name="parsely-tags" content="interactive,Pulitzer,Pulitzer Prize,New York Daily News" />
+    <meta name="keywords" content="polls,sports" />
+    <meta name="news_keywords" content="polls,sports" />
+    <meta name="parsely-tags" content="interactive,interactive poll,Polls,polls" />
 
     <!-- LINK -->
     <link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">
@@ -123,22 +123,16 @@ $csv = new parseCSV('data.csv');
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[728, 90]], 'div-gpt-ad-x101').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x50");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x55");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
@@ -156,22 +150,16 @@ $csv = new parseCSV('data.csv');
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-x101').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x101");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x35");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
           .setTargeting("interactive",ad_tag)
           .setTargeting("position","x36");          
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
           });
           googletag.cmd.push(function() {
           googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
@@ -347,7 +335,6 @@ endforeach;
         <!-- CUSTOM CSS GOES HERE-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/foundation/5.5.2/css/foundation.css" />
         <link href="css/main.css?v2" rel="stylesheet" type="text/css" />
-        <script src="js/social.js" defer></script>
 </article>
 </main>
     
