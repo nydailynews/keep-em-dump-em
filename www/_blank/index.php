@@ -23,7 +23,6 @@ endif;
         <!-- Titles-->
         <meta property="og:title" content="TITLE" />
         <meta name="twitter:title" content="TITLE"/>
-        <meta name="parsely-title" content="TITLE" />
 
         <!-- Description-->
         <meta name="description" content="DESCRIPTION" />
@@ -32,33 +31,39 @@ endif;
 
         <!-- KEYWORD -->
         <meta name="keywords" content="KEYWORDS" />
-        <meta name="parsely-tags" content="interactive,KEYWORDS" />
 
         <!-- LINK -->
 		<link rel="canonical" href="CANONICALURL" />
         <meta property="og:url" content="CANONICALURL" />
         <meta name="twitter:url" content="CANONICALURL">
-        <meta name="parsely-link" content="CANONICALURL" />
 
         <!-- THUMBNAIL IMAGE-->
         <meta property="og:image" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
         <meta name="twitter:image:src" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
-        <meta name="parsely-image-url" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
-        <!-- TIME -->
-        <meta name="parsely-pub-date" content="DATET06:00:00Z" />
+		<!-- PARSELY -->
+		<script type="application/ld+json">
+			{
+				"@context": "http://schema.org",
+				"@type": "NewsArticle",
+				"headline": "TITLE",
+				"url": "CANONICALURL",
+				"thumbnailUrl": "CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg",
+				"dateCreated": "DATET07:00:00Z",
+				"articleSection": "Interactive",
+				"creator": ["Interactive Poll"],
+				"keywords": ["interactive","interactive poll","KEYWORDS"]
+			}
+		</script>
 
         <!-- NO NEED TO FILL -->
         <meta property="og:type" content="website" />
         <meta name="twitter:card" content="summary"> 
         <meta name="twitter:domain" content="http://interactive.nydailynews.com"/>
         <meta name="twitter:site" content="NY Daily News">
-        <meta name="parsely-type" content="post" />
         <meta name="decorator" content="responsive" />
-        <meta name="parsely-section" content="Interactive" />
-        <meta name="parsely-author" content="Interactive Poll" />
 
     
 		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-774d60efeb80c8b9f62cea9078508154c4f534ff.js"></script>
@@ -92,15 +97,11 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
             googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
             .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x101");
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
         });
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
             .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x102");
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
         });
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
@@ -119,15 +120,11 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
             googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
             .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x101");
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
         });
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
             .setTargeting("interactive","keep-em-dump-em")
             .setTargeting("position","x102");          
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
         });
         googletag.cmd.push(function() {
             googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
