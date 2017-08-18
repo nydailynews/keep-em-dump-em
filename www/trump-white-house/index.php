@@ -10,7 +10,7 @@ endif;
   <head>
 
         <!-- DEFAULT -->
-        <title>TITLE, by the NY Daily News</title>
+        <title>Keep Em Dump Em: Trump's White House, by the NY Daily News</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -21,8 +21,8 @@ endif;
         <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
 
         <!-- Titles-->
-        <meta property="og:title" content="TITLE" />
-        <meta name="twitter:title" content="TITLE"/>
+        <meta property="og:title" content="Keep Em Dump Em: Trump's White House" />
+        <meta name="twitter:title" content="Keep Em Dump Em: Trump's White House"/>
 
         <!-- Description-->
         <meta name="description" content="DESCRIPTION" />
@@ -33,13 +33,13 @@ endif;
         <meta name="keywords" content="KEYWORDS" />
 
         <!-- LINK -->
-		<link rel="canonical" href="CANONICALURL" />
-        <meta property="og:url" content="CANONICALURL" />
-        <meta name="twitter:url" content="CANONICALURL">
+		<link rel="canonical" href="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
+        <meta property="og:url" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
+        <meta name="twitter:url" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/">
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="CANONICALURLimg/trump-2017-lineup.jpg" />
-        <meta name="twitter:image:src" content="CANONICALURLimg/trump-2017-lineup.jpg" />
+        <meta property="og:image" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
+        <meta name="twitter:image:src" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
@@ -48,9 +48,9 @@ endif;
 			{
 				"@context": "http://schema.org",
 				"@type": "NewsArticle",
-				"headline": "TITLE",
-				"url": "CANONICALURL",
-				"thumbnailUrl": "CANONICALURLimg/trump-2017-lineup.jpg",
+				"headline": "Keep Em Dump Em: Trump's White House",
+				"url": "http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/",
+				"thumbnailUrl": "http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg",
 				"dateCreated": "2017-08-21T07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
@@ -78,63 +78,8 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 </script>
 
  <!-- ads -->
-    <script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    (function() {
-        var gads = document.createElement('script');
-        gads.async = true;
-        var useSSL = 'https:' == document.location.protocol;
-        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-        var node = document.getElementsByTagName('script')[0];
-        node.parentNode.insertBefore(gads, node);
-    })();
-    var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    </script>
-    <script>
-    if( !is_mobile ) {
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x101");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x102");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x103");
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    }
-    </script>
+<script onload="nydn_ads('one');" src="http://interactive.nydailynews.com/includes/ads/ads.js"></script>
 
-    <!-- mobile ad -->
-    <script>
-    if( is_mobile ) {
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x101");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x102");          
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x103");          
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    }
-    </script>  
 
     <meta name="themeKey" content="nydailynews" />
     <meta name="mapThemeKey" content="responsive" />
