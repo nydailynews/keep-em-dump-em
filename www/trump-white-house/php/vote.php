@@ -1,3 +1,3 @@
 <?php
-$TABLE = 'name_of_table';
+$TABLE = 'trump';
 include('../../php/vote.php');

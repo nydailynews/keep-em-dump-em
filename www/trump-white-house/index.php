@@ -33,13 +33,13 @@ endif;
         <meta name="keywords" content="KEYWORDS" />
 
         <!-- LINK -->
-		<link rel="canonical" href="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
-        <meta property="og:url" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
-        <meta name="twitter:url" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/">
+		<link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
+        <meta property="og:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
+        <meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/">
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
-        <meta name="twitter:image:src" content="http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
+        <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
+        <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
@@ -49,8 +49,8 @@ endif;
 				"@context": "http://schema.org",
 				"@type": "NewsArticle",
 				"headline": "Keep Em Dump Em: Trump's White House",
-				"url": "http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/",
-				"thumbnailUrl": "http://interactiven.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg",
+				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/",
+				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/img/trump-2017-lineup.jpg",
 				"dateCreated": "2017-08-21T07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
