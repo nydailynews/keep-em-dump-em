@@ -13,7 +13,7 @@ var keepem = {
         year: '',
         description: '',
         version: '',
-        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-2', 'div-gpt-ad-1423507761396-0'],
+        ads: ['div-gpt-ad-1423507761396-1', 'div-gpt-ad-1423507761396-2', 'div-gpt-ad-1423507761396-3'],
         promos: ['<div class="large-4 medium-6 small-12 columns left"><a href="http://www.nydailynews.com/entertainment/golden-globes-2016-best-worst-red-carpet-gallery-1.2491685" target="new"><img src="img/gg_promo.jpg"></a></div>'],
     },
     update_config: function(config) {
@@ -52,6 +52,10 @@ var keepem = {
                 var firstname = item.name.split(" ")[0];
                 var photo = keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
 
+                // See if there's a gender specified in the json, otherwise just use the config value.
+                var gender = keepem.config.gender;
+                if ( item.hasOwnProperty('gender') ) gender = item.gender;
+
                 // Allow us to override the id var if we need to
                 if ( item.hasOwnProperty('id') ) i = item.id;
                 else i += 1;
@@ -72,8 +76,8 @@ var keepem = {
     <img alt="'+item.name+' photo" src="img/'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
-        <button name="0" class="button radius keep">KEEP ' + keepem.config.gender + '</button>\n\
-        <button name="1" class="button radius dump">DUMP ' + keepem.config.gender + '</button>\n\
+        <button name="0" class="button radius keep">KEEP ' + gender + '</button>\n\
+        <button name="1" class="button radius dump">DUMP ' + gender + '</button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
         <div class="your_vote">Your vote</div>\n\
