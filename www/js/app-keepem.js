@@ -51,6 +51,7 @@ var keepem = {
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
                 var photo = keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
+                if ( item.hasOwnProperty('photo') ) photo = item.photo;
 
                 // See if there's a gender specified in the json, otherwise just use the config value.
                 var gender = keepem.config.gender;
