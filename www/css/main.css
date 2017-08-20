@@ -54,6 +54,7 @@ p {
 }
 
 .button.radius{
+  text-transform: uppercase;
   font-family: 'Roboto', sans-serif; 
   font-weight: 300;
   background-color: #f7f7f7;

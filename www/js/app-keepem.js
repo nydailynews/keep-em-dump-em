@@ -50,7 +50,7 @@ var keepem = {
 
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
-                var photo = keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
+                var photo = 'img/' + keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
                 if ( item.hasOwnProperty('photo') ) photo = item.photo;
 
                 // See if there's a gender specified in the json, otherwise just use the config value.
@@ -74,7 +74,7 @@ var keepem = {
                 {
                     $('#'+item.section).append('\n\
 <div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left">\n\
-    <img alt="'+item.name+' photo" src="img/'+photo+'">\n\
+    <img alt="'+item.name+' photo" src="'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
         <button name="0" class="button radius keep">KEEP ' + gender + '</button>\n\
