@@ -2004,7 +2004,7 @@ kbd {
   margin-bottom: -3.75rem;
   padding: 10px;
   position: relative;
-  top: -100px;
+  top: -110px;
   color: #ffffff;
   background: rgb(0, 0, 0); /* Fall-back for browsers that don't support rgba */
   background: rgba(0, 0, 0, .2);

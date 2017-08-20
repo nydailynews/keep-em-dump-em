@@ -51,11 +51,13 @@ var keepem = {
                 var lastname = item.name.split(" ")[1];
                 var firstname = item.name.split(" ")[0];
                 var photo = 'img/' + keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
-                if ( item.hasOwnProperty('photo') ) photo = item.photo;
+                if ( item.hasOwnProperty('photo') && item.photo !== '' ) photo = item.photo;
+
+                if ( item.hasOwnProperty('title') && item.title !== '' ) item.name += '<span>' + item.title + '</span>';
 
                 // See if there's a gender specified in the json, otherwise just use the config value.
                 var gender = keepem.config.gender;
-                if ( item.hasOwnProperty('gender') ) gender = item.gender;
+                if ( item.hasOwnProperty('gender') && item.gender !== '' ) gender = item.gender;
 
                 // Allow us to override the id var if we need to
                 if ( item.hasOwnProperty('id') ) i = item.id;
@@ -83,12 +85,12 @@ var keepem = {
     <div id="'+i+'_results" class="panel results">\n\
         <div class="your_vote">Your vote</div>\n\
         <div>\n\
-            <div>DUMP ' + keepem.config.gender + '</div>\n\
+            <div>DUMP ' + gender + '</div>\n\
             <div class="dump_bar"></div>\n\
             <div class="dump_result_num result_num"></div>\n\
         </div>\n\
         <div class="keep_holder">\n\
-            <div>KEEP ' + keepem.config.gender + '</div>\n\
+            <div>KEEP ' + gender + '</div>\n\
             <div class="keep_bar"></div>\n\
             <div class="keep_result_num result_num"></div>\n\
         </div>\n\
