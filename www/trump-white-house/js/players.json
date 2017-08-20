@@ -1,297 +1,200 @@
 [
-    {
-        "name": "Testy McTestface",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    }
+  {
+    "name": "Alexander Acosta",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Ben Carson",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Elaine Chao",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Dan Coats",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Gary Cohn",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Kellyanne Conway",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Betsy DeVos",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Sebastian Gorka",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Nikki Haley",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Hope Hicks",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "John Kelly",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Jared Kushner",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Robert Lighthizer",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "James Mattis",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Linda McMahon",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "H.R. McMaster",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Stephen Miller",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Steve Mnuchin",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Mick Mulvaney",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Mike Pence",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Sonny Purdue",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Rick Perry",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Mike Pompeo",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Tom Price",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Scott Pruitt",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Wilbur Ross",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Sarah Huckabee Sanders",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Dan Scavino",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Jeff Sessions",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "David Shulkin",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Rex Tillerson",
+    "id": "",
+    "section": "",
+    "gender": ""
+  },
+  {
+    "name": "Ivanka Trump",
+    "id": "",
+    "section": "",
+    "gender": "her"
+  },
+  {
+    "name": "Ryan Zinke",
+    "id": "",
+    "section": "",
+    "gender": ""
+  }
 ]
