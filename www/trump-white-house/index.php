@@ -186,8 +186,9 @@ endif;
 			</ul>
 			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: Trump's White House</h1>
 			<h2 class="large-12 columns"></h2>
-			<p>The Trump presidency has been a revolving door of pink slips and two-week notices with Steve Bannon and Anthony Scaramucci being the latest to depart the chaotic West Wing.</p>
-      <p>Of those remaining who do you think will last the term and who will follow the line of staffers exiting Trump's tumultuous tenure.</p>
+			<p>For the past seven months, the Trump administration's HR department has doled out quite a few pink slips as high ranking staffers have exited the White House. Anthony Scaramucci and Steve Bannon were among the latest to be forced out, and it’s likely more will follow.
+      <p>Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump?</p>
+      <P>VOTE NOW to choose who Trump should keep on his team as he works to “Make America Great Again.”</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">

@@ -149,7 +149,7 @@ var keepem = {
             else
             {
                 $("#"+player).find(".your_vote").addClass("dump");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+ ". Cast your Keep 'em, Dump 'em vote now:")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:")
             }
             $("#"+player).find(".clear").attr("vote", int)
             $("#"+player).find(".dump_bar").css('width', Math.floor(percent_d/2)+"%");
