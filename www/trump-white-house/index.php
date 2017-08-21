@@ -31,7 +31,7 @@ endif;
         <meta name="keywords" content="Donald Trump,Mike Pence,Ivanka Trump,Ben Carson,Betsy DeVos" />
 
         <!-- LINK -->
-		<link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
+        <link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
         <meta property="og:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" />
         <meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/">
 
@@ -186,7 +186,8 @@ endif;
 			</ul>
 			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: Trump's White House</h1>
 			<h2 class="large-12 columns"></h2>
-			<p></p>
+			<p>The Trump presidency has been a revolving door of pink slips and two-week notices with Steve Bannon and Anthony Scaramucci being the latest to depart the chaotic West Wing.</p>
+      <p>Of those remaining who do you think will last the term and who will follow the line of staffers exiting Trump's tumultuous tenure.</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
