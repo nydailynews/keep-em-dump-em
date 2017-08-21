@@ -186,9 +186,7 @@ endif;
 			</ul>
 			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: Trump's White House</h1>
 			<h2 class="large-12 columns"></h2>
-			<p>For the past seven months, the Trump administration's HR department has doled out quite a few pink slips as high ranking staffers have exited the White House. Anthony Scaramucci and Steve Bannon were among the latest to be forced out, and it’s likely more will follow.
-      <p>Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump?</p>
-      <P>VOTE NOW to choose who Trump should keep on his team as he works to “Make America Great Again.”</p>
+			<p>The Trump administration's West Wing has been a blizzard of pink slips as high ranking staffers have <a href="http://www.nydailynews.com/news/politics/bannon-high-profile-departures-trump-white-house-article-1.3423497">exited the White House</a> one after another. <a href="http://www.nydailynews.com/tags/anthony-scaramucci">Anthony Scaramucci</a> and <a href="http://www.nydailynews.com/tags/stephen-bannon">Steve Bannon</a> were among the latest to be forced out, and it’s likely more will follow. Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump? <strong>VOTE NOW.</strong>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
