@@ -179,12 +179,24 @@ endif;
 	</script>
 	<main>
 		<div id="top" class="row"> 
+		  <div class="ad center">
+			<div id='div-gpt-ad-x101'>
+				<script>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-x101'); });
+				</script>
+			</div>
+		  </div>
 			<ul id="breadcrumbs">
 				<li><a href="http://www.nydailynews.com/">New York Daily News</a></li>
 				<li><a href="http://interactive.nydailynews.com/poll/">Polls</a></li>
 				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
 			</ul>
 			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: Trump's White House</h1>
+			<div class="columns large-12" id="social_map">
+				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
+				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/&amp;text=Vote on who in the Donald Trump White House should stay and who should go:&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="mailto:?subject=Trump%20White%20House%20-%20Who%20should%20stay%20and%20who%20should%20go%20&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/"><div id="email"></div></a>
+			</div>
 			<h2 class="large-12 columns"></h2>
 			<p>The Trump administration's West Wing has been a blizzard of pink slips as high ranking staffers have <a href="http://www.nydailynews.com/news/politics/bannon-high-profile-departures-trump-white-house-article-1.3423497">exited the White House</a> one after another. <a href="http://www.nydailynews.com/tags/anthony-scaramucci">Anthony Scaramucci</a> and <a href="http://www.nydailynews.com/tags/stephen-bannon">Steve Bannon</a> were among the latest to be forced out, and it’s likely more will follow. Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump? <strong>VOTE NOW.</strong>
 		</div>

@@ -252,4 +252,47 @@ ul#breadcrumbs li:first-child { padding-left: 0; }
         font-size: 13px;
     }
 }
-    
+
+#social_map {
+}
+#social_map a {
+}
+
+#social_map #facebook {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 1px 4px;
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  cursor: pointer;
+  float: left;
+}
+
+#social_map #twitter {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 0 -42px;
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  cursor: pointer;
+  float: left;
+}
+
+#social_map #email {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 0 -88px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: left;
+}
+.center {
+    margin: auto;
+    text-align: center;
+}
+.ad {
+    margin: 10px auto;
+}
