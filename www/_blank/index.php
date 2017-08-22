@@ -73,68 +73,7 @@ endif;
 <script>window.NREUM||(NREUM={}),__nr_require=function(n,t,e){function r(e){if(!t[e]){var o=t[e]={exports:{}};n[e][0].call(o.exports,function(t){var o=n[e][1][t];return r(o?o:t)},o,o.exports)}return t[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(n,t){function e(n){function t(t,e,a){n&&n(t,e,a),a||(a={});for(var u=c(t),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,e);return s}function a(n,t){f[n]=c(n).concat(t)}function c(n){return f[n]||[]}function u(){return e(t)}var f={};return{on:a,emit:t,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");t.exports=e()},{gos:"7eSDFh"}],ee:[function(n,t){t.exports=n("QJf3ax")},{}],gos:[function(n,t){t.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,t){function e(n,t,e){if(r.call(n,t))return n[t];var o=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=e},{}],D5DuLP:[function(n,t){function e(n,t,e){return r.listeners(n).length?r.emit(n,t,e):(o[n]||(o[n]=[]),void o[n].push(t))}var r=n("ee").create(),o={};t.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,t){t.exports=n("D5DuLP")},{}],XL7HBI:[function(n,t){function e(n){var t=typeof n;return!n||"object"!==t&&"function"!==t?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");t.exports=e},{gos:"7eSDFh"}],id:[function(n,t){t.exports=n("XL7HBI")},{}],loader:[function(n,t){t.exports=n("G9z0Bl")},{}],G9z0Bl:[function(n,t){function e(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(t,e){t in n||(n[t]=e)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var t=f.createElement("script");t.src=v.proto+n.agent,f.body.appendChild(t)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=window,f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},v=t.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(f[p]("onreadystatechange",r),u[p]("onload",e)),a("mark",["firstbyte",i()])},{1:11,handle:"D5DuLP"}],11:[function(n,t){function e(n,t){var e=[],o="",i=0;for(o in n)r.call(n,o)&&(e[i]=t(o,n[o]),i+=1);return e}var r=Object.prototype.hasOwnProperty;t.exports=e},{}]},{},["G9z0Bl"]);</script>
 
 
-<script>
-window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.twttr||{};if(d.getElementById(id))return;js=d.createElement(s);js.id=id;js.src="https://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);t._e=[];t.ready=function(f){t._e.push(f);};return t;}(document,"script","twitter-wjs"));
-</script>
-
- <!-- ads -->
-    <script>
-    var googletag = googletag || {};
-    googletag.cmd = googletag.cmd || [];
-    (function() {
-        var gads = document.createElement('script');
-        gads.async = true;
-        var useSSL = 'https:' == document.location.protocol;
-        gads.src = (useSSL ? 'https:' : 'http:') + '//www.googletagservices.com/tag/js/gpt.js';
-        var node = document.getElementsByTagName('script')[0];
-        node.parentNode.insertBefore(gads, node);
-    })();
-    var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-    </script>
-    <script>
-    if( !is_mobile ) {
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x101");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x102");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x103");
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    }
-    </script>
-
-    <!-- mobile ad -->
-    <script>
-    if( is_mobile ) {
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x101");
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x102");          
-        });
-        googletag.cmd.push(function() {
-            googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-0').addService(googletag.pubads())
-            .setTargeting("interactive","keep-em-dump-em")
-            .setTargeting("position","x103");          
-            googletag.pubads().enableSingleRequest();
-            googletag.enableServices();
-        });
-    }
-    </script>  
+	<script onload="nydn_ads('one');" src="http://interactive.nydailynews.com/includes/ads/ads.js"></script>
 
     <meta name="themeKey" content="nydailynews" />
     <meta name="mapThemeKey" content="responsive" />
@@ -149,14 +88,6 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
     <script src="../js/vendor/modernizr.js"></script>
   </head>
   <body>
-     <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
 	   <script>
 		  var _gaq = _gaq || [];
 		  _gaq.push(['_setAccount', 'UA-20856122-5']);
@@ -249,6 +180,13 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 	};
 	</script>
 	<main>
+		  <div class="ad center">
+			<div id='div-gpt-ad-x101'>
+				<script>
+					googletag.cmd.push(function() { googletag.display('div-gpt-ad-x101'); });
+				</script>
+			</div>
+		  </div>
 		<div id="top" class="row"> 
 			<ul id="breadcrumbs">
 				<li><a href="http://www.nydailynews.com/">New York Daily News</a></li>
@@ -258,6 +196,11 @@ window.twttr=(function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],t=window.
 			</ul>
 			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
 			<h2 class="large-12 columns"></h2>
+			<div class="columns large-12" id="social_map">
+				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
+				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/&amp;text=Vote on who in the Donald Trump White House should stay and who should go:&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="mailto:?subject=Trump%20White%20House%20-%20Who%20should%20stay%20and%20who%20should%20go%20&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/"><div id="email"></div></a>
+			</div>
 			<p></p>
 		</div>
 		<?php include('../php/stats.php'); ?>
