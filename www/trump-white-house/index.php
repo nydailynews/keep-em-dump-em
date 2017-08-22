@@ -58,7 +58,7 @@ endif;
 
         <!-- NO NEED TO FILL -->
         <meta property="og:type" content="website" />
-        <meta name="twitter:card" content="summary"> 
+        <meta name="twitter:card" content="summary_large_image"> 
         <meta name="twitter:domain" content="http://interactive.nydailynews.com"/>
         <meta name="twitter:site" content="NY Daily News">
         <meta name="decorator" content="responsive" />

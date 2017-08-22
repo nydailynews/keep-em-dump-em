@@ -39,6 +39,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423766!/img/httpImage/95508954.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Kellyanne Conway",
     "title": "Counselor to the President",
@@ -103,6 +109,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423842!/img/httpImage/trump.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "James Mattis",
     "title": "Secretary of Defense",
@@ -247,6 +259,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Ivanka Trump",
     "title": "Assistant to the President",

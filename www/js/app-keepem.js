@@ -53,7 +53,7 @@ var keepem = {
                 var photo = 'img/' + keepem.slugify(firstname)+"_"+ keepem.slugify(lastname)+".jpg";
                 if ( item.hasOwnProperty('photo') && item.photo !== '' ) photo = item.photo;
 
-                if ( item.hasOwnProperty('title') && item.title !== '' ) item.name += '<span>' + item.title + '</span>';
+                if ( item.hasOwnProperty('title') && item.title !== '' ) item.name += '<span><span style=\'display:none;\'>TITLE:</span>' + item.title + '</span>';
 
                 // See if there's a gender specified in the json, otherwise just use the config value.
                 var gender = keepem.config.gender;
@@ -97,7 +97,7 @@ var keepem = {
     </div>\n\
     <div class="social">\n\
         <a class="fb-share" href="http://www.facebook.com/sharer.php?u=' + keepem.config.canonical + '" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
-        <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '" target="_blank"><div class="twitter"></div></a>\n\
+        <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '&via=nydni" target="_blank"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
                     if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
@@ -134,6 +134,7 @@ var keepem = {
     get_vote: function (int, player, firstname, player_name) {
         var random = this.make_id();
 
+        console.log(player, firstname, player_name);
         jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
         {
             keep = eval(data.split("||")[0]);
@@ -141,15 +142,20 @@ var keepem = {
 
             percent_k = Math.round((keep/(dump+keep))*1000)/10;
             percent_d = Math.round((dump/(dump+keep))*1000)/10;
+            // A fix for when we include titles in the cards.
+            if ( player_name.indexOf('TITLE:') > 0 )
+            {
+                player_name = player_name.split('TITLE:')[0];
+            }
             if(int == 0)
             {
                 $("#"+player).find(".your_vote").addClass("keep");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:&via=nydni")
             }
             else
             {
                 $("#"+player).find(".your_vote").addClass("dump");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=nydni")
             }
             $("#"+player).find(".clear").attr("vote", int)
             $("#"+player).find(".dump_bar").css('width', Math.floor(percent_d/2)+"%");
