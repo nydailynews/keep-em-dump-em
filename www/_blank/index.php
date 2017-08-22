@@ -20,11 +20,11 @@ endif;
         <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
         <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
 
-        <!-- Titles-->
+        <!-- Titles -->
         <meta property="og:title" content="TITLE" />
         <meta name="twitter:title" content="TITLE"/>
 
-        <!-- Description-->
+        <!-- Description -->
         <meta name="description" content="DESCRIPTION" />
         <meta property="og:description" content="DESCRIPTION" />
         <meta name="twitter:description" content="DESCRIPTION" />
@@ -197,9 +197,9 @@ endif;
 			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
 			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
-				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
-				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/&amp;text=Vote on who in the Donald Trump White House should stay and who should go:&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
-				<a href="mailto:?subject=Trump%20White%20House%20-%20Who%20should%20stay%20and%20who%20should%20go%20&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/"><div id="email"></div></a>
+				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL" target="_blank"><div id="facebook" class="small-text-center"></div></a>
+				<a href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL"><div id="email"></div></a>
 			</div>
 			<p></p>
 		</div>
