@@ -62,14 +62,6 @@
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423768!/img/httpImage/afp-rh68y.jpg"
   },
   {
-    "name": "Sebastian Gorka",
-    "title": "Deputy Assistant to the President",
-    "id": "8",
-    "section": "WHITEHOUSE",
-    "gender": "",
-    "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423770!/img/httpImage/96184591.jpg"
-  },
-  {
     "name": "Nikki Haley",
     "title": "Ambassador to the United Nations",
     "id": "9",
@@ -109,6 +101,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423842!/img/httpImage/trump.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "James Mattis",
     "title": "Secretary of Defense",
@@ -117,12 +115,6 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423791!/img/httpImage/secretary-defense-silicon-valley.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "Linda McMahon",
     "title": "Administrator of the Small Business Administration",
@@ -280,5 +272,13 @@
     "section": "WHITEHOUSE",
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423823!/img/httpImage/96337361.jpg"
+  },
+  {
+    "name": "Sebastian Gorka",
+    "title": "Deputy Assistant to the President",
+    "id": "8",
+    "section": "DUMPED",
+    "gender": "",
+    "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423770!/img/httpImage/96184591.jpg"
   }
 ]
