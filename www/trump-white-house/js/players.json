@@ -23,6 +23,12 @@
     "gender": "her",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423765!/img/httpImage/95799456.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Dan Coats",
     "title": "Director of National Intelligence",
@@ -47,12 +53,6 @@
     "gender": "her",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423767!/img/httpImage/96183387.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "Betsy DeVos",
     "title": "Secretary of Education",

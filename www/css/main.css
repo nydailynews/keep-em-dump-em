@@ -301,7 +301,8 @@ ul#breadcrumbs li:first-child { padding-left: 0; }
   height: 372px;
   background: url('../img/dumped.png');
   position: relative;
-  top: -372px;
+  margin-top: -372px;
+  margin-bottom: 40px;
 }
 
 .dumped p {

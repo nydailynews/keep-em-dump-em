@@ -196,7 +196,7 @@ endif;
 			<div class="columns">
 				<h2 class="section">President Donald Trump's White House</h2>
 				<section id="WHITEHOUSE"></section>
-				<h2 style="clear: both;" class="section">Formerly of Trump's White House</h2>
+				<h2 style="clear: both;" class="section">Former members of Trump's White House</h2>
 				
                 <section id="DUMPED">
 
