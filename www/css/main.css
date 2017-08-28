@@ -296,3 +296,18 @@ ul#breadcrumbs li:first-child { padding-left: 0; }
 .ad {
     margin: 10px auto;
 }
+
+.dumped {
+  height: 372px;
+  background: url('../img/dumped.png');
+  position: relative;
+  top: -372px;
+}
+
+.dumped p {
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 294px;
+  max-width: 300px;
+}
