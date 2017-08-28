@@ -197,7 +197,64 @@ endif;
 				<h2 class="section">President Donald Trump's White House</h2>
 				<section id="WHITEHOUSE"></section>
 				<h2 style="clear: both;" class="section">Formerly of Trump's White House</h2>
-				<section id="DUMPED"></section>
+				
+                <section id="DUMPED" class="large-4 medium-6 small-12 columns left">
+
+                    <div>
+                        <img src="http://assets.nydailynews.com/polopoly_fs/1.3423770!/img/httpImage/96184591.jpg" alt="photo of Sebastian Gorka">
+                        <div class="dumped">
+                        <p class="name">Sebastian Gorka<span>Former Deputy Assistant to the President</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Sally Yates">
+                        <div class="dumped">
+                        <p class="name">Sally Yates<span>Former acting attorney general</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Michael Flynn">
+                        <div class="dumped">
+                        <p class="name">Michael Flynn<span>Former national security advisor</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of James Comey">
+                        <div class="dumped">
+                        <p class="name">James Comey<span>Former FBI Director</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Michael Dubke">
+                        <div class="dumped">
+                        <p class="name">Michael Dubke<span>Former White House communications director</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Sean Spicer">
+                        <div class="dumped">
+                        <p class="name">Sean Spicer<span>Former White House press secretary</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Reince Priebus">
+                        <div class="dumped">
+                        <p class="name">Reince Priebus<span>Former White House chief of staff</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Anthony Scaramucci">
+                        <div class="dumped">
+                        <p class="name">Anthony Scaramucci<span>Former White House communications director</span></p>
+                    </div>
+
+                    <div>
+                        <img src="" alt="photo of Steve Bannon">
+                        <div class="dumped">
+                        <p class="name">Steve Bannon<span>Former White House chief strategist</span></p>
+                    </div>
+
+                </section>
 			</div>
 		</div>   
 	</main>   
