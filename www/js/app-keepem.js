@@ -7,7 +7,7 @@ var keepem = {
         section: {}
     },
     config: { 
-		canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
+        canonical: document.querySelector("link[rel='canonical']").getAttribute("href"),
         gender: 'HIM',
         team: '',
         year: '',
