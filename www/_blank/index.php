@@ -6,11 +6,11 @@ if ( $_SERVER['QUERY_STRING'] !== '' ):
 	$append = '?' . $version;
 endif; 
 ?><!DOCTYPE HTML>
-<html class="no-js" lang="en">
+<html lang="en">
   <head>
         <!-- DEFAULT -->
         <title>TITLE, by the NY Daily News</title>
-        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
@@ -78,7 +78,7 @@ endif;
 		<link rel="stylesheet" href="../css/foundation.css" />
 		<link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
 		<script src="../js/vendor/modernizr.js"></script>
-		<script onload="nydn_ads('one');" src="http://interactive.nydailynews.com/includes/ads/ads.js"></script>
+		<script onload="nydn_ads('one');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
   </head>
   <body>
 <div id="nydn-shell">

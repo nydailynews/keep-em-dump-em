@@ -1,3 +1,4 @@
+// https://pudymody.github.io/blog/2015-08-09-tinder-like-swipe
 var keepem = {
     player_count: 0,
     votes: {
@@ -44,7 +45,7 @@ var keepem = {
                 {
                     if ( keepem.config.ads.length === 0 ) return;
                     var ad = keepem.config.ads.pop()
-                    if( !is_mobile ) $('#'+item.section).append('<div class="box_ad large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
+                    if ( !is_mobile ) $('#'+item.section).append('<div class="box_ad large-4 medium-6 small-12 columns left"><div id="' + ad + '"><script>googletag.cmd.push(function(){ googletag.display("' + ad + '"); });</script></div></div>'); 
                     return;
                 }
 
@@ -96,7 +97,7 @@ var keepem = {
         </div>\n\
     </div>\n\
     <div class="social">\n\
-        <a class="fb-share" href="http://www.facebook.com/sharer.php?u=' + keepem.config.canonical + '" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
+        <a class="fb-share" href="https://www.facebook.com/sharer.php?u=' + keepem.config.canonical + '" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
         <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '&via=nydni" target="_blank"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
@@ -147,7 +148,7 @@ var keepem = {
             {
                 player_name = player_name.split('TITLE:')[0];
             }
-            if(int == 0)
+            if (int == 0)
             {
                 $("#"+player).find(".your_vote").addClass("keep");
                 $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:&via=nydni")
@@ -168,10 +169,10 @@ var keepem = {
         // Do some fun things for the reader when they've made all their votes.
         // Like show a new ad.
         // ENDVOTE
-        var random = this.make_id();
+        var rando = this.make_id();
         var query = jQuery.param(this.votes);
         console.log(query);
-        jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+random, function(data)
+        jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
         });
     },
@@ -180,7 +181,7 @@ var keepem = {
         var text = "";
         var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-        for( var i=0; i < 5; i++ )
+        for ( var i=0; i < 5; i++ )
             text += possible.charAt(Math.floor(Math.random() * possible.length));
 
         return text;
@@ -190,13 +191,8 @@ var keepem = {
         // Config handling. External config objects must be named quiz_config
         if ( typeof window.app_config !== 'undefined' ) { this.update_config(app_config); }
 
-        if( is_mobile )
+        if ( is_mobile )
         {
-          var waypoint = new Waypoint({
-            element: document.getElementById('m_bottom_ad'),
-            handler: function(direction) {}
-          });
-          
           var banner_sticky = new Waypoint.Sticky({
             element: $('#m_bottom_ad')[0]
           });
