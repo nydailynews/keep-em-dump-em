@@ -9,7 +9,7 @@ endif;
 <html lang="en">
   <head>
         <!-- DEFAULT -->
-        <title>TITLE</title>
+        <title>2017 New York Mets Keep 'Em Dump 'Em, by the NY Daily News</title>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,25 +19,25 @@ endif;
         <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
 
         <!-- Titles -->
-        <meta property="og:title" content="TITLE" />
-        <meta name="twitter:title" content="TITLE"/>
+        <meta property="og:title" content="Keep Em Dump Em: 2017 New York Mets" />
+        <meta name="twitter:title" content="Keep Em Dump Em: 2017 New York Mets"/>
 
         <!-- Description -->
-        <meta name="description" content="DESCRIPTION" />
-        <meta property="og:description" content="DESCRIPTION" />
-        <meta name="twitter:description" content="DESCRIPTION" />
+        <meta name="description" content="Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em" />
+        <meta property="og:description" content="Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em" />
+        <meta name="twitter:description" content="Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em" />
 
         <!-- KEYWORD -->
-        <meta name="keywords" content="KEYWORDS" />
+        <meta name="keywords" content="new york Mets, Mets keep em or dump em, Mets 2018-19, who should be on the Mets next year" />
 
         <!-- LINK -->
-		<link rel="canonical" href="CANONICALURL" />
-        <meta property="og:url" content="CANONICALURL" />
-        <meta name="twitter:url" content="CANONICALURL">
+		<link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" />
+        <meta property="og:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" />
+        <meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/">
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
-        <meta name="twitter:image:src" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
+        <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg" />
+        <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
@@ -46,13 +46,13 @@ endif;
 			{
 				"@context": "http://schema.org",
 				"@type": "NewsArticle",
-				"headline": "TITLE",
-				"url": "CANONICALURL",
-				"thumbnailUrl": "CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg",
+				"headline": "Keep Em Dump Em: 2017 New York Mets",
+				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/",
+				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg",
 				"dateCreated": "DATET07:00:00Z",
 				"articleSection": "Interactive",
-				"creator": ["Interactive Poll"],
-				"keywords": ["interactive","interactive poll","KEYWORDS"]
+				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
+				"keywords": ["interactive","interactive poll","new york Mets, Mets keep em or dump em, Mets 2018-19, who should be on the Mets next year"]
 			}
 		</script>
 
@@ -147,9 +147,9 @@ endif;
 	</div>
 	<script>
 	var app_config = { 
-		description: "DESCRIPTION",
-		team: 'TEAM',
-		year: 'YEAR',
+		description: "Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em",
+		team: 'New York Mets',
+		year: '2017',
 		version: '<?php echo $version; ?>',
 	};
 	</script>
@@ -168,35 +168,43 @@ endif;
 				<li><a href="http://interactive.nydailynews.com/poll/">Polls</a></li>
 				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
 			</ul>
-			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
+			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: New York Mets</h1>        
 			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
-				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL" target="_blank"><div id="facebook" class="small-text-center"></div></a>
-				<a href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
-				<a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL"><div id="email"></div></a>
+				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
+				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/&amp;text=Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/"><div id="email"></div></a>
 			</div>
 			<p></p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
 			<div class="columns">
-				<h2 class="section">Offense</h2>
-				<section id="OFFENSE"></section>
+				<h2 class="section">Pitchers</h2>
+				<section id="PITCHERS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">Defense</h2>
-				<section id="DEFENSE"></section>
+				<h2 class="section">Infielders</h2>
+				<section id="INFIELDERS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">Special teams</h2>
-				<section id="SPECIAL"></section>
+				<h2 class="section">Catchers</h2>
+				<section id="CATCHERS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">The brass</h2>
-				<section id="BRASS"></section>
+				<h2 class="section">Outfielders</h2>
+				<section id="OUTFIELDERS"></section>
 			</div>
-		</div>   
-	</main>   
+			<div class="columns">
+				<h2 class="section">Honorable Mentions</h2>
+				<section id="BONUS"></section>
+			</div>
+			<div class="columns">
+				<h2 class="section">Coaches / Front Office</h2>
+				<section id="COACHES"></section>
+			</div>
+		</div>
+	</main>
 
 	<!-- mobile ad -->
     <div id="m_bottom_ad" class="center">

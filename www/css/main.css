@@ -29,6 +29,7 @@ p {
 
 .panel{
   height: 110px;
+  background: rgba(0, 0, 0, .5);
 }
 
 #players{
