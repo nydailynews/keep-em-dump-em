@@ -133,7 +133,7 @@ var keepem = {
         if ( document.location.hash == '#dev' ) console.log(query);
     },
     get_vote: function (int, player, firstname, player_name) {
-        var random = this.make_id();
+        var random = this.rando();
 
         console.log(player, firstname, player_name);
         jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
@@ -169,19 +169,20 @@ var keepem = {
         // Do some fun things for the reader when they've made all their votes.
         // Like show a new ad.
         // ENDVOTE
-        var rando = this.make_id();
+        var rando = this.rando();
         var query = jQuery.param(this.votes);
         console.log(query);
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
+            console.log(data);
         });
     },
-    make_id: function()
+    rando: function()
     {
         var text = "";
         var possible = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789";
 
-        for ( var i=0; i < 5; i++ )
+        for ( var i=0; i < 8; i++ )
             text += possible.charAt(Math.floor(Math.random() * possible.length));
 
         return text;
