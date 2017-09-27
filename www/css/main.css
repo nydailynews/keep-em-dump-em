@@ -22,6 +22,7 @@ h3 {
     border-bottom: 1px solid #aaa;
     text-align: center;
     font-weight: bold;
+    font-size: 130%;
 }
 p {
     font-family: 'PT Serif', serif;
@@ -321,4 +322,7 @@ ul#breadcrumbs li:first-child { padding-left: 0; }
   position: relative;
   top: 294px;
   max-width: 300px;
+}
+#nydn-footer-services {
+    text-transform: uppercase;
 }

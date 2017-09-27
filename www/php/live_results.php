@@ -33,7 +33,7 @@ function admin_table_dump($year, $team)
 <head>
 
 <title>Every Page Needs a Title, Even This One</title>
-<script src="http://interactive.nydailynews.com/poll/keep-em-dump-em/js/vendor/jquery.js"></script>
+<script src="/js/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.23.5/js/jquery.tablesorter.js"></script>
 <style type="text/css">
   body{

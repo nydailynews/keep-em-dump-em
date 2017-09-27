@@ -172,11 +172,18 @@ var keepem = {
         var rando = this.rando();
         var query = jQuery.param(this.votes);
         console.log(query);
-        jQuery('main').append('<h3 class="callout"><a href="#">View Total Keep \'Em Dump \'Em Results</a></h3>');
+        var final_markup = '<h3 class="callout"><a href="#">View Total Keep \'Em Dump \'Em Results</a></h3>';
+        jQuery('main').prepend(final_markup);
+        jQuery('main').append(final_markup);
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
             console.log(data);
         });
+    },
+    view_results: function() {
+        // Wipe the page and put the final results on there.
+        jQuery('.callout').remove();
+        jQuery('#players').html('<h2 class="callout">Final Results</h2>');
     },
     rando: function()
     {
