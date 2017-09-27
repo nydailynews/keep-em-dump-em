@@ -172,6 +172,7 @@ var keepem = {
         var rando = this.rando();
         var query = jQuery.param(this.votes);
         console.log(query);
+        jQuery('main').append('<h3 class="callout"><a href="#">View Total Keep \'Em Dump \'Em Results</a></h3>');
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
             console.log(data);
