@@ -36,8 +36,8 @@ endif;
         <meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/">
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg" />
-        <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg" />
+        <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/mets-2017-lineup.jpg" />
+        <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/mets-2017-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
@@ -49,7 +49,7 @@ endif;
 				"headline": "Keep Em Dump Em: 2017 New York Mets",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/",
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg",
-				"dateCreated": "DATET07:00:00Z",
+				"dateCreated": "2017-10-01T07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
 				"keywords": ["interactive","interactive poll","new york Mets, Mets keep em or dump em, Mets 2018-19, who should be on the Mets next year"]
@@ -179,29 +179,21 @@ endif;
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
-			<div class="columns">
+      <div class="columns">
+        <h2 class="section">Honorable Mentions</h2>
+        <section id="BONUS"></section>
+      </div>
+      <div class="columns">
 				<h2 class="section">Pitchers</h2>
 				<section id="PITCHERS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">Infielders</h2>
-				<section id="INFIELDERS"></section>
+				<h2 class="section">Position Players</h2>
+				<section id="POSITIONS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">Catchers</h2>
-				<section id="CATCHERS"></section>
-			</div>
-			<div class="columns">
-				<h2 class="section">Outfielders</h2>
-				<section id="OUTFIELDERS"></section>
-			</div>
-			<div class="columns">
-				<h2 class="section">Honorable Mentions</h2>
-				<section id="BONUS"></section>
-			</div>
-			<div class="columns">
-				<h2 class="section">Coaches / Front Office</h2>
-				<section id="COACHES"></section>
+				<h2 class="section">The Brass</h2>
+				<section id="BRASS"></section>
 			</div>
 		</div>
 	</main>
