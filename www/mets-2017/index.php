@@ -8,7 +8,6 @@ endif;
 ?><!DOCTYPE HTML>
 <html lang="en">
   <head>
-        <!-- DEFAULT -->
         <title>2017 New York Mets Keep 'Em Dump 'Em, by the NY Daily News</title>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -77,7 +76,6 @@ endif;
 		<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" media="all" />
 		<link rel="stylesheet" href="../css/foundation.css" />
 		<link rel="stylesheet" href="../css/main.css<?php echo $append; ?>" />
-		<script src="../js/vendor/modernizr.js"></script>
 		<script onload="nydn_ads('one');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
   </head>
   <body>
@@ -148,7 +146,7 @@ endif;
 	<script>
 	var app_config = { 
 		description: "Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em",
-		team: 'New York Mets',
+		team: 'Mets',
 		year: '2017',
 		version: '<?php echo $version; ?>',
 	};
@@ -196,6 +194,9 @@ endif;
 				<section id="BRASS"></section>
 			</div>
 		</div>
+<div class="pgs-dpg-btn" data-pgs-partner-id="ny-daily-news" data-pgs-target-type="campaign" data-pgs-target-id="6b6cc55f-dfa6-4126-b11b-dcbc02ebbdf4"></div>
+<script async type="text/javascript" src="https://assets.pgs.io/pgm/v1/dpg.js"></script>
+
 	</main>
 
 	<!-- mobile ad -->
