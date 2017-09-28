@@ -18,11 +18,13 @@ h3 {
     text-transform: uppercase;
 }
 .callout {
+    -webkit-transition: all 2s ease-out;
+    transition: all 2s ease-out;
     border-top: 1px solid #aaa;
     border-bottom: 1px solid #aaa;
     text-align: center;
     font-weight: bold;
-    font-size: 130%;
+    font-size: 150%;
 }
 p {
     font-family: 'PT Serif', serif;

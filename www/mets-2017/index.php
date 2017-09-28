@@ -194,9 +194,6 @@ endif;
 				<section id="BRASS"></section>
 			</div>
 		</div>
-<div class="pgs-dpg-btn" data-pgs-partner-id="ny-daily-news" data-pgs-target-type="campaign" data-pgs-target-id="6b6cc55f-dfa6-4126-b11b-dcbc02ebbdf4"></div>
-<script async type="text/javascript" src="https://assets.pgs.io/pgm/v1/dpg.js"></script>
-
 	</main>
 
 	<!-- mobile ad -->

@@ -171,20 +171,53 @@ var keepem = {
         // ENDVOTE
         var rando = this.rando();
         var query = jQuery.param(this.votes);
-        console.log(query);
-        var final_markup = '<h3 class="callout"><a href="#">View Total Keep \'Em Dump \'Em Results</a></h3>';
+        var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">View Total Keep \'Em Dump \'Em Results</a></h3>';
         jQuery('main').prepend(final_markup);
         jQuery('main').append(final_markup);
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
-            console.log(data);
+            //{"keep_avg":"30.0000","dump_avg":"9.0000","percent_avg":"0.7692000269889832","more_dumpy":"0","more_optimistic":"0","dumped":[{"name":"Mr. Met","percent":"0.0000"},{"name":"Training Staff","percent":"0.0000"},{"name":"Jeff Wilpon","percent":"0.0000"},{"name":"Jerry Blevins","percent":"0.0000"},{"name":"Chasen Bradford","percent":"0.0000"}],"kept":[{"name":"Jeurys Familia","percent":"1.0000"},{"name":"Chris Flexen","percent":"1.0000"},{"name":"Tommy Milone","percent":"1.0000"},{"name":"Hansel Robles","percent":"1.0000"},{"name":"Noah Syndergaard","percent":"1.0000"}]}
+            keepem.data = data;
         });
     },
     view_results: function() {
         // Wipe the page and put the final results on there.
+        if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
+        if ( typeof PARSELY !== 'undefinted' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
+
+        var d = JSON.parse(this.data);
         jQuery('.callout').remove();
-        jQuery('#players').html('<h2 class="callout">Final Results</h2>');
+        var dump_percent = this.to_percent(this.votes.dump/this.votes.total);
+        var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
+        var avg_keep_percent = this.to_percent(d.percent_avg);
+        var kept = '', dumped = '';
+        for ( var i = 0; i < 5; i ++ ) {
+            kept += '   <li>' + d['kept'][i]['name'] + ': ' + this.to_percent(d['kept'][i]['percent']) + '%<li>\n';
+            dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + this.to_percent(d['dumped'][i]['percent']) + '%<li>\n';
+        }
+        jQuery('#players').html('<h2 class="callout">Final Results</h2>\n\
+<p>\n\
+    You voted to keep ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
+    On average, readers voted to keep ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
+</p>\n\
+<p>\n\
+    These are the most-kept and most-dumped players overall:\n\
+</p>\n\
+    <h3>Most Kept</h3>\n\
+    <ol>' + kept + '</ol>\n\
+    <h3>Most Dumped</h3>\n\
+    <ol>' + dumped + '</ol>\n\
+');
     },
+    tweet_link: function(text) {
+        // Given the words to put in a tweet, return markup suitable for a tweet-this link.
+        var url = document.location.origin + document.location.pathname;
+        return '<span><a href="https://twitter.com/intent/tweet?text=' + text + '&amp;url=' + url + '&amp;via=NYDNSports&amp;related=NYDNi,NYDailyNews" target="_blank">Tweet this</a></span>';
+    },
+    to_percent: function(val) {
+        // Turn a float value between 0 and 1.0 into a percent value to one decimal place, 0.0% to 100.0%.
+        return Math.round(val*1000)/10;
+    }, 
     rando: function()
     {
         var text = "";
