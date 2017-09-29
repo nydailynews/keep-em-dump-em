@@ -173,7 +173,7 @@ endif;
 				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/&amp;text=Vote which New York Yankees players and front-office personnel to keep and which to get rid of on the 2017 Yankees Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
 				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/"><div id="email"></div></a>
 			</div>
-			<p>YANKEES INTO TEXT GOES HERE</p>
+			<p>YANKEES INTRO TEXT GOES HERE</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
