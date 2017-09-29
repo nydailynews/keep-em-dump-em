@@ -200,6 +200,13 @@ endif;
 				
                 <section id="DUMPED">
 
+					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="Tom Price photo" src="http://assets.nydailynews.com/polopoly_fs/1.3423824!/img/httpImage/trump.jpg">
+                        <div class="dumped">
+							<p class="name">Tom Price<span><span style="display:none;">TITLE:</span>Former secretary of Health and Human Services</span></p>
+						</div>
+					</div>
+
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3423770!/img/httpImage/96184591.jpg" alt="photo of Sebastian Gorka">
                         <div class="dumped">

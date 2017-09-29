@@ -76,6 +76,7 @@ ol li {
 p.name span {
   display: block;
   font-size: .6em;
+  line-height: .9em;
 }
 
 .button.radius{
