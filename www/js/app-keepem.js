@@ -176,9 +176,9 @@ var keepem = {
         // ENDVOTE
         var rando = this.rando();
         var query = jQuery.param(this.votes);
-        var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">View Total Keep \'Em Dump \'Em Results</a></h3>';
-        jQuery('main').prepend(final_markup);
-        jQuery('main').append(final_markup);
+        var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">See Final Keep \'Em Dump \'Em Results</a></h3>';
+        jQuery('div#top').append(final_markup);
+        jQuery('div.columns:last-child section').append('<div class="large-4 medium-6 small-12 columns left">' + final_markup + '</div>');
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
             //{"keep_avg":"30.0000","dump_avg":"9.0000","percent_avg":"0.7692000269889832","more_dumpy":"0","more_optimistic":"0","dumped":[{"name":"Mr. Met","percent":"0.0000"},{"name":"Training Staff","percent":"0.0000"},{"name":"Jeff Wilpon","percent":"0.0000"},{"name":"Jerry Blevins","percent":"0.0000"},{"name":"Chasen Bradford","percent":"0.0000"}],"kept":[{"name":"Jeurys Familia","percent":"1.0000"},{"name":"Chris Flexen","percent":"1.0000"},{"name":"Tommy Milone","percent":"1.0000"},{"name":"Hansel Robles","percent":"1.0000"},{"name":"Noah Syndergaard","percent":"1.0000"}]}
