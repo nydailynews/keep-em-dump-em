@@ -47,7 +47,7 @@ endif;
 				"@type": "NewsArticle",
 				"headline": "Keep Em Dump Em: 2017 New York Mets",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/",
-				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/New York MetsLOWER-2017-lineup.jpg",
+				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/img/mets-2017-lineup.jpg",
 				"dateCreated": "2017-10-01T07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
@@ -178,10 +178,6 @@ endif;
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
       <div class="columns">
-        <h2 class="section">Honorable Mentions</h2>
-        <section id="BONUS"></section>
-      </div>
-      <div class="columns">
 				<h2 class="section">Pitchers</h2>
 				<section id="PITCHERS"></section>
 			</div>
@@ -193,6 +189,10 @@ endif;
 				<h2 class="section">The Brass</h2>
 				<section id="BRASS"></section>
 			</div>
+      <div class="columns">
+        <h2 class="section">Honorable Mentions</h2>
+        <section id="BONUS"></section>
+      </div>
 		</div>
 	</main>
 

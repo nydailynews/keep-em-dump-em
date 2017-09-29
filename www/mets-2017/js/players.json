@@ -7,6 +7,7 @@
   {
     "name": "Training Staff",
     "id": "2",
+    "gender": "em",
     "section": "BONUS"
   },
   {
@@ -100,6 +101,21 @@
     "section": "PITCHERS"
   },
   {
+    "name": "David Wright",
+    "id": "34",
+    "section": "POSITIONS"
+  },
+  {
+    "name": "Jose Reyes",
+    "id": "25",
+    "section": "POSITIONS"
+  },
+  {
+    "name": "Yoenis Cespedes",
+    "id": "31",
+    "section": "POSITIONS"
+  },
+  {
     "name": "Travis d'Arnaud",
     "id": "21",
     "section": "POSITIONS"
@@ -117,11 +133,6 @@
   {
     "name": "Wilmer Flores",
     "id": "24",
-    "section": "POSITIONS"
-  },
-  {
-    "name": "Jose Reyes",
-    "id": "25",
     "section": "POSITIONS"
   },
   {
@@ -150,11 +161,6 @@
     "section": "POSITIONS"
   },
   {
-    "name": "Yoenis Cespedes",
-    "id": "31",
-    "section": "POSITIONS"
-  },
-  {
     "name": "Michael Conforto",
     "id": "32",
     "section": "POSITIONS"
@@ -162,11 +168,6 @@
   {
     "name": "TJ Rivera",
     "id": "33",
-    "section": "POSITIONS"
-  },
-  {
-    "name": "David Wright",
-    "id": "34",
     "section": "POSITIONS"
   },
   {
