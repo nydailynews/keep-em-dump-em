@@ -124,7 +124,8 @@ var keepem = {
                 // ENDVOTE
                 keepem.votes.total += 1;
                 var kd = 'keep';
-                if ( vote == 1 ) kd = 'dump';
+                // ****NOPE
+                if ( vote == 0 ) kd = 'dump';
                 keepem.votes[kd] += 1;
                 keepem.votes.section[section][kd] += 1;
                 if ( keepem.votes.total == keepem.player_count ) keepem.finish();
@@ -195,8 +196,8 @@ var keepem = {
         var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
         var avg_keep_percent = this.to_percent(d.percent_avg);
         var kept = '', dumped = '';
-        var vote_text = 'You voted to keep ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
-On average, readers voted to keep ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
+        var vote_text = 'You voted to dump ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
+On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
 ';
         var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.config.team + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('.On average, r', ' R'));
         var len = d['kept'].length;
