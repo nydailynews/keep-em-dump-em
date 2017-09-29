@@ -16,14 +16,14 @@ function admin_table_dump($year, $team)
 
 	while ($row = mysql_fetch_array($result, MYSQL_ASSOC)){
 		$total = intval($row["keep"]) + intval($row["dump"]);
-		$dump_percent = round(intval($row["dump"]) / $total, 2);
+		$dump_percent = @round(intval($row["dump"]) / $total, 2);
 		echo "<tr><td>".$row['name']."</td><td>" . $row['section'] . "</td><td>".$row["keep"]."</td><td>".$row["dump"]."</td><td>" . $dump_percent . "</td><td>" . $total . "</td></tr>";
 	}
 	$query2 = 'SELECT sum(keep) as kt, sum(dump) as dt FROM ' . $table . ' WHERE year = ' . $year;
 	$result2 = @mysql_query($query2);
 	$row2 = mysql_fetch_array($result2, MYSQL_ASSOC);
 	$total = intval($row2["kt"]) + intval($row2["dt"]);
-	$dump_percent = round(intval($row2["dt"]) / $total, 2);
+	$dump_percent = @round(intval($row2["dt"]) / $total, 2);
 	echo "\n<tr class='grand'><td>GRAND TOTAL</td><td></td><td>".$row2["kt"]."</td><td>".$row2["dt"]."</td><td>" . $dump_percent . "</td><td>" . $total . "</td></tr>\n";
 	echo '</table>';
 	echo "\n" . '<script>$("#' . $slug . '-table").tablesorter();</script>';
@@ -79,6 +79,11 @@ svg.intralink path { fill: #aaa; }
 <h1>Keep 'Em Dump 'Em results</h1>
 
 <?php
+
+$year = 2017;
+$team = 'mets';
+admin_table_dump($year, $team);
+
 $year = 2017;
 $team = 'trump';
 admin_table_dump($year, $team);
