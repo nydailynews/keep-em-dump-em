@@ -80,6 +80,10 @@ svg.intralink path { fill: #aaa; }
 
 <?php
 $year = 2017;
+$team = 'trump';
+admin_table_dump($year, $team);
+
+$year = 2017;
 $team = 'rangers';
 admin_table_dump($year, $team);
 

@@ -16,6 +16,8 @@ h2 {
 }
 h3 {
     text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
 }
 .callout {
     -webkit-transition: all 2s ease-out;
@@ -30,6 +32,10 @@ p {
     font-family: 'PT Serif', serif;
     margin-left: 16px;
     font-size: 17px;
+}
+ol li {
+    font-family: "PT Serif", serif;
+    list-style-type: decimal;
 }
 
 
