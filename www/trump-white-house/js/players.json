@@ -227,12 +227,6 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423819!/img/httpImage/94013539.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "David Shulkin",
     "title": "Secretary of Veterans Affairs",
@@ -241,6 +235,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Rex Tillerson",
     "title": "Secretary of State",
