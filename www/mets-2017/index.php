@@ -173,7 +173,7 @@ endif;
 				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/&amp;text=Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
 				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/"><div id="email"></div></a>
 			</div>
-			<p></p>
+			<p>The Mets season was so bad that Mr. Met flipped out and the Home Run Apple went on strike. It was that kind of year for the not-so-Amazin's. The Mets led the league in doctor visits and not much else. Now that the Met misery is over (for now), it's time to let the fans play GM and decide the fate of the franchise. Start voting now ... just don't get hurt in the process.</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">

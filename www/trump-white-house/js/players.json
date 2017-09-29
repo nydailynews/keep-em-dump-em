@@ -71,7 +71,7 @@
   },
   {
     "name": "Hope Hicks",
-    "title": "Interim White House Communications Director",
+    "title": "White House Communications Director",
     "id": "10",
     "section": "WHITEHOUSE",
     "gender": "her",
@@ -117,7 +117,7 @@
   },
   {
     "name": "Linda McMahon",
-    "title": "Administrator of the Small Business Administration",
+    "title": "Small Business Administration",
     "id": "15",
     "section": "WHITEHOUSE",
     "gender": "her",
@@ -149,7 +149,7 @@
   },
   {
     "name": "Mick Mulvaney",
-    "title": "Director of the Office of Management and Budget",
+    "title": "Office of Management and Budget",
     "id": "19",
     "section": "WHITEHOUSE",
     "gender": "",
@@ -189,7 +189,7 @@
   },
   {
     "name": "Tom Price",
-    "title": "Secretary of Health and Human Services",
+    "title": "Secretary of Health & Human Services",
     "id": "24",
     "section": "WHITEHOUSE",
     "gender": "",
