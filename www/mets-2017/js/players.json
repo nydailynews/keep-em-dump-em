@@ -15,6 +15,11 @@
     "id": "3",
     "section": "BONUS"
   },
+    {
+        "name": "ad",
+        "id": "",
+        "section": "BONUS"
+    },
   {
     "name": "Matt Harvey",
     "id": "4",
@@ -100,6 +105,26 @@
     "id": "20",
     "section": "PITCHERS"
   },
+    {
+        "name": "ad",
+        "id": "",
+        "section": "PITCHERS"
+    },
+  {
+    "name": "Jose Reyes",
+    "id": "25",
+    "section": "POSITIONS"
+  },
+  {
+    "name": "Yoenis Cespedes",
+    "id": "31",
+    "section": "POSITIONS"
+  },
+  {
+    "name": "David Wright",
+    "id": "34",
+    "section": "POSITIONS"
+  },
   {
     "name": "David Wright",
     "id": "34",
@@ -170,6 +195,11 @@
     "id": "33",
     "section": "POSITIONS"
   },
+    {
+        "name": "ad",
+        "id": "",
+        "section": "BONUS"
+    },
   {
     "name": "Terry Collins",
     "id": "35",
