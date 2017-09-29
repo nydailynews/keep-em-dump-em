@@ -7,7 +7,7 @@
   {
     "name": "Training Staff",
     "id": "2",
-    "gender": "Them",
+    "gender": "'em",
     "section": "BONUS"
   },
   {
@@ -180,6 +180,11 @@
     "id": "33",
     "section": "POSITIONS"
   },
+    {
+        "name": "ad",
+        "id": "",
+        "section": "BONUS"
+    },
   {
     "name": "Terry Collins",
     "id": "35",
