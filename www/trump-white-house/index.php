@@ -257,6 +257,13 @@ endif;
                 </section>
 			</div>
 		</div>   
+	  <div class="ad center">
+		<div id='div-gpt-ad-x105'>
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-x105'); });
+			</script>
+		</div>
+	  </div>
 	</main>   
 
 	<!-- mobile ad -->

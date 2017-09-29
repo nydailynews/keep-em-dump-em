@@ -71,7 +71,6 @@ endif;
 
 		<meta name="themeKey" content="nydailynews" />
 		<meta name="mapThemeKey" content="responsive" />
-		<meta name="urlPrefix" content="" />
 		<meta name="localeCountry" content="US"/>
 		<meta name="localeLanguage" content="en" />
 		<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" media="all" />
@@ -196,6 +195,13 @@ endif;
 				<section id="BRASS"></section>
 			</div>
 		</div>   
+	  <div class="ad center">
+		<div id='div-gpt-ad-x105'>
+			<script>
+				googletag.cmd.push(function() { googletag.display('div-gpt-ad-x105'); });
+			</script>
+		</div>
+	  </div>
 	</main>   
 
 	<!-- mobile ad -->
@@ -237,12 +243,12 @@ endif;
     <script src="../js/foundation.min.js"></script>
     <script src="../js/jquery.waypoints.min.js"></script>
     <script src="../js/sticky.js"></script>
-    <script src="../js/app-keepem.js"></script>
+    <script onload="keepem.init();" src="../js/app-keepem.js"></script>
     <script>
-		keepem.init();
         $(document).foundation();
     </script>
     <script>_satellite.pageBottom();</script>
 
     </div>
   </body>
+</html>
