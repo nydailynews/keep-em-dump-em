@@ -166,7 +166,7 @@ endif;
 				<li><a href="http://interactive.nydailynews.com/poll/">Polls</a></li>
 				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
 			</ul>
-			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: New York Mets</h1>        
+			<h1 class="columns">2017 Keep&nbsp;'em Dump&nbsp;'em: New York Mets</h1>        
 			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
 				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
@@ -177,7 +177,7 @@ endif;
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
-      <div class="columns">
+			<div class="columns">
 				<h2 class="section">Pitchers</h2>
 				<section id="PITCHERS"></section>
 			</div>
@@ -189,10 +189,10 @@ endif;
 				<h2 class="section">The Brass</h2>
 				<section id="BRASS"></section>
 			</div>
-      <div class="columns">
-        <h2 class="section">Honorable Mentions</h2>
-        <section id="BONUS"></section>
-      </div>
+        <div class="columns">
+				<h2 class="section">Honorable Mentions</h2>
+				<section id="BONUS"></section>
+			  </div>
 		</div>
 	</main>
 

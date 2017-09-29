@@ -124,13 +124,17 @@ var keepem = {
                 // ENDVOTE
                 keepem.votes.total += 1;
                 var kd = 'keep';
-                if ( vote == 0 ) kd = 'dump';
+                if ( vote == 1 ) kd = 'dump';
                 keepem.votes[kd] += 1;
                 keepem.votes.section[section][kd] += 1;
                 if ( keepem.votes.total == keepem.player_count ) keepem.finish();
             });
         });
         if ( document.location.hash == '#dev' ) console.log(query);
+    },
+    trigger_all: function (action) {
+        if ( action !== 'keep' ) action = 'dump';
+        $("." + action).trigger("click");
     },
     get_vote: function (int, player, firstname, player_name) {
         var random = this.rando();
@@ -191,14 +195,20 @@ var keepem = {
         var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
         var avg_keep_percent = this.to_percent(d.percent_avg);
         var kept = '', dumped = '';
-        for ( var i = 0; i < 5; i ++ ) {
-            kept += '   <li>' + d['kept'][i]['name'] + ': ' + this.to_percent(d['kept'][i]['percent']) + '%<li>\n';
-            dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + this.to_percent(d['dumped'][i]['percent']) + '%<li>\n';
+        var vote_text = 'You voted to keep ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
+On average, readers voted to keep ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
+';
+        var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.config.team + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('.On average, r', ' R'));
+        var len = d['kept'].length;
+        var kept_blurb = ' voted to keep', dumped_blurb = ' voted to keep';
+        for ( var i = 0; i < len; i ++ ) {
+            kept += '   <li>' + d['kept'][i]['name'] + ': ' + this.to_percent(d['kept'][i]['percent']) + '%' + kept_blurb + '</li>\n';
+            dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + this.to_percent(d['dumped'][i]['percent']) + '%' + dumped_blurb + '</li>\n';
+            kept_blurb = '', dumped_blurb = '';
         }
         jQuery('#players').html('<h2 class="callout">Final Results</h2>\n\
 <p>\n\
-    You voted to keep ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
-    On average, readers voted to keep ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
+' + vote_text + vote_text_tweet + '\n\
 </p>\n\
 <p>\n\
     These are the most-kept and most-dumped players overall:\n\
