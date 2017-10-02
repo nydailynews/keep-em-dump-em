@@ -10,4 +10,4 @@ CREATE TABLE `kd_TEAM` (
   KEY `year` (`year`),
   KEY `name` (`name`),
   KEY `section` (`section`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1
+) ENGINE=InnoDB DEFAULT CHARSET=latin1;
