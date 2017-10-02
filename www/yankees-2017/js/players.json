@@ -79,6 +79,11 @@
    "id": 16,
    "section": "PITCHERS"
  },
+    {
+        "name": "ad",
+        "id": "",
+        "section": "PITCHERS"
+    },
  {
    "name": "Jacoby Ellsbury",
    "id": 17,
@@ -149,6 +154,11 @@
    "id": 30,
    "section": "POSITIONS"
  },
+     {
+        "name": "ad",
+        "id": "",
+        "section": "POSITIONS"
+    },
  {
    "name": "Hal Steinbrenner",
    "id": 31,
@@ -174,6 +184,11 @@
    "id": 35,
    "section": "BRASS"
  },
+     {
+        "name": "ad",
+        "id": "",
+        "section": "BRASS"
+    },
  {
    "name": "Judge's Chambers",
    "id": 36,
