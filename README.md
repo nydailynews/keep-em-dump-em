@@ -21,7 +21,7 @@ Where the NY Daily News' Keep 'Em Dump 'Em online poll app lives.
 7. Edit the `js/players.json` file in your project and add the players names and ID's. ID's start off wherever the previous team's ID's left off -- zero if we're starting a table from scratch. If we're not starting from scratch you'll have to get into the database and see what's already in there (sigh). [Here's what the Knicks 2017 players.json looks like](http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2017/js/players.json).
 8. _If a table in the database for the keep/dump'ed team already exists,_ you won't have to follow these next steps:
     1. [Copy the SQL in `www/sql/new_team.sql` and paste it into the text editor of your choice](/www/sql/new_team.sql)
-    2. On the second line, change the word `TEAM` to the team this is for. The line should end up looking something like "CREATE TABLE ``kd_yankees`` (" or "CREATE TABLE ``kd_giants`` ("
+    2. On the second line, change the word `TEAM` to the team this is for. The line should end up looking something like "CREATE TABLE ```kd_yankees``` (" or "CREATE TABLE ```kd_giants``` ("
     3. SSH into the server that the database is on.
     4. Log in to the database server. This is usually a command such as `mysql -uUSERNAME -p DATABASENAME`, though if `mysql` isn't set (run `which mysql` to find out) you'll have to find the path to the mysql binary (run `whereis mysql`, look for the path with `bin` in it).
     5. Run the SQL query you generated way back at the start of this little sub-how-to.
