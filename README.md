@@ -19,7 +19,7 @@ Where the NY Daily News' Keep 'Em Dump 'Em online poll app lives.
 5. Create a new sharing image for the new Keep 'Em Dump 'Em. The PSD is in [`www/psd`](/www/psd). Export that PSD as a PNG and stick that in the img directory of your new project.
 6. Delete and / or edit the sections of the team your keep/dump'ing (NBA's "Players" and "Brass," NFL's "Offense" "Defense" etc.). [Those start around here in the document](/www/_blank/index.php#L267).
 7. Edit the `js/players.json` file in your project and add the players names and ID's. ID's start off wherever the previous team's ID's left off -- zero if we're starting a table from scratch. If we're not starting from scratch you'll have to get into the database and see what's already in there (sigh). [Here's what the Knicks 2017 players.json looks like](http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2017/js/players.json).
-8. If a table in the database for the keep/dump'ed team already exists, you won't have to [take the SQL in `www/sql/table.sql` and modify it for your needs before running it on QA and PROD](/www/sql/table.sql).
+8. If a table in the database for the keep/dump'ed team already exists, you won't have to [take the SQL in `www/sql/new_team.sql` and modify it for your needs before running it on QA and PROD](/www/sql/new_team.sql).
 9. No matter what, you'll still have to insert the player records into the database. You won't believe the hack that was built to make this as painless as was reasonable, it's kind of up there in the list of the best worst hacks. Here we go:
     1. Once you've done all of the above you should have a working page on your local server. _Load that URL on localhost and load it with `#dev` appended to the URL._
     2. Open your console.
