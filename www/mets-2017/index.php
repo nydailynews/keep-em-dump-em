@@ -166,7 +166,6 @@ endif;
 				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
 			</ul>
 			<h1 class="columns">2017 Keep&nbsp;'em Dump&nbsp;'em: New York Mets</h1>        
-			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
 				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
 				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/&amp;text=Vote which New York Mets players and front-office personnel to keep and which to get rid of on the 2017 Mets Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>

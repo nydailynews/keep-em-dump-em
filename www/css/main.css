@@ -8,6 +8,8 @@ h1 {
     color: #333;
     margin-bottom: 0px;
     line-height: 34px;
+    clear: both;
+    float: none!important;
 }
 h2 {
     font-size: 24px;
@@ -274,6 +276,7 @@ ul#breadcrumbs li:first-child { padding-left: 0; }
 }
 
 #social_map {
+  clear: both;
   margin-bottom: 10px;
 }
 #social_map a {
