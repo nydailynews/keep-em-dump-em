@@ -166,14 +166,14 @@ p.name span {
     font-size: 10px;
 }
 
-span.keep{
+div.keep, span.keep {
   background-image: url('../img/keepem_sprite.png');
   background-repeat: no-repeat;
   background-position: -8px -86px;
   padding-left: 16px;
 }
 
-span.dump{
+div.dump, span.dump {
   background-image: url('../img/keepem_sprite.png');
   background-repeat: no-repeat;
   background-position: -8px -73px;

@@ -110,7 +110,7 @@ var keepem = {
                     keepem.votes.section[item.section] = { keep: 0, dump: 0 }
                 }
             });
-            $(".button").on('click', function() {
+            $(".button").on('click touchstart', function() {
                 var player_id = $(this).parent().parent().attr('id');
                 var player_first = $(this).parent().parent().attr('first');
                 var player_name = $(this).parent().text().split("KEEP")[0];
@@ -140,7 +140,7 @@ var keepem = {
     get_vote: function (int, player, firstname, player_name) {
         var random = this.rando();
 
-        console.log(player, firstname, player_name);
+        //console.log(player, firstname, player_name);
         jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
         {
             keep = eval(data.split("||")[0]);
