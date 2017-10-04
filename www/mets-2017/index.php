@@ -151,6 +151,7 @@ endif;
 	};
 	</script>
 	<main>
+  <canvas id="canvas"></canvas>
 		  <div class="ad center">
 			<div id='div-gpt-ad-x101'>
 				<script>

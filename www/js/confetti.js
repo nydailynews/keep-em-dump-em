@@ -32,17 +32,7 @@
             return this.colorOptions[this.colorIndex];
         }
     }
-    requestAnimFrame = function () {
-        return window.requestAnimationFrame || 
-        window.webkitRequestAnimationFrame || 
-        window.mozRequestAnimationFrame || 
-        window.oRequestAnimationFrame || 
-        window.msRequestAnimationFrame || 
-        function (callback) {
-            return window.setTimeout(callback, 1000 / 60);
-        };
-    };
-    
+
     function confettiParticle(color) {
         this.x = Math.random() * W; // x-coordinate
         this.y = (Math.random() * H) - H; //y-coordinate
@@ -83,9 +73,6 @@
     }
 
     function SetGlobals() {
-        // var c = document.createElement('canvas');
-        // c.setAttribute ('id', 'canvas');
-        // document.getElementsByTagName('body')[0].appendChild(c);
         canvas = document.getElementById("canvas");
         ctx = canvas.getContext("2d");
         W = window.innerWidth;
@@ -217,3 +204,14 @@
         }, 100);
 
     }
+
+    window.requestAnimFrame = (function () {
+        return window.requestAnimationFrame || 
+        window.webkitRequestAnimationFrame || 
+        window.mozRequestAnimationFrame || 
+        window.oRequestAnimationFrame || 
+        window.msRequestAnimationFrame || 
+        function (callback) {
+            return window.setTimeout(callback, 1000 / 60);
+        };
+    })();

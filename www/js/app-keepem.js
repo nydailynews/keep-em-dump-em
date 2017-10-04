@@ -172,8 +172,12 @@ var keepem = {
     },
     finish: function() {
         // Do some fun things for the reader when they've made all their votes.
-        // Like show a new ad.
+        // Like show a new ad or confetti.
         // ENDVOTE
+        var s = document.createElement('script');
+        s.setAttribute('src', '../js/confetti.js');
+        s.onload = window.setTimeout('DeactivateConfetti()', 10);
+        document.getElementsByTagName('head')[0].appendChild(s);
         var rando = this.rando();
         var query = jQuery.param(this.votes);
         var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">See Final Keep \'Em Dump \'Em Results</a></h3>';
