@@ -174,12 +174,12 @@ var keepem = {
         // Do some fun things for the reader when they've made all their votes.
         // Like show a new ad or confetti.
         // ENDVOTE
-        $('main').append('<canvas id="confetti" style="position:fixed; top: 0; left: 0; width: 100%; height: 100%;"></canvas">');
+        $('main').append('<canvas id="confetti" style="z-index:-1;position:fixed; top: 0; left: 0; width: 100%; height: 100%;"></canvas">');
         var s = document.createElement('script');
         s.setAttribute('src', '../js/confetti.js');
         s.setAttribute('onload', "window.setTimeout('DeactivateConfetti(); ', 1500)");
         document.getElementsByTagName('head')[0].appendChild(s);
-        window.setTimeout('$(\"#confetti\").remove();', 10000);
+        window.setTimeout('$(\"#confetti\").remove();', 5000);
         var rando = this.rando();
         var query = jQuery.param(this.votes);
         var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">See Final Keep \'Em Dump \'Em Results</a></h3>';
