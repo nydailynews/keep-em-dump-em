@@ -231,7 +231,7 @@ On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_
     tweet_link: function(text) {
         // Given the words to put in a tweet, return markup suitable for a tweet-this link.
         var url = document.location.origin + document.location.pathname;
-        return '<span><a href="https://twitter.com/intent/tweet?text=' + text + '&amp;url=' + url + '&amp;via=NYDNSports&amp;related=NYDNi,NYDailyNews" target="_blank">Tweet this</a></span>';
+        return '<span><a href="https://twitter.com/intent/tweet?text=' + text + '&amp;url=' + url + '&amp;via=NYDNi&amp;related=NYDNSports,NYDailyNews" target="_blank">Tweet this</a></span>';
     },
     to_percent: function(val) {
         // Turn a float value between 0 and 1.0 into a percent value to one decimal place, 0.0% to 100.0%.
