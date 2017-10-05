@@ -194,5 +194,17 @@
    "id": 36,
    "gender": "it",
    "section": "BONUS"
+ },
+ {
+   "name": "Thumbs Down Salute",
+   "id": 37,
+   "gender": "it",
+   "section": "BONUS"
+ },
+ {
+   "name": "Mock Presser",
+   "id": 38,
+   "gender": "it",
+   "section": "BONUS"
  }
 ]

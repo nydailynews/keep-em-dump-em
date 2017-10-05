@@ -50,8 +50,8 @@ endif;
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/img/yankees-2017-lineup.jpg",
 				"dateCreated": "2017-10-01T07:00:00Z",
 				"articleSection": "Interactive",
-				"creator": ["Interactive Poll","Joe Murphy","Kelli R. Parker"],
-				"keywords": ["interactive","interactive poll","new york yankees, yankees keep em or dump em, yankees 2018-19, who should be on the yankees next year"]
+				"creator": ["Interactive Poll","Kelli R. Parker"],
+				"keywords": ["interactive","interactive poll","new york yankees","MLB"]
 			}
 		</script>
 
@@ -173,11 +173,11 @@ endif;
 				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/&amp;text=Vote which New York Yankees players and front-office personnel to keep and which to get rid of on the 2017 Yankees Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
 				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/"><div id="email"></div></a>
 			</div>
-			<p>YANKEES INTRO TEXT GOES HERE</p>
+			<p>The Yankees were supposed to be a year away. But thanks to the spark provided by the Baby Bombers, the high-powered Yankees chased the Red Sox all the way to the finish line. But anything short of a World Series title around here means you came up small. Now that the 2017 campaign is over, it's time to put on your GM cap and vote on the future of the Yankees.</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
-      <div class="columns">
+			<div class="columns">
 				<h2 class="section">Pitchers</h2>
 				<section id="PITCHERS"></section>
 			</div>
@@ -189,10 +189,10 @@ endif;
 				<h2 class="section">The Brass</h2>
 				<section id="BRASS"></section>
 			</div>
-      <div class="columns">
-        <h2 class="section">Honorable Mentions</h2>
-        <section id="BONUS"></section>
-      </div>
+			<div class="columns">
+				<h2 class="section">Honorable Mentions</h2>
+				<section id="BONUS"></section>
+			</div>
 		</div>
 	</main>
 
