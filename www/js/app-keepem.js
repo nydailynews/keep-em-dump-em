@@ -115,10 +115,10 @@ var keepem = {
                 var player_first = $(this).parent().parent().attr('first');
                 var player_name = $(this).parent().text().split("KEEP")[0];
                 var section = $(this).parent().parent().parent().attr('id');
-                $('#'+player_id+"_vote").hide();
+                var vote = ($(this).attr("name"));
+                $('#'+player_id+"_vote").remove();
                 $('#'+player_id+"_results").fadeIn('slow');
                 $("#"+player_id).find(".social").fadeIn('slow');
-                var vote = ($(this).attr("name"));
                 keepem.get_vote(vote, player_id, player_first, player_name.trim());
 
                 // ENDVOTE
@@ -138,10 +138,8 @@ var keepem = {
         $("." + action).trigger("click");
     },
     get_vote: function (int, player, firstname, player_name) {
-        var random = this.rando();
-
         //console.log(player, firstname, player_name);
-        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+random, function(data)
+        jQuery.get("php/vote.php?vote="+int+"&player="+player+"&year="+this.config.year+"&"+this.rando(), function(data)
         {
             keep = eval(data.split("||")[0]);
             dump = eval(data.split("||")[1]);
@@ -156,12 +154,12 @@ var keepem = {
             if (int == 0)
             {
                 $("#"+player).find(".your_vote").addClass("keep");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:&via=nydni")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:&via=nydni&related=NYDailyNews,NYDNSports")
             }
             else
             {
                 $("#"+player).find(".your_vote").addClass("dump");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=nydni")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=nydni&related=NYDailyNews,NYDNSports")
             }
             $("#"+player).find(".clear").attr("vote", int)
             $("#"+player).find(".dump_bar").css('width', Math.floor(percent_d/2)+"%");
