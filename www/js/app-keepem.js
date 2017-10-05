@@ -179,7 +179,7 @@ var keepem = {
         s.setAttribute('src', '../js/confetti.js');
         s.setAttribute('onload', "window.setTimeout('DeactivateConfetti(); ', 1500)");
         document.getElementsByTagName('head')[0].appendChild(s);
-        window.setTimeout('$(\"#confetti\").remove();', 5000);
+        window.setTimeout('$(\"#confetti\").remove();', 8000);
         var rando = this.rando();
         var query = jQuery.param(this.votes);
         var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">See Final Keep \'Em Dump \'Em Results</a></h3>';
