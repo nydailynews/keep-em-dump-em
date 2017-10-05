@@ -1,3 +1,10 @@
+
+    requestAnimFrame = (function () {
+        return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
+            return window.setTimeout(callback, 1000 / 60);
+        };
+    })();
+
     // globals
     var canvas;
     var ctx;
@@ -14,7 +21,6 @@
     var animationHandler;
 
     // objects
-
     var particleColors = {
         colorOptions: ["Crimson","DarkOrange","Gold","Green","RoyalBlue","Indigo","Violet","Magenta","Cyan","LightGray"],
         colorIndex: 0,
@@ -73,7 +79,7 @@
     }
 
     function SetGlobals() {
-        canvas = document.getElementById("canvas");
+        canvas = document.getElementById("confetti");
         ctx = canvas.getContext("2d");
         W = window.innerWidth;
         H = window.innerHeight;
@@ -204,14 +210,3 @@
         }, 100);
 
     }
-
-    window.requestAnimFrame = (function () {
-        return window.requestAnimationFrame || 
-        window.webkitRequestAnimationFrame || 
-        window.mozRequestAnimationFrame || 
-        window.oRequestAnimationFrame || 
-        window.msRequestAnimationFrame || 
-        function (callback) {
-            return window.setTimeout(callback, 1000 / 60);
-        };
-    })();
