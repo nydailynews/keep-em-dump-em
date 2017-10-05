@@ -59,25 +59,6 @@
         }
     }
 
-    $(document).ready(function () {
-        SetGlobals();
-        InitializeButton();
-        InitializeConfetti();
-
-        $(window).resize(function () {
-            W = window.innerWidth;
-            H = window.innerHeight;
-            canvas.width = W;
-            canvas.height = H;
-        });
-
-    });
-
-    function InitializeButton() {
-        $('#stopButton').click(DeactivateConfetti);
-        $('#startButton').click(RestartConfetti);
-    }
-
     function SetGlobals() {
         canvas = document.getElementById("confetti");
         ctx = canvas.getContext("2d");
@@ -210,3 +191,5 @@
         }, 100);
 
     }
+SetGlobals();
+InitializeConfetti();
