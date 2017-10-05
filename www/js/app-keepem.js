@@ -203,7 +203,7 @@ var keepem = {
         var vote_text = 'You voted to dump ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
 On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
 ';
-        var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.config.team + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('.On average, r', ' R'));
+        var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.config.team + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('On average, r', ' R'));
         var len = d['kept'].length;
         var kept_blurb = ' voted to keep', dumped_blurb = ' voted to keep';
         for ( var i = 0; i < len; i ++ ) {
@@ -218,10 +218,14 @@ On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_
 <p>\n\
     These are the most-kept and most-dumped players overall:\n\
 </p>\n\
-    <h3>Most Kept</h3>\n\
-    <ol>' + kept + '</ol>\n\
-    <h3>Most Dumped</h3>\n\
-    <ol>' + dumped + '</ol>\n\
+    <div class="large-6 medium-6 small-12 columns">\n\
+        <h3>Most Kept</h3>\n\
+        <ol>' + kept + '</ol>\n\
+    </div>\n\
+    <div class="large-6 medium-6 small-12 columns">\n\
+        <h3>Most Dumped</h3>\n\
+        <ol>' + dumped + '</ol>\n\
+    </div>\n\
 ');
     },
     tweet_link: function(text) {
