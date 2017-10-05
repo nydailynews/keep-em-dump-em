@@ -75,6 +75,7 @@
             canvas.height = H;
         });
 
+console.log('sdfs');
     });
 
     function InitializeButton() {
@@ -217,3 +218,8 @@
         }, 100);
 
     }
+    
+    return window.requestAnimationFrame || window.webkitRequestAnimationFrame || window.mozRequestAnimationFrame || window.oRequestAnimationFrame || window.msRequestAnimationFrame || function (callback) {
+        return window.setTimeout(callback, 1000 / 60);
+        };
+    })();
