@@ -170,7 +170,7 @@ endif;
 			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
 				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
-				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/&amp;text=Vote which New York Yankees players and front-office personnel to keep and which to get rid of on the 2017 Yankees Keep 'Em Dump 'Em&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/&amp;text=Vote which New York Yankees players and front-office personnel to keep and which to dump&amp;via=NYDNi&related=nydailynews,NYDNSports" target="_blank"><div id="twitter"></div></a>
 				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/yankees-2017/"><div id="email"></div></a>
 			</div>
 			<p>The Yankees were supposed to be a year away. But thanks to the spark provided by the Baby Bombers, the high-powered Yankees chased the Red Sox all the way to the finish line. But anything short of a World Series title around here means you came up small. Now that the 2017 campaign is over, it's time to put on your GM cap and vote on the future of the Yankees.</p>
@@ -193,6 +193,7 @@ endif;
 				<h2 class="section">Honorable Mentions</h2>
 				<section id="BONUS"></section>
 			</div>
+			<p>Related: <a href="/poll/keep-em-dump-em/mets-2017/">The 2017 Mets Keep 'Em Dump 'Em</a>.</p>
 		</div>
 	</main>
 

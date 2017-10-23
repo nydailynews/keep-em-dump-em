@@ -36,6 +36,11 @@ var keepem = {
             .replace(/^-+/, '')             // Trim - from start of text
             .replace(/-+$/, '');            // Trim - from end of text
     },
+    to_title_case: function (text) {
+        return text.replace(/\w\S*/g, function(text){
+            return text.charAt(0).toUpperCase() + text.substr(1).toLowerCase();
+        });
+    },
     get_players: function() {
         $.getJSON('js/players.json?' + this.config.version, function(data) {
       
@@ -203,7 +208,7 @@ var keepem = {
         var vote_text = 'You voted to dump ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
 On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
 ';
-        var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.config.team + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('On average, r', ' R'));
+        var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.to_title_case(this.config.team) + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('On average, r', ' R'));
         var len = d['kept'].length;
         var kept_blurb = ' voted to keep', dumped_blurb = ' voted to keep';
         for ( var i = 0; i < len; i ++ ) {

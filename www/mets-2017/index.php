@@ -187,10 +187,11 @@ endif;
 				<h2 class="section">The Brass</h2>
 				<section id="BRASS"></section>
 			</div>
-        <div class="columns">
+			<div class="columns">
 				<h2 class="section">Honorable Mention</h2>
 				<section id="BONUS"></section>
-			  </div>
+			</div>
+			<p>Related: <a href="/poll/keep-em-dump-em/yankees-2017/">The 2017 Yankees Keep 'Em Dump 'Em</a>.</p>
 		</div>
 	</main>
 
