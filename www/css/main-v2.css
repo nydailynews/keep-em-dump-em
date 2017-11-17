@@ -1,0 +1,341 @@
+h1, h2, h3, h4, h5, ul, ol, button {
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h1 {
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 0px;
+    line-height: 34px;
+    clear: both;
+    float: none!important;
+}
+h2 {
+    font-size: 24px;
+    float: none;
+    font-weight: bold;
+}
+h3 {
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+}
+.callout {
+    border-top: 1px solid #aaa;
+    border-bottom: 1px solid #aaa;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+}
+p {
+    font-family: 'PT Serif', serif;
+    margin-left: 16px;
+    font-size: 17px;
+}
+ol li {
+    font-family: "PT Serif", serif;
+    list-style-type: decimal;
+}
+
+
+.section{
+  text-transform: uppercase;
+  color:  #004685;
+  margin-bottom: 10px;
+  line-height: 34px; 
+}
+
+.panel{
+  height: 110px;
+  background: rgba(0, 0, 0, .5);
+  padding: 13px;
+}
+
+#players{
+  font-family: "Roboto", sans-serif;
+}
+
+.blue{
+  color: #1C2841;
+}
+
+.orange{
+  color: #c35521;
+}
+
+.aplayer{
+  height: 0px;
+}
+.name{
+  font-family: 'Roboto', sans-serif;
+  text-transform: uppercase;
+  font-size: 18.6px;
+  line-height: 1em;
+  margin: 7px 0;
+  padding: 0;
+}
+p.name span {
+  display: block;
+  font-size: .6em;
+  line-height: .9em;
+}
+
+.button.radius{
+  text-transform: uppercase;
+  font-family: 'Roboto', sans-serif; 
+  font-weight: 300;
+  background-color: #f7f7f7;
+  color: #525252;
+  border: 0px;
+  margin-right: 11px;
+}
+
+.button.keep:hover, .button.keep:focus{
+  background-color: #75a841;
+}
+
+.button.keep:active{
+  background-color: #69983a;
+}
+
+.button.dump:hover, .button.dump:focus{
+  background-color: #d93b3c;
+}
+
+.button.dump:active{
+  background-color:#bb3637;
+  }
+  
+.social{
+  display: none;
+  width: 100px;
+  position: absolute;
+  left: 240px;
+  top: 290px;
+}
+
+.facebook{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: 2px 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+/*   margin-right: 11px; */
+  cursor: pointer;
+}
+
+.facebook:hover{
+  background-position: 2px -31px;
+}
+
+.twitter{
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -30px 4px;
+  width: 32px;
+  height: 32px;
+  float: left;
+  cursor: pointer;
+}
+
+.twitter:hover{
+  background-position: -30px -31px;
+}
+
+
+
+.panel.results{
+    text-transform: uppercase;
+    display: none;
+    font-size: 12px;
+    background-color: #13161c
+}
+.result_num{
+  padding-left: 4px;
+  float: left;
+  position: relative;
+  top: -6px;
+  font-size: 16px;
+}
+
+.your_vote{
+    text-transform: uppercase;
+    color: #999;
+    font-size: 10px;
+}
+
+div.keep, span.keep {
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -8px -86px;
+  padding-left: 16px;
+}
+
+div.dump, span.dump {
+  background-image: url('../img/keepem_sprite.png');
+  background-repeat: no-repeat;
+  background-position: -8px -73px;
+  padding-left: 16px;
+}
+
+.keep_holder{
+    position: relative;
+    overflow: hidden;
+    clear: both;
+    top: -10px;
+}
+
+.clear{
+  cursor: pointer;
+  z-index: 5000;
+  position: relative;
+  top: 60px;
+  font-size: 16px;
+  color: #999999;
+}
+
+.clear:hover{
+  color: #e0e0e0;
+}
+
+.box_ad{
+  background-color: #ffffff;
+}
+
+.stuck {
+  position:fixed;
+  top:0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 10px 12px -9px rgba(0,0,0,0.14);
+  z-index: 100000;
+
+}
+
+#credits{
+    padding-bottom:11px;
+    font-size:11px;
+    color:#999;
+    font-family:Arial;
+    font-weight:400;
+}
+
+.keep_bar, .dump_bar {
+    height:12px;
+    background-color:#f23f3f;
+    float:left;
+}
+.keep_bar { background-color:#74a840; }
+.left { float: left; }
+.right{ float: right; }
+
+/* Fixes for social menu */
+body #rh-subnav-wrap {
+    padding: 10px 20px 0;
+}
+#rh-subnav ul {
+    width: 200px;
+}
+.center {
+    text-align: center;
+    margin: auto
+}
+article {
+    max-width: 1100px;
+    margin: auto;
+}
+
+@media only screen and (min-width: 800px) {
+    #rh-subscribe { top:-30px!important; }
+}
+
+
+/* BREADCRUMB STYLES */
+ul#breadcrumbs {
+    list-style-type: none;
+    margin-top: 5px;
+}
+ul#breadcrumbs li {
+    float: left;
+    font-weight: bold;
+    font-family: "PT Serif", serif;
+    padding-left: 3px;
+}
+ul#breadcrumbs li:after {
+    content: ' › ';
+}
+ul#breadcrumbs li:last-child:after { content: ''; }
+ul#breadcrumbs li:first-child { padding-left: 0; }
+@media only screen and (max-width: 800px) {
+    ul#breadcrumbs li {
+        font-size: 13px;
+    }
+}
+
+#social_map {
+  clear: both;
+  margin-bottom: 10px;
+}
+#social_map a {
+}
+
+#social_map #facebook {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 1px 4px;
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  cursor: pointer;
+  float: left;
+}
+
+#social_map #twitter {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 0 -42px;
+  width: 40px;
+  height: 40px;
+  margin-right: 11px;
+  cursor: pointer;
+  float: left;
+}
+
+#social_map #email {
+  background-image: url('../img/Share-Sprite-2.png');
+  background-repeat: no-repeat;
+  background-position: 0 -88px;
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  float: left;
+}
+.center {
+    margin: auto;
+    text-align: center;
+}
+.ad {
+    margin: 10px auto;
+}
+
+.dumped {
+  height: 372px;
+  background: url('../img/dumped.png');
+  position: relative;
+  margin-top: -372px;
+  margin-bottom: 40px;
+}
+
+.dumped p {
+  color: white;
+  padding: 10px;
+  position: relative;
+  top: 294px;
+  max-width: 300px;
+}
+#nydn-footer-services {
+    text-transform: uppercase;
+}
