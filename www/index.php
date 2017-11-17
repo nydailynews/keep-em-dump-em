@@ -8,7 +8,6 @@ $csv = new parseCSV('data.csv');
 <head>
     <title>Keep 'Em Dump 'Em Archives</title>
     <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
-    <!-- DEFAULT -->
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -17,12 +16,10 @@ $csv = new parseCSV('data.csv');
     <meta name="format-detection" content="telephone=no"/>
     <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
 
-    <!-- Keep 'Em Dump 'Em ArchivesS-->
     <meta property="og:title" content="Keep 'Em Dump 'Em Archives" />
     <meta name="twitter:title" content="Keep 'Em Dump 'Em Archives"/>
     <meta name="parsely-title" content="Keep 'Em Dump 'Em Archives" />
 
-    <!-- A collection of the New York Daily News' Keep 'Em Dump 'Em's-->
     <meta name="description" content="A collection of the New York Daily News' Keep 'Em Dump 'Em's" />
     <meta property="og:description" content="A collection of the New York Daily News' Keep 'Em Dump 'Em's" />
     <meta name="twitter:description" content="A collection of the New York Daily News' Keep 'Em Dump 'Em's" />
@@ -30,7 +27,7 @@ $csv = new parseCSV('data.csv');
     <!-- KEYWORD -->
     <meta name="keywords" content="polls,sports" />
     <meta name="news_keywords" content="polls,sports" />
-    <meta name="parsely-tags" content="interactive,interactive poll,Polls,polls" />
+    <meta name="parsely-tags" content="interactive,interactive poll,polls" />
 
     <!-- LINK -->
     <link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">
@@ -76,8 +73,8 @@ $csv = new parseCSV('data.csv');
     <!-- ADOBE ANALYTICS -->
     <script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
-    <script data-main="http://assets.nydailynews.com/nydn/js/rh.js?r=20170405001" src="http://assets.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet'>
+    <script data-main="//www.nydailynews.com/nydn/js/rh.js?r=20170405001" src="//www.nydailynews.com/nydn/js/require.js?r=2016LIST" defer></script>
       
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/rh.css?r=2016LIST">
     <link rel="stylesheet" type="text/css" href="http://assets.nydailynews.com/nydn/c/ra.css?r=2016LIST">
@@ -101,75 +98,7 @@ $csv = new parseCSV('data.csv');
     </script>
     
     <!-- ADS-START -->
-     <!-- ads -->
-        <script>
-          var googletag = googletag || {};
-          googletag.cmd = googletag.cmd || [];
-          (function() {
-          var gads = document.createElement('script');
-          gads.async = true;
-          var useSSL = 'https:' == document.location.protocol;
-          gads.src = (useSSL ? 'https:' : 'http:') + 
-          '//www.googletagservices.com/tag/js/gpt.js';
-          var node = document.getElementsByTagName('script')[0];
-          node.parentNode.insertBefore(gads, node);
-          })();
-        var is_mobile = /Android|webOS|iPhone|iPad|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent);
-        var ad_tag = 'poll';
-        </script>
-        <script>
-      if( !is_mobile ) {
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/NYDN/Interactive',  [[728, 90]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x50");
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x55");
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x55");
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/NYDN/Interactive',  [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x86");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
-          });
-        }
-        </script>
-        <!-- mobile ad -->
-        <script>
-        if( is_mobile ) {        
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/M.NYDN/Interactive', [[320, 50]], 'div-gpt-ad-x101').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x101");
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-1').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x35");
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-2').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x36");          
-          });
-          googletag.cmd.push(function() {
-          googletag.defineSlot('/4692832/M.NYDN/Interactive', [[300, 250]], 'div-gpt-ad-1423507761396-3').addService(googletag.pubads())
-          .setTargeting("interactive",ad_tag)
-          .setTargeting("position","x37");
-          googletag.pubads().enableSingleRequest();
-          googletag.enableServices();
-          });
-        }
-        </script>
+    <script onload="nydn_ads('poll');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
     <!-- ADS-END -->
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
