@@ -69,7 +69,19 @@ button.dump img {
     top: 8px;
 }
 
-/* SHARE ICON CSS */
+#nydn-shell #taboola-interactive_pages-3x3 span.video-label.video-title.trc_ellipsis {
+    color: #FFF;
+}
+
+#nydn-shell #taboola-interactive_pages-3x3 span.trc_rbox_header_span {
+    color: #FFF;
+}
+
+#nydn-shell #taboola-interactive_pages-3x3 div.logoDiv a span {
+    color: white;
+}
+
+/* ---------- SHARE ICON CSS ----------- */
 a {
 	text-decoration: none;
 	color: white;
@@ -144,7 +156,7 @@ a {
 }
 
 
-/*--------------------*/
+/*------------------------------------*/
 
 
 .section{
