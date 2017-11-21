@@ -85,18 +85,18 @@ var keepem = {
     <img alt="'+item.name+' photo" src="'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
-        <button name="0" class="button radius keep">KEEP ' + gender + '</button>\n\
-        <button name="1" class="button radius dump">DUMP ' + gender + '</button>\n\
+        <button name="0" class="button radius keep">KEEP <img src="img/thumbs-up.png" alt=""></button>\n\
+        <button name="1" class="button radius dump">DUMP <img src="img/thumbs-down.png" alt=""></button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
         <div class="your_vote">Your vote</div>\n\
         <div>\n\
-            <div>DUMP ' + gender + '</div>\n\
+            <div>DUMP </div>\n\
             <div class="dump_bar"></div>\n\
             <div class="dump_result_num result_num"></div>\n\
         </div>\n\
         <div class="keep_holder">\n\
-            <div>KEEP ' + gender + '</div>\n\
+            <div>KEEP </div>\n\
             <div class="keep_bar"></div>\n\
             <div class="keep_result_num result_num"></div>\n\
         </div>\n\

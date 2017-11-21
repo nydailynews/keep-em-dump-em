@@ -59,6 +59,16 @@ article {
 	margin: 25px auto;
 }
 
+button.keep img {
+    vertical-align: baseline;
+}
+
+button.dump img {
+    vertical-align: unset;
+    position: relative;
+    top: 8px;
+}
+
 /* SHARE ICON CSS */
 a {
 	text-decoration: none;
@@ -147,11 +157,11 @@ a {
 .panel{
   height: 110px;
   background: rgba(0, 0, 0, .5);
-  padding: 13px;
+  padding: 0;
 }
 
 #players{
-  font-family: "Roboto", sans-serif;
+  font-family: "Open Sans Condensed", sans-serif;
 }
 
 .blue{
@@ -166,11 +176,13 @@ a {
   height: 0px;
 }
 .name{
-  font-family: 'Roboto', sans-serif;
+  font: bold 18px 'Open Sans Condensed', sans-serif;
+  letter-spacing: 0.5px;
   text-transform: uppercase;
   margin: 7px 0;
-  padding: 0;
+  padding: 13px 0 0 13px;
 }
+
 p.name span {
   display: block;
   font-size: .6em;
@@ -179,28 +191,28 @@ p.name span {
 
 .button.radius{
   text-transform: uppercase;
-  font-family: 'Roboto', sans-serif; 
-  font-weight: 300;
-  background-color: #f7f7f7;
-  color: #525252;
-  border: 0px;
-  margin-right: 11px;
+  font: bold 20px 'Open Sans Condensed', sans-serif;
+  color: white;
+  margin-top: 6px;
+  border: 0;
+  border-radius: 0;
+  width: 145px;
 }
 
-.button.keep:hover, .button.keep:focus{
-  background-color: #75a841;
+.button.keep, .button.keep:focus{
+  background-color: #162546;
 }
 
 .button.keep:active{
-  background-color: #69983a;
+  background-color: #04060c;
 }
 
-.button.dump:hover, .button.dump:focus{
-  background-color: #d93b3c;
+.button.dump, .button.dump:focus{
+  background-color: #97999B;
 }
 
 .button.dump:active{
-  background-color:#bb3637;
+  background-color: #717375;
   }
   
 .social{

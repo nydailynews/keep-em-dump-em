@@ -184,15 +184,6 @@ endif;
 				<section id="BRASS"></section>
 			</div>
 		</div>
-
-	  <div class="ad center">
-		<div id='div-gpt-ad-x105'>
-			<script>
-				googletag.cmd.push(function() { googletag.display('div-gpt-ad-x105'); });
-			</script>
-		</div>
-	  </div>
-
 		</article>
 	</main>   
 
@@ -235,7 +226,7 @@ endif;
 	<script src="../js/foundation.min.js"></script>
 	<script src="../js/jquery.waypoints.min.js"></script>
 	<script src="../js/sticky.js"></script>
-	<script onload="keepem.init();" src="../js/app-keepem.js"></script>
+	<script onload="keepem.init();" src="../js/app-keepem-v2.js"></script>
 	<script>
 		$(document).foundation();
 	</script>
