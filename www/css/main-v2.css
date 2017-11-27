@@ -167,7 +167,7 @@ a {
 }
 
 .panel{
-  height: 110px;
+  height: 103px;
   background: rgba(0, 0, 0, .5);
   padding: 0;
 }
@@ -264,23 +264,23 @@ p.name span {
   background-position: -30px -31px;
 }
 
-
-
-.panel.results{
+.panel.results {
+  font: bold 20px 'Open Sans Condensed', sans-serif;
 	text-transform: uppercase;
 	display: none;
-	font-size: 12px;
-	background-color: #13161c
+	width: 100%;
+  height: 372px;
+  top: -372px;
 }
 .result_num{
   padding-left: 4px;
   float: left;
   position: relative;
   top: -6px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
-.your_vote{
+.your_vote {
 	text-transform: uppercase;
 	color: #999;
 	font-size: 10px;
@@ -344,10 +344,10 @@ div.dump, span.dump {
 
 .keep_bar, .dump_bar {
 	height:12px;
-	background-color:#f23f3f;
+	background-color: #EE3958;
 	float:left;
 }
-.keep_bar { background-color:#74a840; }
+.keep_bar { background-color: #0B9993; }
 .left { float: left; }
 .right{ float: right; }
 
