@@ -89,7 +89,6 @@ var keepem = {
         <button name="1" class="button radius dump">DUMP <img src="img/thumbs-down.png" alt=""></button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
-        <div class="your_vote">Your vote</div>\n\
         <div>\n\
             <div>DUMP </div>\n\
             <div class="dump_bar"></div>\n\
