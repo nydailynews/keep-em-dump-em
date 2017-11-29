@@ -173,7 +173,26 @@ endif;
 			</div>
 			<div class="columns">
 				<h2 class="section">Defense</h2>
-				<section id="DEFENSE"></section>
+				<section id="DEFENSE">
+					<div id="" first="" class="large-4 medium-6 small-12 columns left">
+    <img class="results-image" alt="Testy McTestface photo" src="img/testy_mctestface.jpg">
+    
+<div id="4_results" class="panel results" style="display: block;">
+	<div class="results-chart">
+		<div class="keep_result_num result_num">100%</div>
+		<div class="keep-bar"></div>
+		<div class="dump_result_num result_num">100%</div>
+		<div class="dump-bar"></div>
+	</div>
+	<div>
+		<p class="results-name">Testy McTestface</p>
+	</div>
+</div>
+				
+
+
+
+				</section>
 			</div>
 			<div class="columns">
 				<h2 class="section">Special teams</h2>
