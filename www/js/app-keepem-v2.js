@@ -89,15 +89,11 @@ var keepem = {
         <button name="1" class="button radius dump">DUMP <img src="img/thumbs-down.png" alt=""></button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
-    <div class="keep_holder">\n\
-            <div>KEEP </div>\n\
-            <div class="keep_bar"></div>\n\
+        <div class="results-chart">\n\
             <div class="keep_result_num result_num"></div>\n\
-        </div>\n\
-        <div>\n\
-            <div>DUMP </div>\n\
-            <div class="dump_bar"></div>\n\
+            <div class="keep_bar"></div>\n\
             <div class="dump_result_num result_num"></div>\n\
+            <div class="dump-bar"></div>\n\
         </div>\n\
     </div>\n\
     <div class="social">\n\
@@ -165,9 +161,11 @@ var keepem = {
                 $("#"+player).find(".your_vote").addClass("dump");
                 $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=nydni&related=NYDailyNews,NYDNSports")
             }
-            $("#"+player).find(".clear").attr("vote", int)
-            $("#"+player).find(".dump_bar").css('width', Math.floor(percent_d/2)+"%");
-            $("#"+player).find(".keep_bar").css('width', Math.floor(percent_k/2)+"%");
+            $("#"+player).find(".clear").attr("vote", int);
+            $("#"+player).find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1));
+            $("#"+player).find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1));
+            $("#"+player).find(".keep_result_num").css('top', Math.floor(percent_k -7)+'%');
+            $("#"+player).find(".dump_result_num").css('top', Math.floor(percent_d -7)+'%');
             $("#"+player).find(".keep_result_num").html(percent_k+"%");
             $("#"+player).find(".dump_result_num").html(percent_d+"%");
         });

@@ -187,6 +187,10 @@ endif;
 	<div>
 		<p class="results-name">Testy McTestface</p>
 	</div>
+	<div class="social" style="display: block;">
+        <a class="fb-share" href="https://www.facebook.com/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/" target="_blank"><div class="facebook"></div></a>
+        <a class="tweet" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/mets-2017/&amp;text=I voted to keep Matt Harvey. Cast your Mets Keep 'em, Dump 'em vote now:&amp;via=nydni&amp;related=NYDailyNews,NYDNSports" target="_blank"><div class="twitter"></div></a>
+    </div>
 </div>
 				
 
