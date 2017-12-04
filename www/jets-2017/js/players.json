@@ -1,297 +1,282 @@
 [
-    {
-        "name": "Testy McTestface",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "OFFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "DEFENSE"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "SPECIAL"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    },
-    {
-        "name": "",
-        "id": "",
-        "section": "BRASS"
-    }
+ {
+   "name": "Christian Hackenberg",
+   "id": 1,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Josh McCown",
+   "id": 2,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Bryce Petty",
+   "id": 3,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Matt Forte",
+   "id": 4,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Elijah McGuire",
+   "id": 5,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Bilal Powell",
+   "id": 6,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Robby Anderson",
+   "id": 7,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Quincy Enunwa",
+   "id": 8,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Jermaine Kearse",
+   "id": 9,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Jeremy Kerley",
+   "id": 10,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Charone Peake",
+   "id": 11,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Devin Smith",
+   "id": 12,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "ArDarius Stewart",
+   "id": 13,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Austin Seferian-Jenkins",
+   "id": 14,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Eric Tomlinson",
+   "id": 15,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Jonotthan Harrison",
+   "id": 16,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Wesley Johnson",
+   "id": 17,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "James Carpenter",
+   "id": 18,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Dakota Dozier",
+   "id": 19,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Brian Winters",
+   "id": 20,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Kelvin Beachum",
+   "id": 21,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Ben Ijalana",
+   "id": 22,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Brent Qvale",
+   "id": 23,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Brandon Shell",
+   "id": 24,
+   "section": "OFFENSE"
+ },
+ {
+   "name": "Kony Ealy",
+   "id": 25,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Muhammad Wilkerson",
+   "id": 26,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Leonard Williams",
+   "id": 27,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Steve McLendon",
+   "id": 28,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Mike Pennel",
+   "id": 29,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Freddie Bishop",
+   "id": 30,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Bruce Carter",
+   "id": 31,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Demario Davis",
+   "id": 32,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Jordan Jenkins",
+   "id": 33,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Darron Lee",
+   "id": 34,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Josh Martin",
+   "id": 35,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Lorenzo Mauldin",
+   "id": 36,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Julian Stanford",
+   "id": 37,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Juston Burris",
+   "id": 38,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Morris Claiborne",
+   "id": 39,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Xavier Coleman",
+   "id": 40,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Derrick Jones",
+   "id": 41,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Bryson Keeton",
+   "id": 42,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Darryl Roberts",
+   "id": 43,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Buster Skrine",
+   "id": 44,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Jamal Adams",
+   "id": 45,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Terrence Brooks",
+   "id": 46,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Marcus Maye",
+   "id": 47,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Rontez Miles",
+   "id": 48,
+   "section": "DEFENSE"
+ },
+ {
+   "name": "Chandler Catanzaro",
+   "id": 49,
+   "section": "SPECIAL"
+ },
+ {
+   "name": "Lac Edwards",
+   "id": 50,
+   "section": "SPECIAL"
+ },
+ {
+   "name": "Thomas Hennessy",
+   "id": 51,
+   "section": "SPECIAL"
+ },
+ {
+   "name": "Todd Bowles",
+   "id": 52,
+   "section": "BRASS"
+ },
+ {
+   "name": "John Morton",
+   "id": 53,
+   "section": "BRASS"
+ },
+ {
+   "name": "Kacy Rodgers",
+   "id": 54,
+   "section": "BRASS"
+ },
+ {
+   "name": "Mike Maccagnan",
+   "id": 55,
+   "section": "BRASS"
+ },
+ {
+   "name": "Christopher Johnson",
+   "id": 56,
+   "section": "BRASS"
+ }
 ]
