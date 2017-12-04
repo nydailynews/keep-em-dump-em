@@ -9,7 +9,7 @@ endif;
 <html lang="en">
   <head>
         <!-- DEFAULT -->
-        <title>TITLE</title>
+        <title>2017 New York Giants Keep 'Em Dump 'Em - NY Daily News</title>
         <meta charset="utf-8"> 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,25 +19,25 @@ endif;
         <link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
 
         <!-- Titles -->
-        <meta property="og:title" content="TITLE" />
-        <meta name="twitter:title" content="TITLE"/>
+        <meta property="og:title" content="2017 New York Giants Keep 'Em Dump 'Em" />
+        <meta name="twitter:title" content="2017 New York Giants Keep 'Em Dump 'Em"/>
 
         <!-- Description -->
-        <meta name="description" content="DESCRIPTION" />
-        <meta property="og:description" content="DESCRIPTION" />
-        <meta name="twitter:description" content="DESCRIPTION" />
+        <meta name="description" content="Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll" />
+        <meta property="og:description" content="Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll" />
+        <meta name="twitter:description" content="Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll" />
 
         <!-- KEYWORD -->
-        <meta name="keywords" content="KEYWORDS" />
+        <meta name="keywords" content="Giants,New York,online polls,sports,New York Giants 2017,Giants lineup,NFL" />
 
         <!-- LINK -->
-        <link rel="canonical" href="CANONICALURL" />
-        <meta property="og:url" content="CANONICALURL" />
-        <meta name="twitter:url" content="CANONICALURL">
+        <link rel="canonical" href="http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/" />
+        <meta property="og:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/" />
+        <meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/">
 
         <!-- THUMBNAIL IMAGE-->
-        <meta property="og:image" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
-        <meta name="twitter:image:src" content="CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg" />
+        <meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/img/giants-2017-lineup.jpg" />
+        <meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/img/giants-2017-lineup.jpg" />
         <meta property="og:image:width" content="1024" />
         <meta property="og:image:height" content="512" />
 
@@ -46,13 +46,13 @@ endif;
         {
 				"@context": "http://schema.org",
 				"@type": "NewsArticle",
-				"headline": "TITLE",
-				"url": "CANONICALURL",
-				"thumbnailUrl": "CANONICALURLimg/TEAMLOWER-YEAR-lineup.jpg",
-				"dateCreated": "DATET07:00:00Z",
+				"headline": "2017 New York Giants Keep 'Em Dump 'Em",
+				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/",
+				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/img/giants-2017-lineup.jpg",
+				"dateCreated": "20171231:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
-				"keywords": ["interactive","interactive poll","KEYWORDS"]
+				"keywords": ["interactive","interactive poll","new york giants","nfl","sports","2017 giants lineup"]
         }
         </script>
 
@@ -144,9 +144,9 @@ endif;
 	</div>
 	<script>
 	var app_config = { 
-		description: "DESCRIPTION",
-		team: 'TEAM',
-		year: 'YEAR',
+		description: "Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll",
+		team: 'NY Giants',
+		year: '2017',
 		version: '<?php echo $version; ?>',
 	};
 	</script>
@@ -165,14 +165,14 @@ endif;
 				<li><a href="http://interactive.nydailynews.com/poll/">Polls</a></li>
 				<li><a href="http://interactive.nydailynews.com/poll/keep-em-dump-em/">Keep 'Em Dump 'Em</a></li>
 			</ul>
-			<h1 class="columns">YEAR Keep&nbsp;'em or Dump&nbsp;'em: TEAM</h1>        
+			<h1 class="columns">2017 Keep&nbsp;'em or Dump&nbsp;'em: New York Giants</h1>        
 			<h2 class="large-12 columns"></h2>
 			<div class="columns large-12" id="social_map">
-				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL" target="_blank"><div id="facebook" class="small-text-center"></div></a>
-				<a href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
-				<a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL"><div id="email"></div></a>
+				<a class="fb-share" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/" target="_blank"><div id="facebook" class="small-text-center"></div></a>
+				<a href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/&amp;text=Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll&amp;via=NYDNi&related=nydailynews" target="_blank"><div id="twitter"></div></a>
+				<a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/"><div id="email"></div></a>
 			</div>
-			<p></p>
+			<p>This is where the intro goes</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
@@ -193,13 +193,7 @@ endif;
 				<section id="BRASS"></section>
 			</div>
 		</div>   
-	  <div class="ad center">
-		<div id='div-gpt-ad-x105'>
-			<script>
-				googletag.cmd.push(function() { googletag.display('div-gpt-ad-x105'); });
-			</script>
-		</div>
-	  </div>
+	  
 	</main>   
 
 	<!-- mobile ad -->

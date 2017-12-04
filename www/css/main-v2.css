@@ -173,6 +173,7 @@ a {
 .panel {
 	background: rgba(0,0,0,.6);
 	padding: 0;
+	top: -105px;
 }
 
 .blue{
