@@ -151,7 +151,7 @@ endif;
 	};
 	</script>
 	<main>
-		<article>
+		<article style="background-image: url(img/giants-bg.jpg);">
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2017 New York Giants</h1>
