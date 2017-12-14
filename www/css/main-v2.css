@@ -1,3 +1,8 @@
+body {
+	background-color: black;
+	overflow: auto;
+}
+
 h1, h2, h3, h4, h5, ul, ol, button {
 	font-family: 'Open Sans Condensed', sans-serif;
 }
@@ -68,13 +73,19 @@ button.dump img {
 	top: 8px;
 }
 
-#nydn-shell #taboola-interactive_pages-3x3 * span {
-	color: #FFFFFF;
+#taboola-interactive_pages-3x3 div a span,
+#taboola-interactive_pages-3x3 a,
+#taboola-interactive_pages-3x3 div,
+#taboola-interactive_pages-3x3 span {
+	color: #fff!important;
 }
+/*
+.thumbnails-b .logoDiv a span,
+.thumbnails-b .syndicatedItem .video-title,
+.thumbnails-b .trc_rbox_header,
+.thumbnails-b .syndicatedItem .branding,
+.videoCube a */
 
-#nydn-shell #taboola-interactive_pages-3x3 * a span {
-	color: #FFFFFF;
-}
 
 /* ---------- SHARE ICON CSS ----------- */
 a {
@@ -165,10 +176,19 @@ a {
 	font-family: "Open Sans Condensed", sans-serif;
 }
 
+
+#players img {
+	display: block;
+	margin: auto;
+	vertical-align: middle;
+}
+
 .panel {
 	background: rgba(0,0,0,.6);
 	padding: 0;
 	top: -105px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .blue{
@@ -187,7 +207,7 @@ a {
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	margin: 5px 0;
-	padding: 12px 0;
+	padding: 12px 0 12px 12px;
 }
 
 p.name span {
@@ -394,14 +414,6 @@ div.dump, span.dump {
 		font-size: 16px;
 		line-height: 26px;
 		margin-top: 0;
-	}
-
-	#players {
-		text-align: center;
-	}
-
-	section {
-		text-align: center;
 	}
 
 	.button.radius {
