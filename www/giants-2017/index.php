@@ -159,7 +159,7 @@ endif;
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=NYDNTransit">Tweet</a></li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi">Tweet</a></li>
 						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL">email</a> </li>
 					</ul>
 				</div>

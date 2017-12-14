@@ -347,7 +347,6 @@ div.dump, span.dump {
 
 .dumped {
 	height: 380px;
-    width: 300px;
     background: url(../img/dumped.png);
     position: relative;
     margin-top: -380px;
