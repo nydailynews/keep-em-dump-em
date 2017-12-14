@@ -38,7 +38,6 @@ article {
 	width: 100%;
 	height: 600px;
 	background-size: cover;
-	background-image: url(../img/yankees-bg.jpg);
 	background-position: center;
 }
 
@@ -48,7 +47,7 @@ article {
 }
 
 #intro img {
-	margin-top: 150px;
+	margin-top: 100px;
 }
 
 #intro p {
@@ -69,16 +68,12 @@ button.dump img {
 	top: 8px;
 }
 
-#nydn-shell #taboola-interactive_pages-3x3 span.video-label.video-title.trc_ellipsis {
-	color: #FFF;
+#nydn-shell #taboola-interactive_pages-3x3 * span {
+	color: #FFFFFF;
 }
 
-#nydn-shell #taboola-interactive_pages-3x3 span.trc_rbox_header_span {
-	color: #FFF;
-}
-
-#nydn-shell #taboola-interactive_pages-3x3 div.logoDiv a span {
-	color: white;
+#nydn-shell #taboola-interactive_pages-3x3 * a span {
+	color: #FFFFFF;
 }
 
 /* ---------- SHARE ICON CSS ----------- */
@@ -191,34 +186,33 @@ a {
 	font: bold 18px 'Open Sans Condensed', sans-serif;
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
-	margin: 10px 0;
-	padding: 13px 0 0 13px;
+	margin: 5px 0;
+	padding: 12px 0;
 }
 
 p.name span {
 	display: block;
-	font-size: .6em;
-	line-height: .9em;
+	font-size: 14px;
 }
 
-.button.radius{
+.button.radius {
 	text-transform: uppercase;
-	font: bold 20px 'Open Sans Condensed', sans-serif;
+	font: bold 19px 'Open Sans Condensed', sans-serif;
 	border: none;
 	border-radius: 0;
 	width: 145px;
 }
 
 .button.keep, .button.keep:focus{
-	background-color: #162546;
+	background-color: #0B9993;
 }
 
 .button.keep:active{
-	background-color: #04060c;
+	background-color: #717375;
 }
 
 .button.dump, .button.dump:focus{
-	background-color: #97999B;
+	background-color: #EE3958;
 }
 
 .button.dump:active{
@@ -331,6 +325,23 @@ div.dump, span.dump {
 	padding-left: 16px;
 }
 
+.dumped {
+	height: 380px;
+    width: 300px;
+    background: url(../img/dumped.png);
+    position: relative;
+    margin-top: -380px;
+    margin-bottom: 50px;
+}
+
+.dumped p.name {
+	position: relative;
+	top: 215px;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
 .clear{
 	cursor: pointer;
 	z-index: 5000;
@@ -369,39 +380,31 @@ div.dump, span.dump {
 .left { float: left; }
 .right{ float: right; }
 
+/*================== HANDHELD & TABLET STYLES =================*/
 
+@media only screen and (min-width: 250px) and (max-width: 727px) {
+	h1 {
+		font-size: 55px;
+		line-height: 60px;
+		margin-bottom: 10px;
+	}
 
-/* Fixes for social menu */
-body #rh-subnav-wrap {
-	padding: 10px 20px 0;
-}
-#rh-subnav ul {
-	width: 200px;
-}
-.center {
-	text-align: center;
-	margin: auto
-}
+	#intro p {
+		width: 90%;
+		font-size: 16px;
+		line-height: 26px;
+		margin-top: 0;
+	}
 
-.ad {
-	margin: 10px auto;
-}
+	#players {
+		text-align: center;
+	}
 
-.dumped {
-	height: 372px;
-	background: url('../img/dumped.png');
-	position: relative;
-	margin-top: -372px;
-	margin-bottom: 40px;
-}
+	section {
+		text-align: center;
+	}
 
-.dumped p {
-	color: white;
-	padding: 10px;
-	position: relative;
-	top: 294px;
-	max-width: 300px;
-}
-#nydn-footer-services {
-	text-transform: uppercase;
+	.button.radius {
+		width: 49%;
+	}
 }

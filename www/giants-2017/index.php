@@ -134,14 +134,14 @@ endif;
 <!--begin main content -->
 
 	<!-- banner ad -->
-	<div id="top_ad" class="center">
+<!-- 	<div id="top_ad" class="center">
 		<div id='div-gpt-ad-1423507761396-1'>
 			<script>
 				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
 				else $('#top_ad').remove();
 			</script>
 		</div>
-	</div>
+	</div> -->
 	<script>
 	var app_config = { 
 		description: "Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll",
@@ -155,7 +155,7 @@ endif;
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2017 New York Giants</h1>
-				<p>This is where the intro goes</p>
+				<p>This is where the intro goes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
@@ -213,29 +213,30 @@ endif;
 			</script>
 		</div>
 	</div>  
-	<!-- end main content -->		
+	<!-- end main content -->	
+		
   <footer id="nydn-footer">
-	<div id="nydn-footer-services">
-	  <ul>
-		<li><a href="http://www.nydailynews.com/services">Services</a></li>
-		<li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li>
-		<li><a href="http://www.nydailynews.com/autos">Autos</a></li>
-		<li><a href="https://homedelivery.nydailynews.com">Home Delivery</a></li>
-		<li><a href="http://www.nydailynews.com/login">Newsletters</a></li>
-		<li><a href="http://local.nydailynews.com/search/en-US/" >Businesses</a></li>
-		<li><a href="http://nydailynews.adperfect.com">Place an Ad</a></li>
-		<li><a href="http://www.nydailynews.com/services/privacy-policy#third_party_ads">About our Ads</a></li>
-		<li><a href="http://www.nydailynews.com/services/contact-us">Contact Us</a></li>
-		<li><a href="http://www.nydailynews.com/services/careers">Careers</a></li>
-		<li><a href="http://www.nydailynews.com/services/faqs">FAQ's</a></li>
-		<li><a href="http://www.nydailynews.com/services/feeds">Feeds</a></li>
-		<li><a href="http://www.nydailynews.com/services/sitemap">Site Map</a></li>
-	  </ul>
-	</div>
-	<div id="nydn-disclaimer">
-	  <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
-	  <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
-	</div>
+    <div id="nydn-footer-services">
+      <ul>
+        <li><a href="http://www.nydailynews.com/services">Services</a></li>
+        <li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li>
+        <li><a href="http://www.nydailynews.com/autos">Autos</a></li>
+        <li><a href="https://homedelivery.nydailynews.com">Home Delivery</a></li>
+        <li><a href="http://www.nydailynews.com/login">Newsletters</a></li>
+        <li><a href="http://local.nydailynews.com/search/en-US/" >Businesses</a></li>
+        <li><a href="http://nydailynews.adperfect.com">Place an Ad</a></li>
+        <li><a href="http://www.nydailynews.com/services/privacy-policy#third_party_ads">About our Ads</a></li>
+        <li><a href="http://www.nydailynews.com/services/contact-us">Contact Us</a></li>
+        <li><a href="http://www.nydailynews.com/services/careers">Careers</a></li>
+        <li><a href="http://www.nydailynews.com/services/faqs">FAQ's</a></li>
+        <li><a href="http://www.nydailynews.com/services/feeds">Feeds</a></li>
+        <li><a href="http://www.nydailynews.com/services/sitemap">Site Map</a></li>
+      </ul>
+    </div>
+    <div id="nydn-disclaimer">
+      <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
+      <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
+    </div>
   </footer>
 
    
