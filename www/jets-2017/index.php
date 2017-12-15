@@ -132,16 +132,6 @@ endif;
 		</header>
 	</div>
 <!--begin main content -->
-
-	<!-- banner ad -->
-	<div id="top_ad" class="center">
-		<div id='div-gpt-ad-1423507761396-1'>
-			<script>
-				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
-				else $('#top_ad').remove();
-			</script>
-		</div>
-	</div>
 	<script>
 	var app_config = { 
 		description: "Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll",
@@ -164,6 +154,16 @@ endif;
 					</ul>
 				</div>
 			</div>
+	<!-- banner ad -->
+<div id="top_ad" class="center">
+	<div id='div-gpt-ad-1423507761396-4'>
+		<script>
+			if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-4'); });
+			else $('#top_ad').remove();
+		</script>
+	</div>
+</div>
+
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
 			<div class="columns">
