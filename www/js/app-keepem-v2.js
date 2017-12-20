@@ -213,7 +213,8 @@ On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_
             dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + this.to_percent(d['dumped'][i]['percent']) + '%' + dumped_blurb + '</li>\n';
             kept_blurb = '', dumped_blurb = '';
         }
-        jQuery('#players').html('<h2 class="callout">Final Results</h2>\n\
+        jQuery('#players').html('<section id="final">\n\
+<h2 class="callout">Final Results</h2>\n\
 <p>\n\
 ' + vote_text + vote_text_tweet + '\n\
 </p>\n\
@@ -228,6 +229,7 @@ On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_
         <h3>Most Dumped</h3>\n\
         <ol>' + dumped + '</ol>\n\
     </div>\n\
+</section>\n\
 ');
     },
     tweet_link: function(text) {
