@@ -399,6 +399,10 @@ div.dump, span.dump {
 .left { float: left; }
 .right{ float: right; }
 
+#final h2, #final h3, #final li {
+    color: white;
+}
+
 /*================== HANDHELD & TABLET STYLES =================*/
 
 @media only screen and (min-width: 250px) and (max-width: 727px) {
