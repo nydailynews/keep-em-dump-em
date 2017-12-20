@@ -1,3 +1,3 @@
 <?php
-$TABLE = 'name_of_table';
+$TABLE = 'kd_jets';
 include('../../php/vote.php');

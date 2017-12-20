@@ -135,7 +135,7 @@ endif;
 	<script>
 	var app_config = { 
 		description: "Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll",
-		team: 'New York Jets',
+		team: 'Jets',
 		year: '2017',
 		version: '<?php echo $version; ?>',
 	};
@@ -145,7 +145,7 @@ endif;
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2017 New York Jets</h1>
-				<p>This is where the intro goes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p>The Jets surprised their fans early in the season with inspired play but, in the end, it wasn’t enough as another Gang Green season went down the dumper. To make that next step and challenge the Patriots (OK, maybe that is <em>too rosy</em> an outlook) the Jets are in desperate need of a franchise quarterback and other key pieces. Put on your GM cap and vote on the future of the Jets.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
@@ -219,12 +219,10 @@ endif;
 	</div>
   </footer>
 
-   
-
-	<script src="../js/foundation.min.js"></script>
+  <script src="../js/foundation.min.js"></script>
 	<script src="../js/jquery.waypoints.min.js"></script>
 	<script src="../js/sticky.js"></script>
-	<script onload="keepem.init();" src="../js/app-keepem.js"></script>
+	<script onload="keepem.init();" src="../js/app-keepem-v2.js"></script>
 	<script>
 		$(document).foundation();
 	</script>
