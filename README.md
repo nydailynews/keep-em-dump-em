@@ -26,7 +26,7 @@ Where the NY Daily News' Keep 'Em Dump 'Em online poll app lives.
     4. Log in to the database server. This is usually a command such as `mysql -uUSERNAME -p DATABASENAME`, though if `mysql` isn't set (run `which mysql` to find out) you'll have to find the path to the mysql binary (run `whereis mysql`, look for the path with `bin` in it).
     5. Run the SQL query you generated way back at the start of this little sub-how-to.
 9. No matter what, you'll still have to **insert the player records into the database.** You won't believe the hack that was built to make this as painless as was reasonable, it's kind of up there in the list of the best worst hacks. Here we go:
-    1. Once you've done all of the above you should have a working page on your local server. **Load that URL on localhost and load it with `#dev` appended to the URL.**
+    1. Once you've done all of the above you should have a working page on your local server. **Load the localhost-edition URL for the keep-em-dump-em that you're working on and load it with `#dev` appended to the URL.**
     2. Open your console.
     3. See what the value of the variable `query` is.
     4. Copy and paste the value of `query` into the terminal of your database. Yup.
