@@ -145,7 +145,7 @@ endif;
 	<script>
 	var app_config = { 
 		description: "Vote which New York Giants players and front-office personnel to keep and which to get rid of on the 2017 Giants Keep 'Em Dump 'Em poll",
-		team: 'NY Giants',
+		team: 'Giants',
 		year: '2017',
 		version: '<?php echo $version; ?>',
 	};
@@ -155,7 +155,7 @@ endif;
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2017 New York Giants</h1>
-				<p>This is where the intro goes. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+				<p>The Giants were supposed to go to the Super Bowl this year. Remember that? But injuries, dissension and really poor play got general manager Jerry Reese and head coach Ben McAdoo fired, and turned a dream season into an absolute nightmare for Big Blue Nation. Now that one of the worst seasons in team history has ended, it's time for your to vote on the future of the Giants.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
@@ -242,7 +242,7 @@ endif;
 	<script src="../js/foundation.min.js"></script>
 	<script src="../js/jquery.waypoints.min.js"></script>
 	<script src="../js/sticky.js"></script>
-	<script onload="keepem.init();" src="../js/app-keepem.js"></script>
+	<script onload="keepem.init();" src="../js/app-keepem-v2.js"></script>
 	<script>
 		$(document).foundation();
 	</script>
