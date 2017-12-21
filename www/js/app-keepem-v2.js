@@ -85,8 +85,8 @@ var keepem = {
     <img alt="'+item.name+' photo" src="'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
-        <button name="0" class="button radius keep">KEEP <img src="img/thumbs-up.png" alt="image of thumbs up"></button>\n\
-        <button name="1" class="button radius dump">DUMP <img src="img/thumbs-down.png" alt="image of thumbs down"></button>\n\
+        <button name="0" class="button radius keep">KEEP <img src="img/thumbs-up.png" alt=""></button>\n\
+        <button name="1" class="button radius dump">DUMP <img src="img/thumbs-down.png" alt=""></button>\n\
     </div>\n\
     <div id="'+i+'_results" class="panel results">\n\
         <div class="results-chart">\n\
@@ -96,12 +96,12 @@ var keepem = {
             <div class="dump-bar"></div>\n\
         </div>\n\
         <div>\n\
-            <p class="results-name"></p>\n\
+            <p class="results-name">'+item.name+'</p>\n\
         </div>\n\
     </div>\n\
     <div class="social">\n\
         <a class="fb-share" href="https://www.facebook.com/sharer.php?u=' + keepem.config.canonical + '" target="_blank"><div class="facebook" class="small-text-center"></div></a>\n\
-        <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '&via=nydni" target="_blank"><div class="twitter"></div></a>\n\
+        <a class="tweet" href="https://twitter.com/share?url=' + keepem.config.canonical + '&text=' + keepem.config.description + '&via=nydni&related=NYDNi,NYDailynews" target="_blank"><div class="twitter"></div></a>\n\
     </div>\n\
 </div>');
                     if ( item.credit != '' ) $("#credits").append(item.name+", "+item.credit+"; ");
