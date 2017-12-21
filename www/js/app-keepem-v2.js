@@ -91,7 +91,7 @@ var keepem = {
     <div id="'+i+'_results" class="panel results">\n\
         <div class="results-chart">\n\
             <div class="keep_result_num result_num"></div>\n\
-            <div class="keep_bar"></div>\n\
+            <div class="keep-bar"></div>\n\
             <div class="dump_result_num result_num"></div>\n\
             <div class="dump-bar"></div>\n\
         </div>\n\

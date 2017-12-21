@@ -64,14 +64,20 @@ article {
 	margin: 25px auto;
 }
 
+img {
+	border: 1px solid #808080;
+}
+
 button.keep img {
 	vertical-align: baseline;
+	border: none;
 }
 
 button.dump img {
 	vertical-align: unset;
 	position: relative;
 	top: 8px;
+	border: none;
 }
 
 #taboola-interactive_pages-3x3 div a span,
@@ -170,7 +176,6 @@ a {
 	text-transform: uppercase;
 	color:	#D7D7D7;
 	margin-bottom: 10px;
-	line-height: 34px; 
 }
 
 #players{
@@ -186,7 +191,7 @@ a {
 .panel {
 	background: rgba(0,0,0,.6);
 	padding: 0;
-	top: -105px;
+	top: -111px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -235,7 +240,7 @@ p.name span {
 	display: none;
 	width: 64px;
 	position: absolute;
-	left: 115px;
+	left: 130px;
 	top: 300px;
 }
 
@@ -270,7 +275,6 @@ p.name span {
 
 .panel.results {
 	margin: 0;
-  	display: flex;
   	justify-content: center;
 	font: normal 13px 'Open Sans', sans-serif;
 	text-transform: uppercase;
