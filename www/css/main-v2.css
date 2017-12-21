@@ -56,7 +56,8 @@ article {
 }
 
 #intro p {
-	width: 75%;
+	text-align: left;
+	width: 70%;
 	font: normal 18px 'PT Serif', serif;
 	line-height: 28px;
 	color: white;
@@ -177,11 +178,10 @@ a {
 }
 
 
-#players img {
-	display: block;
+/*#players img {
 	margin: auto;
 	vertical-align: middle;
-}
+}*/
 
 .panel {
 	background: rgba(0,0,0,.6);
@@ -189,14 +189,6 @@ a {
 	top: -105px;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.blue{
-	color: #1C2841;
-}
-
-.orange{
-	color: #c35521;
 }
 
 .aplayer{
