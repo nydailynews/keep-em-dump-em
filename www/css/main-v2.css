@@ -274,12 +274,8 @@ p.name span {
 }
 
 .panel.results {
-	margin: 0;
-  	justify-content: center;
-	font: normal 13px 'Open Sans', sans-serif;
 	text-transform: uppercase;
 	display: none;
-	width: 100%;
 	height: 372px;
 	top: -372px;
 }
@@ -293,11 +289,10 @@ p.name span {
 	grid-template-columns: repeat(2, 1fr);
 	grid-template-rows: repeat(100, 1fr);
 	grid-column-gap: 10px;
-	height: 60%;
-	width: 40%;
+	height: 225px;
 	position: relative;
-	top: 10%;
-	margin: auto;
+	top: 40px;
+	margin: auto 90px;
 }
 
 .keep-bar {
@@ -318,7 +313,7 @@ p.name span {
 	letter-spacing: 0.5px;
 	text-transform: uppercase;
 	margin-bottom: 0;
-	margin-top: 45px;
+	margin-top: 50px;
 }
 
 .result_num {

@@ -81,7 +81,7 @@ var keepem = {
                 else 
                 {
                     $('#'+item.section).append('\n\
-<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left">\n\
+<div id="'+i+'" first="'+i+'" class="large-4 medium-6 small-12 columns left" style="max-height: 400px;">\n\
     <img alt="'+item.name+' photo" src="'+photo+'">\n\
     <div id="'+i+'_vote" class="panel">\n\
         <p class="name">'+item.name+'</p>\n\
