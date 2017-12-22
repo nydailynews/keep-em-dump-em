@@ -342,6 +342,7 @@ div.dump, span.dump {
     position: relative;
     margin-top: -380px;
     margin-bottom: 50px;
+    max-width: 300px;
 }
 
 .dumped p.name {
@@ -410,8 +411,34 @@ div.dump, span.dump {
 		margin-top: 0;
 	}
 
+	#players {
+		text-align: center;
+	}
+
+	.panel {
+		max-width: 302px;
+	}
+
 	.button.radius {
 		width: 49%;
+	}
+
+	.panel.results {
+		top: -328px;
+	}
+
+	.results-chart {
+		top: 15px;
+		margin: auto 75px;
+	}
+
+	.results-name {
+		margin-top: 30px;
+	}
+
+	.social {
+		left: 114px;
+		top: 280px;
 	}
 }
 
@@ -425,7 +452,25 @@ div.dump, span.dump {
 		font-size: 30px;
 	}
 
+	#players {
+		text-align: center;
+	}
+
+	.panel {
+		max-width: 302px;
+	}
+
 	.button.radius {
 		width: 49.5%;
+	}
+
+	.panel.results {
+		height: 382px;
+		top: -382px;
+	}
+
+	.social {
+		left: 153px;
+		top: 310px;
 	}
 }
