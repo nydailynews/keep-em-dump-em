@@ -135,6 +135,11 @@
    "section": "OFFENSE"
  },
  {
+   "name": "Eli Apple",
+   "id": 48,
+   "section": "DEFENSE"
+ },
+ {
    "name": "Avery Moss",
    "id": 28,
    "section": "DEFENSE"
@@ -227,16 +232,6 @@
  {
    "name": "Deontae Skinner",
    "id": 46,
-   "section": "DEFENSE"
- },
- {
-   "name": "J.T. Thomas",
-   "id": 47,
-   "section": "DEFENSE"
- },
- {
-   "name": "Eli Apple",
-   "id": 48,
    "section": "DEFENSE"
  },
  {
