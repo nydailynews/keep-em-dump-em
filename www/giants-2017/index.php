@@ -49,7 +49,7 @@ endif;
 				"headline": "2017 New York Giants Keep 'Em Dump 'Em",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/",
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/img/giants-2017-lineup.jpg",
-				"dateCreated": "20171231:00:00Z",
+				"dateCreated": "2017-12-31T00:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
 				"keywords": ["interactive","interactive poll","new york giants","nfl","sports","2017 giants lineup"]
@@ -158,9 +158,9 @@ endif;
 				<p>The Giants were supposed to go to the Super Bowl this year. Remember that? But injuries, dissension and really poor play got general manager Jerry Reese and head coach Ben McAdoo fired, and turned a dream season into an absolute nightmare for Big Blue Nation. Now that one of the worst seasons in team history has ended, it's time for your to vote on the future of the Giants.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
-						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi">Tweet</a></li>
-						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL">email</a> </li>
+						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/">facebook</a> </li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/&amp;text=2017 New York Giants Keep 'Em Dump 'Em&amp;via=NYDNi">Tweet</a></li>
+						<li class="ra-share-e"> <a href="mailto:?subject=2017 New York Giants Keep 'Em Dump 'Em&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/">email</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -235,7 +235,7 @@ endif;
     </div>
     <div id="nydn-disclaimer">
       <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
-      <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
+      <p>© Copyright 2016-2018 NYDailyNews.com. All rights reserved.</p>
     </div>
   </footer>
 

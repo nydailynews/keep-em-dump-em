@@ -23,7 +23,7 @@ endif;
 		<meta name="twitter:title" content="2017 New York Jets Keep 'Em Dump 'Em"/>
 
 		<!-- Description -->
-		<meta name="description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
+		<meta name="description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em." />
 		<meta property="og:description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
 		<meta name="twitter:description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
 
@@ -49,7 +49,7 @@ endif;
 				"headline": "2017 New York Jets Keep 'Em Dump 'Em",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/",
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/img/jets-2017-lineup.jpg",
-				"dateCreated": "20171231:00:00Z",
+				"dateCreated": "2017-12-31T00:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
 				"keywords": ["interactive","interactive poll","new york jets","nfl","sports","2017 jets lineup"]
@@ -148,9 +148,9 @@ endif;
 				<p>The Jets surprised their fans early in the season with inspired play but, in the end, it wasn’t enough as another Gang Green season went down the dumper. To make that next step and challenge the Patriots (OK, maybe that is <em>too rosy</em> an outlook) the Jets are in desperate need of a franchise quarterback and other key pieces. Put on your GM cap and vote on the future of the Jets.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
-						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi">Tweet</a></li>
-						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL">email</a> </li>
+						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/">facebook</a> </li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/&amp;text=2017 New York Jets Keep 'Em Dump 'Em&amp;via=NYDNSports&related=NYDNi,NYDNSports">Tweet</a></li>
+						<li class="ra-share-e"> <a href="mailto:?subject=2017 New York Jets Keep 'Em Dump 'Em&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/">email</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -215,7 +215,7 @@ endif;
 	</div>
 	<div id="nydn-disclaimer">
 	  <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
-	  <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
+	  <p>© Copyright 2016-2018 NYDailyNews.com. All rights reserved.</p>
 	</div>
   </footer>
 
