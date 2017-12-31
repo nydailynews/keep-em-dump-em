@@ -255,5 +255,10 @@ endif;
 	<script>_satellite.pageBottom();</script>
 
 	</div>
+<div id="r-scripts">
+    <div id="parsely-root" style="display: none">
+        <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>
+    </div>
+</div>
   </body>
 </html>
