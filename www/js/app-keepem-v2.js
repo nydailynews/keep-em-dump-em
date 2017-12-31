@@ -167,8 +167,9 @@ var keepem = {
             $("#"+player).find(".clear").attr("vote", int);
             $("#"+player+"_results").find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1).toString());
             $("#"+player+"_results").find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1).toString());
-            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -7)+'%');
-            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -7)+'%');
+            // ** TODO: The greater the difference between the two percentages the more likely the lower of the two numbers will overlap the bar.
+            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -3)+'%');
+            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -3)+'%');
             $("#"+player+"_results").find(".keep_result_num").html(percent_k+"%");
             $("#"+player+"_results").find(".dump_result_num").html(percent_d+"%");
         });
