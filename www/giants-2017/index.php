@@ -201,7 +201,7 @@ endif;
 					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="Jerry Reese photo" src="img/jerry_reese.jpg">
                         <div class="dumped">
-							<p class="name">Jerry Reese<span><span style="display:none;">TITLE:</span>Former Head Coach</span></p>
+							<p class="name">Jerry Reese<span><span style="display:none;">TITLE:</span>Former GM</span></p>
 						</div>
 					</div>
 				</section>
