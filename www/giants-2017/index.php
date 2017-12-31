@@ -155,7 +155,7 @@ endif;
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2017 New York Giants</h1>
-				<p>The Giants were supposed to go to the Super Bowl this year. Remember that? But injuries, dissension and really poor play got general manager Jerry Reese and head coach Ben McAdoo fired, and turned a dream season into an absolute nightmare for Big Blue Nation. Now that one of the worst seasons in team history has ended, it's time for your to vote on the future of the Giants.</p>
+				<p><a href="http://www.nydailynews.com/sports/football/giants/eli-manning-best-shot-3rd-super-bowl-title-article-1.3482835">The Giants were supposed to go to the Super Bowl this year</a>. Remember that? But injuries, dissension and really <a href="http://www.nydailynews.com/sports/football/giants/giants-fire-ben-mcadoo-gm-jerry-reese-tumultuous-season-article-1.3676492">poor play got general manager Jerry Reese and head coach Ben McAdoo fired</a>, and turned a dream season into an absolute nightmare for Big Blue Nation. Now that one of <a href="http://www.nydailynews.com/sports/football/giants/disastrous-ny-football-season-hard-sink-article-1.3722062">the worst seasons in team history</a> has ended, it's time for you to vote on the future of the New York Giants.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/giants-2017/">facebook</a> </li>
