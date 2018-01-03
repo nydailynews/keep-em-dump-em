@@ -23,7 +23,7 @@ endif;
 		<meta name="twitter:title" content="2017 New York Jets Keep 'Em Dump 'Em"/>
 
 		<!-- Description -->
-		<meta name="description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
+		<meta name="description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em." />
 		<meta property="og:description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
 		<meta name="twitter:description" content="Vote which New York Jets players and front-office personnel to keep and which to get rid of on the 2017 Jets Keep 'Em Dump 'Em poll" />
 
@@ -49,7 +49,7 @@ endif;
 				"headline": "2017 New York Jets Keep 'Em Dump 'Em",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/",
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/img/jets-2017-lineup.jpg",
-				"dateCreated": "20171231:00:00Z",
+				"dateCreated": "2017-12-31T09:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
 				"keywords": ["interactive","interactive poll","new york jets","nfl","sports","2017 jets lineup"]
@@ -63,7 +63,7 @@ endif;
 		<meta name="twitter:site" content="NY Daily News">
 		<meta name="decorator" content="responsive" />
 
-		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-774d60efeb80c8b9f62cea9078508154c4f534ff.js"></script>
+		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 		<script src="/js/jquery.min.js"></script>
 	
 		<script>window.NREUM||(NREUM={}),__nr_require=function(n,t,e){function r(e){if(!t[e]){var o=t[e]={exports:{}};n[e][0].call(o.exports,function(t){var o=n[e][1][t];return r(o?o:t)},o,o.exports)}return t[e].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<e.length;o++)r(e[o]);return r}({QJf3ax:[function(n,t){function e(n){function t(t,e,a){n&&n(t,e,a),a||(a={});for(var u=c(t),f=u.length,s=i(a,o,r),p=0;f>p;p++)u[p].apply(s,e);return s}function a(n,t){f[n]=c(n).concat(t)}function c(n){return f[n]||[]}function u(){return e(t)}var f={};return{on:a,emit:t,create:u,listeners:c,_events:f}}function r(){return{}}var o="nr@context",i=n("gos");t.exports=e()},{gos:"7eSDFh"}],ee:[function(n,t){t.exports=n("QJf3ax")},{}],gos:[function(n,t){t.exports=n("7eSDFh")},{}],"7eSDFh":[function(n,t){function e(n,t,e){if(r.call(n,t))return n[t];var o=e();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(n,t,{value:o,writable:!0,enumerable:!1}),o}catch(i){}return n[t]=o,o}var r=Object.prototype.hasOwnProperty;t.exports=e},{}],D5DuLP:[function(n,t){function e(n,t,e){return r.listeners(n).length?r.emit(n,t,e):(o[n]||(o[n]=[]),void o[n].push(t))}var r=n("ee").create(),o={};t.exports=e,e.ee=r,r.q=o},{ee:"QJf3ax"}],handle:[function(n,t){t.exports=n("D5DuLP")},{}],XL7HBI:[function(n,t){function e(n){var t=typeof n;return!n||"object"!==t&&"function"!==t?-1:n===window?0:i(n,o,function(){return r++})}var r=1,o="nr@id",i=n("gos");t.exports=e},{gos:"7eSDFh"}],id:[function(n,t){t.exports=n("XL7HBI")},{}],loader:[function(n,t){t.exports=n("G9z0Bl")},{}],G9z0Bl:[function(n,t){function e(){var n=v.info=NREUM.info;if(n&&n.licenseKey&&n.applicationID&&f&&f.body){c(d,function(t,e){t in n||(n[t]=e)}),v.proto="https"===l.split(":")[0]||n.sslForHttp?"https://":"http://",a("mark",["onload",i()]);var t=f.createElement("script");t.src=v.proto+n.agent,f.body.appendChild(t)}}function r(){"complete"===f.readyState&&o()}function o(){a("mark",["domContent",i()])}function i(){return(new Date).getTime()}var a=n("handle"),c=n(1),u=window,f=u.document,s="addEventListener",p="attachEvent",l=(""+location).split("?")[0],d={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-515.min.js"},v=t.exports={offset:i(),origin:l,features:{}};f[s]?(f[s]("DOMContentLoaded",o,!1),u[s]("load",e,!1)):(f[p]("onreadystatechange",r),u[p]("onload",e)),a("mark",["firstbyte",i()])},{1:11,handle:"D5DuLP"}],11:[function(n,t){function e(n,t){var e=[],o="",i=0;for(o in n)r.call(n,o)&&(e[i]=t(o,n[o]),i+=1);return e}var r=Object.prototype.hasOwnProperty;t.exports=e},{}]},{},["G9z0Bl"]);</script>
@@ -80,6 +80,12 @@ endif;
   <body>
 <div id="nydn-shell">
 		<style>
+@font-face {
+  font-family: 'themify';
+  src: url("http://www.nydailynews.com/nydn/f/themify.eot?-fvbane");
+  src: url("http://www.nydailynews.com/nydn/f/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("http://www.nydailynews.com/nydn/f/themify.woff?-fvbane") format("woff"), url("http://www.nydailynews.com/nydn/f/themify.ttf?-fvbane") format("truetype"), url("http://www.nydailynews.com/nydn/f/themify.svg?-fvbane#themify") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 		.NOV-5{display:none}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{width:100%;height:100%;margin:0;padding:0}li{list-style:none}.hamburger{background:none;padding:0;border:0}a{text-decoration:none}#nydn-header{background:#222;border-bottom:solid 1px #3B3B3B}#nydn-header #nydn-header-wrap{height:52px;padding:10px 20px;position:relative}#nydn-header #nydn-header-wrap #nydn-logo{display:block;width:192px;height:18px;background:url(http://interactive.nydailynews.com/includes/media/nydn_logo.png) 0 0 no-repeat;margin:10px 10px 10px 32px;float:left;text-indent:-99999px}#nydn-header #nydn-header-wrap #nydn-logo a{display:block;width:100%;height:100%;background:none}#nydn-header #nydn-header-wrap #nydn-menu{position:absolute;left:20px;top:10px}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-open{display:block;width:22px;height:18px;background:url(http://multimedia.nydailynews.com/css/P01/i/icon/icons.png) 0 0 no-repeat;margin-right:10px;margin-top:10px;text-indent:-99999px;cursor:pointer}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-open:hover{opacity:9;filter:alpha(opacity=900);background-position:0 -50px}#nydn-header #nydn-header-wrap #nydn-menu nav{position:absolute;width:224px;top:30px;left:0;background:#000;background:rgba(0,0,0,0.9);display:none;z-index:10}#nydn-header #nydn-header-wrap #nydn-menu nav ul{margin:0;padding:0}#nydn-header #nydn-header-wrap #nydn-menu nav ul li{text-transform:uppercase}#nydn-header #nydn-header-wrap #nydn-menu nav ul li a{display:block;padding:10px 20px;color:#fff;transition:All 300ms ease;-webkit-transition:All 300ms ease;-moz-transition:All 300ms ease;-o-transition:All 300ms ease}#nydn-header #nydn-header-wrap #nydn-menu nav ul li a:hover{color:#e8172d}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-close{width:30px;height:30px;color:#979797;position:absolute;top:30px;left:195px;line-height:30px;text-align:center;cursor:pointer;display:block;z-index:10;opacity:0;filter:alpha(opacity=0)}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-close:hover{color:#e8172d}#nydn-header #nydn-header-wrap #nydn-menu.on nav{display:block;height:auto}#nydn-header #nydn-header-wrap #nydn-menu.on #nydn-menu-close{opacity:1;filter:alpha(opacity=100)}#nydn-header #nydn-header-wrap #nydn-sm{float:right;margin-top:8px}#nydn-header #nydn-header-wrap #nydn-sm ul{margin:0}#nydn-header #nydn-header-wrap #nydn-sm ul li{float:left;width:22px;height:22px;float:left;margin-left:10px;background:url(http://multimedia.nydailynews.com/css/P01/i/icon/icons.png) 0 0 no-repeat;text-indent:-99999px;cursor:pointer}#nydn-header #nydn-header-wrap #nydn-sm ul li a{display:block;width:22px;height:22px}#nydn-header #nydn-header-wrap #nydn-sm ul li.twitter{background-position:-100px 0;background:url(http://interactive.nydailynews.com/includes/media/tw_top.png)}#nydn-header #nydn-header-wrap #nydn-sm ul li.twitter:hover{background-position:-100px -50px;background:url(http://interactive.nydailynews.com/includes/media/tw_top.png);opacity:.8}#nydn-header #nydn-header-wrap #nydn-sm ul li.facebook{background-position:-200px 0;background:url(http://interactive.nydailynews.com/includes/media/fb_top.png)}#nydn-header #nydn-header-wrap #nydn-sm ul li.facebook:hover{background-position:-200px -50px;background:url(http://interactive.nydailynews.com/includes/media/fb_top.png);opacity:.8}#nydn-footer{clear:both;font-size:12px;color:#fff;text-align:center}#nydn-footer #nydn-footer-services{height:28px;line-height:28px;vertical-align:middle;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) 0 -71px repeat-x}#nydn-footer #nydn-footer-services ul{width:auto;height:100%;display:inline-block;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) -99px -276px no-repeat;padding-left:1px;margin:0}#nydn-footer #nydn-footer-services ul li{display:block;float:left;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) right -276px no-repeat;padding-right:1px}#nydn-footer #nydn-footer-services ul li a{display:block;height:100%;padding:0 10px;color:#fff}#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services']{display:none}#nydn-footer #nydn-footer-services ul li a:hover{background-position:0 -71px;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) 0 -304px repeat-x}#nydn-footer #nydn-footer-services ul li li a{height:auto;background:none}@media (max-width: 900px){#nydn-footer #nydn-footer-services ul li a{display:none}#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/contact-us'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/contact-us'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/sitemap']{display:block}}#nydn-footer #nydn-disclaimer{font-size:11px;color:#ccc;background:#272727;padding:30px 0;height:100%}#nydn-footer #nydn-disclaimer a{color:#ccc;text-decoration:underline}@media (max-width: 480px){#nydn-header #nydn-header-wrap #nydn-sm ul{overflow:hidden;padding:0;width:56px}#nydn-header #nydn-header-wrap #nydn-sm ul li{margin-left:4px}#nydn-header #nydn-header-wrap #nydn-logo{margin:10px 0 0 42px}#nydn-header #nydn-header-wrap{padding:10px}}#interactive-logo a{color:#cdcdcd;font-size:13px;font-family:"Helvetica";letter-spacing:2px}#interactive-logo{width:192px;height:18px;margin:13px 10px 0 32px;float:left;position:relative;bottom:35px;background: 0 0 no-repeat}#header_line{position:relative;right:225px;top:7px}@media (max-width: 600px){#interactive-logo,#header_line{display:none}}
 		</style>
 		
@@ -143,14 +149,14 @@ endif;
 	<main>
 		<article style="background-image: url(img/jets-bg.jpg);">
 			<div id="intro">
-				<img src="../img/keep-dump-logo.png">
+				<img src="../img/keep-dump-logo.png" alt="Keep 'Em Dump 'Em logo" style="border:0;">
 				<h1>2017 New York Jets</h1>
 				<p>The Jets surprised their fans early in the season with inspired play but, in the end, it wasn’t enough as another Gang Green season went down the dumper. To make that next step and challenge the Patriots (OK, maybe that is <em>too rosy</em> an outlook) the Jets are in desperate need of a franchise quarterback and other key pieces. Put on your GM cap and vote on the future of the Jets.</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
-						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi">Tweet</a></li>
-						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL">email</a> </li>
+						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/">facebook</a> </li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/&amp;text=2017 New York Jets Keep 'Em Dump 'Em&amp;via=NYDNSports&related=NYDNi,NYDNSports">Tweet</a></li>
+						<li class="ra-share-e"> <a href="mailto:?subject=2017 New York Jets Keep 'Em Dump 'Em&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/jets-2017/">email</a> </li>
 					</ul>
 				</div>
 			</div>
@@ -186,11 +192,12 @@ endif;
 	</main>   
 
 	<!-- mobile ad -->
-	<div id="m_bottom_ad" class="center">
-		<div id='div-gpt-ad-1423507761396-2'>
+	<div id="m_bottom_ad" class="center" style="margin-left:30px;">
+		<div id='div-gpt-ad-x101'>
 			<script>
-				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
+				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-x101'); });
 				else $('#m_bottom_ad').remove();
+				//$('#m_bottom_ad').remove();
 			</script>
 		</div>
 	</div>  
@@ -215,7 +222,7 @@ endif;
 	</div>
 	<div id="nydn-disclaimer">
 	  <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
-	  <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
+	  <p>© Copyright 2016-2018 NYDailyNews.com. All rights reserved.</p>
 	</div>
   </footer>
 
@@ -229,5 +236,11 @@ endif;
 	<script>_satellite.pageBottom();</script>
 
 	</div>
+<div id="r-scripts">
+    <div id="parsely-root" style="display: none">
+        <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>
+    </div>
+</div>
+<script> (function(s, p, d) { var h=d.location.protocol, i=p+"-"+s, e=d.getElementById(i), r=d.getElementById(p+"-root"), u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net" :"static."+p+".com"; if (e) return; e = d.createElement(s); e.id = i; e.async = true; e.src = h+"//"+u+"/p.js"; r.appendChild(e); })("script", "parsely", document); </script>
   </body>
 </html>

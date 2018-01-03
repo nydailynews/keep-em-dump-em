@@ -157,20 +157,21 @@ var keepem = {
             if (int == 0)
             {
                 $("#"+player).find(".your_vote").addClass("keep");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote now:&via=nydni&related=NYDailyNews,NYDNSports")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to keep "+player_name+". Cast your " + keepem.config.team + " Keep 'em, Dump 'em vote:&via=NYDNSports&related=NYDNi,NYDNSports")
             }
             else
             {
                 $("#"+player).find(".your_vote").addClass("dump");
-                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=nydni&related=NYDailyNews,NYDNSports")
+                $("#"+player).find(".tweet").attr("href", "https://twitter.com/share?url=" + keepem.config.canonical + "&text=I voted to dump "+player_name+". Cast your Keep 'em, Dump 'em vote now:&via=NYDNSports&related=NYDNi,NYDNSports")
             }
             $("#"+player).find(".clear").attr("vote", int);
-            $("#"+player).find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1));
-            $("#"+player).find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1));
-            $("#"+player).find(".keep_result_num").css('top', Math.floor(percent_k -7)+'%');
-            $("#"+player).find(".dump_result_num").css('top', Math.floor(percent_d -7)+'%');
-            $("#"+player).find(".keep_result_num").html(percent_k+"%");
-            $("#"+player).find(".dump_result_num").html(percent_d+"%");
+            $("#"+player+"_results").find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1).toString());
+            $("#"+player+"_results").find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1).toString());
+            // ** TODO: The greater the difference between the two percentages the more likely the lower of the two numbers will overlap the bar.
+            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -3)+'%');
+            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -3)+'%');
+            $("#"+player+"_results").find(".keep_result_num").html(percent_k+"%");
+            $("#"+player+"_results").find(".dump_result_num").html(percent_d+"%");
         });
     },
     finish: function() {

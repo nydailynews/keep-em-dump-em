@@ -221,7 +221,7 @@ p.name span {
 }
 
 .button.keep, .button.keep:focus{
-	background-color: #0B9993;
+	background-color: #0B0;
 }
 
 .button.keep:active{
@@ -229,7 +229,7 @@ p.name span {
 }
 
 .button.dump, .button.dump:focus{
-	background-color: #EE3958;
+	background-color: #B00;
 }
 
 .button.dump:active{
@@ -298,13 +298,13 @@ p.name span {
 .keep-bar {
 	grid-row-start: 100;
 	grid-row-end: -100;
-	background-color: #0B9993;
+	background-color: #0B0;
 }
 
 .dump-bar {
 	grid-row-start: 100;
 	grid-row-end: -100;
-	background-color: #EE3958;
+	background-color: #B00;
 }
 
 .results-name {

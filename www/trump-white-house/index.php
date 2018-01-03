@@ -64,7 +64,7 @@ endif;
         <meta name="decorator" content="responsive" />
 
     
-		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-774d60efeb80c8b9f62cea9078508154c4f534ff.js"></script>
+		<script src="//assets.adobedtm.com/4fc527d6fda921c80e462d11a29deae2e4cf7514/satelliteLib-c91fdc6ac624c6cbcd50250f79786de339793801.js"></script>
 		<script src="../js/vendor/jquery.js"></script>
 
     
@@ -320,4 +320,11 @@ endif;
     <script>_satellite.pageBottom();</script>
 
     </div>
+<div id="r-scripts">
+    <div id="parsely-root" style="display: none">
+        <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>
+    </div>
+</div>
+<script> (function(s, p, d) { var h=d.location.protocol, i=p+"-"+s, e=d.getElementById(i), r=d.getElementById(p+"-root"), u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net" :"static."+p+".com"; if (e) return; e = d.createElement(s); e.id = i; e.async = true; e.src = h+"//"+u+"/p.js"; r.appendChild(e); })("script", "parsely", document); </script>
   </body>
+</html>
