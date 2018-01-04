@@ -204,6 +204,12 @@ endif;
 							<p class="name">Jerry Reese<span><span style="display:none;">TITLE:</span>Former GM</span></p>
 						</div>
 					</div>
+					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="Bobby Hart photo" src="img/bobby_hart.jpg">
+                        <div class="dumped">
+							<p class="name">Bobby Hart<span><span style="display:none;">TITLE:</span>Right Tackle</span></p>
+						</div>
+					</div>
 				</section>
 			</div>
 		</div>

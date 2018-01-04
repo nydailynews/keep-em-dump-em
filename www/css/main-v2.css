@@ -342,7 +342,6 @@ div.dump, span.dump {
     position: relative;
     margin-top: -380px;
     margin-bottom: 50px;
-    max-width: 300px;
 }
 
 .dumped p.name {
