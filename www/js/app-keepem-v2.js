@@ -200,10 +200,10 @@ var keepem = {
     view_results: function() {
         // Wipe the page and put the final results on there.
         if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
-        if ( typeof PARSELY !== 'undefinted' && typeof PARSELY.beacon !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
+        if ( typeof PARSELY !== 'undefined' && typeof PARSELY.beacon !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
 
         var d = JSON.parse(this.data);
-        jQuery('.callout').remove();
+        jQuery('.kd-modal').remove();
         var dump_percent = this.to_percent(this.votes.dump/this.votes.total);
         var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
         var avg_keep_percent = this.to_percent(d.percent_avg);
