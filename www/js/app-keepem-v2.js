@@ -168,8 +168,8 @@ var keepem = {
             $("#"+player+"_results").find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1).toString());
             $("#"+player+"_results").find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1).toString());
             // ** TODO: The greater the difference between the two percentages the more likely the lower of the two numbers will overlap the bar.
-            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -3)+'%');
-            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -3)+'%');
+            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -5)+'%');
+            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -5)+'%');
             $("#"+player+"_results").find(".keep_result_num").html(percent_k+"%");
             $("#"+player+"_results").find(".dump_result_num").html(percent_d+"%");
         });
@@ -186,9 +186,11 @@ var keepem = {
         window.setTimeout('$(\"#confetti\").remove();', 8000);
         var rando = this.rando();
         var query = jQuery.param(this.votes);
-        var final_markup = '<h3 class="callout"><a href="#" onclick="keepem.view_results();">See Final Keep \'Em Dump \'Em Results</a></h3>';
-        jQuery('div#top').append(final_markup);
-        jQuery('div.columns:last-child section').append('<div class="large-4 medium-6 small-12 columns left">' + final_markup + '</div>');
+        var final_markup = '<div class="kd-modal">\
+                <div><p><a href="#" onclick="keepem.view_results();">See your final Keep \'Em Dump \'Em results</a></p></div>\
+            </div>';
+        jQuery('body').prepend(final_markup);
+        // jQuery('div.columns:last-child section').append('<div class="large-4 medium-6 small-12 columns left">' + final_markup + '</div>');
         jQuery.get("php/vote.php?vote=final&"+query+"&year="+this.config.year+"&"+rando, function(data)
         {
             //{"keep_avg":"30.0000","dump_avg":"9.0000","percent_avg":"0.7692000269889832","more_dumpy":"0","more_optimistic":"0","dumped":[{"name":"Mr. Met","percent":"0.0000"},{"name":"Training Staff","percent":"0.0000"},{"name":"Jeff Wilpon","percent":"0.0000"},{"name":"Jerry Blevins","percent":"0.0000"},{"name":"Chasen Bradford","percent":"0.0000"}],"kept":[{"name":"Jeurys Familia","percent":"1.0000"},{"name":"Chris Flexen","percent":"1.0000"},{"name":"Tommy Milone","percent":"1.0000"},{"name":"Hansel Robles","percent":"1.0000"},{"name":"Noah Syndergaard","percent":"1.0000"}]}
@@ -198,10 +200,10 @@ var keepem = {
     view_results: function() {
         // Wipe the page and put the final results on there.
         if ( typeof googletag !== 'undefined' ) googletag.pubads().refresh();
-        if ( typeof PARSELY !== 'undefinted' && typeof PARSELY.beacon !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
+        if ( typeof PARSELY !== 'undefined' && typeof PARSELY.beacon !== 'undefined' ) PARSELY.beacon.trackPageView({ url: document.location.href, urlref: document.location.href, js: 1 });
 
         var d = JSON.parse(this.data);
-        jQuery('.callout').remove();
+        jQuery('.kd-modal').remove();
         var dump_percent = this.to_percent(this.votes.dump/this.votes.total);
         var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
         var avg_keep_percent = this.to_percent(d.percent_avg);
