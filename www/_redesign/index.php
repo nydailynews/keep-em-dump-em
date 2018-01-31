@@ -75,7 +75,7 @@ endif;
 		<link rel="stylesheet"  href="https://fonts.googleapis.com/css?family=Open%20Sans:400|Open+Sans+Condensed:300,700|PT+Serif" media="all" />
 		<link rel="stylesheet" href="../css/foundation.css" />
 		<link rel="stylesheet" href="../css/main-v2.css<?php echo $append; ?>" />
-		<script onload="nydn_ads('one');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
+		<script onload="nydn_ads('one');" src="//interactive.nydailynews.com/includes/template/template.js"></script>
   </head>
   <body style="background-color: black;">
 <div id="nydn-shell">

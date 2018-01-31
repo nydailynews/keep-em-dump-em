@@ -98,7 +98,7 @@ $csv = new parseCSV('data.csv');
     </script>
     
     <!-- ADS-START -->
-    <script onload="nydn_ads('poll');" src="//interactive.nydailynews.com/includes/ads/ads.js"></script>
+    <script onload="nydn_ads('poll');" src="//interactive.nydailynews.com/includes/template/template.js"></script>
     <!-- ADS-END -->
 </head>
 <body id="nydailynews" data-section="nydailynews" data-subsection="NY Daily News" class="">
