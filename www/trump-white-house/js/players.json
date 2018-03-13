@@ -93,6 +93,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423842!/img/httpImage/trump.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "James Mattis",
     "title": "Secretary of Defense",
@@ -101,12 +107,6 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423791!/img/httpImage/secretary-defense-silicon-valley.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "Linda McMahon",
     "title": "Small Business Administration",
@@ -211,6 +211,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423804!/img/httpImage/trump.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Jeff Sessions",
     "title": "Attorney General",
@@ -227,12 +233,6 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "Ivanka Trump",
     "title": "Assistant to the President",

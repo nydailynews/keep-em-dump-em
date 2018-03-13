@@ -178,11 +178,13 @@ endif;
 				<a href="mailto:?subject=Trump%20White%20House%20-%20Who%20should%20stay%20and%20who%20should%20go%20&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/trump-white-house/"><div id="email"></div></a>
 			</div>
 			<h2 class="large-12 columns"></h2>
-			<p>The Trump administration's West Wing has been a blizzard of pink slips as high ranking staffers have <a href="http://www.nydailynews.com/news/politics/bannon-high-profile-departures-trump-white-house-article-1.3423497">exited the White House</a> one after another. Who will be next?
+			<p>The Trump administration's West Wing has been an intermittent blizzard of pink slips as high ranking staffers have <a href="http://www.nydailynews.com/news/politics/bannon-high-profile-departures-trump-white-house-article-1.3423497">exited the White House</a> one after another. Who will be next?
 <!-- 
 <a href="http://www.nydailynews.com/tags/anthony-scaramucci">Anthony Scaramucci</a> and <a href="http://www.nydailynews.com/tags/stephen-bannon">Steve Bannon</a> were among the latest to be forced out, and it’s likely more will follow.
 -->
  Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump? <strong>VOTE NOW.</strong>
+			</p>
+			<p class="datestamp" style="text-transform:uppercase; color:#aaa;"><em>Staff list last updated March 13, 2018</em></p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
