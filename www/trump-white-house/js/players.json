@@ -62,6 +62,14 @@
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423771!/img/httpImage/95476801.jpg"
   },
   {
+    "name": "Gina Haspel",
+    "title": "C.I.A. Director",
+    "id": "34",
+    "section": "WHITEHOUSE",
+    "gender": "her",
+    "photo": "img/gina-haspel.jpg"
+  },
+  {
     "name": "John Kelly",
     "title": "Chief of Staff",
     "id": "11",
@@ -240,13 +248,5 @@
     "section": "WHITEHOUSE",
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423823!/img/httpImage/96337361.jpg"
-  },
-  {
-    "name": "Gina Haspel",
-    "title": "C.I.A. Director",
-    "id": "34",
-    "section": "WHITEHOUSE",
-    "gender": "her",
-    "photo": "img/gina-haspel.jpg"
   }
 ]
