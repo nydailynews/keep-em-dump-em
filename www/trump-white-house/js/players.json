@@ -85,12 +85,6 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423842!/img/httpImage/trump.jpg"
   },
-    {
-        "name": "ad",
-        "title": "",
-        "id": "",
-        "section": "WHITEHOUSE"
-    },
   {
     "name": "James Mattis",
     "title": "Secretary of Defense",
@@ -99,6 +93,12 @@
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423791!/img/httpImage/secretary-defense-silicon-valley.jpg"
   },
+    {
+        "name": "ad",
+        "title": "",
+        "id": "",
+        "section": "WHITEHOUSE"
+    },
   {
     "name": "Linda McMahon",
     "title": "Small Business Administration",
@@ -165,7 +165,7 @@
   },
   {
     "name": "Mike Pompeo",
-    "title": "C.I.A. Director",
+    "title": "Secretary of State",
     "id": "23",
     "section": "WHITEHOUSE",
     "gender": "",
@@ -226,14 +226,6 @@
         "section": "WHITEHOUSE"
     },
   {
-    "name": "Rex Tillerson",
-    "title": "Secretary of State",
-    "id": "31",
-    "section": "WHITEHOUSE",
-    "gender": "",
-    "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg"
-  },
-  {
     "name": "Ivanka Trump",
     "title": "Assistant to the President",
     "id": "32",
@@ -248,5 +240,13 @@
     "section": "WHITEHOUSE",
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423823!/img/httpImage/96337361.jpg"
+  },
+  {
+    "name": "Gina Haspel",
+    "title": "C.I.A. Director",
+    "id": "34",
+    "section": "WHITEHOUSE",
+    "gender": "her",
+    "photo": "img/gina-haspel.jpg"
   }
 ]

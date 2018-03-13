@@ -194,6 +194,13 @@ endif;
                 <section id="DUMPED">
 
 					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg">
+                        <div class="dumped">
+							<p class="name">Rex Tillerson<span><span style="display:none;">TITLE:</span>Former Secretary of State</span></p>
+						</div>
+					</div>
+
+					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="photo of Gary Cohn" src="http://assets.nydailynews.com/polopoly_fs/1.3423766!/img/httpImage/95508954.jpg">
                         <div class="dumped">
 							<p class="name">Gary Cohn<span><span style="display:none;">TITLE:</span>Former Chief Economic Advisor</span></p>
