@@ -184,7 +184,9 @@ endif;
 -->
  Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump? <strong>VOTE NOW.</strong>
 			</p>
-			<p class="datestamp" style="text-transform:uppercase; color:#aaa;"><em>Staff list last updated March 13, 2018</em></p>
+			<p class="datestamp" style="text-transform:uppercase; color:#aaa;"><em>
+				Staff list last updated March 15, 2018
+			</em></p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">

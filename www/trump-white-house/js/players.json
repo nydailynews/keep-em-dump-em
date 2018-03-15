@@ -63,7 +63,7 @@
   },
   {
     "name": "Gina Haspel",
-    "title": "C.I.A. Director",
+    "title": "Deputy C.I.A. Director",
     "id": "34",
     "section": "WHITEHOUSE",
     "gender": "her",
@@ -84,6 +84,14 @@
     "section": "WHITEHOUSE",
     "gender": "",
     "photo": "http://assets.nydailynews.com/polopoly_fs/1.3423790!/img/httpImage/96894415.jpg"
+  },
+  {
+    "name": "Larry Kudlow",
+    "title": "Chief Economic Advisor",
+    "id": "35",
+    "section": "WHITEHOUSE",
+    "gender": "",
+    "photo": "img/larry-kudlow.jpg"
   },
   {
     "name": "Robert Lighthizer",
