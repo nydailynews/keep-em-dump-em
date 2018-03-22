@@ -184,9 +184,11 @@ endif;
 -->
  Of those remaining in Trump’s White House, who do you think will last the term – and who is the next to get dumped by Trump? <strong>VOTE NOW.</strong>
 			</p>
-			<p class="datestamp" style="text-transform:uppercase; color:#aaa;"><em>
-				Staff list last updated March 15, 2018
-			</em></p>
+			<p class="datestamp" style="text-transform:uppercase; color:#aaa;">
+				<em>
+				Staff list last updated March 22, 2018
+				</em>
+			</p>
 		</div>
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
@@ -196,6 +198,13 @@ endif;
 				<h2 style="clear: both;" class="section">Former members of Trump's White House</h2>
 				
                 <section id="DUMPED">
+
+					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
+                        <div class="dumped">
+							<p class="name">H.R. McMaster<span><span style="display:none;">TITLE:</span>Former National Security Adviser</span></p>
+						</div>
+					</div>
 
 					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg">
