@@ -256,7 +256,7 @@ endif;
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449400!/img/httpImage/trump-iran.jpg" alt="photo of Michael Flynn">
                         <div class="dumped">
-                        <p class="name">Michael Flynn<span>Former national security advisor</span></p>
+                        <p class="name">Michael Flynn<span>Former national security adviser</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
