@@ -9,13 +9,13 @@ Where the NY Daily News' Keep 'Em Dump 'Em online poll app lives.
 2. If this is a project you plan on collaborating on, create a repo on Bitbucket with your new directory.
 3. Open up the index.php file in your new project in your favorite text editor.
 4. **Search and replace these strings**, in order, with the appropriate values. If you don't know what the appropriate values are, ask. Be sure to replace all.
-    1. `TITLE` should be replaced with something such as "2017 Knicks Keep 'Em Dump 'Em"
+    1. `TITLE` should be replaced with something such as "2019 Knicks Keep 'Em Dump 'Em"
     2. `DESCRIPTION`, something like "Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2017 Knicks Keep 'Em Dump 'Em"
     3. `TEAMLOWER` with the team name, all lower-case.
     4. `TEAM` with the team name in Title Case.
-    5. `KEYWORDS` with a comma-separated list of keywords used to describe this, such as "Knicks,New York,news app,online polls,sports,New York Knicks 2017,Knicks lineup,NBA"
-    6. Replace `DATE` with a `YYYY-MM-DD` of the date this is going live. If it were going live April 4 2044 you'd use `2044-04-04`.
-    7. Eventually you will replace `CANONICALURL` with the URL of where the interactive will live, which will be something like http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2017/ .
+    5. `KEYWORDS` with a comma-separated list of keywords used to describe this, such as "Knicks,New York,news app,online polls,sports,New York Knicks 2019,Knicks lineup,NBA"
+    6. Replace `DATE` with a `YYYY-MM-DD` of the date this is going live. If it were going live April 12 2044 you'd use `2044-04-12`.
+    7. Eventually you will replace `CANONICALURL` with the URL of where the interactive will live, which will be something like http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2019/ .
 5. **Create a new sharing image** for the new Keep 'Em Dump 'Em. The PSD is in [`www/psd`](/www/psd). Export that PSD as a PNG and stick that in the img directory of your new project.
 6. **Delete and / or edit** the sections of the team you're keep/dump'ing (NBA's "Players" and "Brass," NFL's "Offense" "Defense" etc.). [Those start around here in the document](/www/_blank/index.php#L267).
 7. **Edit the `js/players.json` file** in your project and add the players names and ID's. ID's start off wherever the previous team's ID's left off -- zero if we're starting a table from scratch. If we're not starting from scratch you'll have to get into the database and see what's already in there _(sigh)_. [Here's what the Knicks 2017 players.json looks like](http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2017/js/players.json).
