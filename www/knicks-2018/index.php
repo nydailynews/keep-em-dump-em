@@ -1,4 +1,4 @@
-<?php
+i<?php
 $append = '';
 $version = '';
 if ( $_SERVER['QUERY_STRING'] !== '' ):
@@ -151,7 +151,7 @@ endif;
 	};
 	</script>
 	<main>
-		<article>
+		<article style="background-image: url('../img/knicks-madison-square-garden-bg.jpg');">
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2018 New York Knicks</h1>
