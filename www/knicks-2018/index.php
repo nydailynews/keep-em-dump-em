@@ -9,7 +9,7 @@ endif;
 <html lang="en">
   <head>
 		<!-- DEFAULT -->
-		<title>2018 Knicks Keep 'Em Dump 'Em</title>
+		<title>2018 Knicks Keep ‘Em Dump ‘Em</title>
 		<meta charset="utf-8"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="apple-mobile-web-app-capable" content="yes" />
@@ -19,13 +19,13 @@ endif;
 		<link rel="icon" type="image/png" href="http://interactive.nydailynews.com/favicons.png">
 
 		<!-- Titles -->
-		<meta property="og:title" content="2018 Knicks Keep 'Em Dump 'Em" />
-		<meta name="twitter:title" content="2018 Knicks Keep 'Em Dump 'Em"/>
+		<meta property="og:title" content="2018 Knicks Keep ‘Em Dump ‘Em" />
+		<meta name="twitter:title" content="2018 Knicks Keep ‘Em Dump ‘Em"/>
 
 		<!-- Description -->
-		<meta name="description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep 'Em Dump 'Em" />
-		<meta property="og:description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep 'Em Dump 'Em" />
-		<meta name="twitter:description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep 'Em Dump 'Em" />
+		<meta name="description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em" />
+		<meta property="og:description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em" />
+		<meta name="twitter:description" content="Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em" />
 
 		<!-- KEYWORD -->
 		<meta name="keywords" content="Knicks,New York,news app,online polls,sports,New York Knicks 2018,Knicks lineup,NBA" />
@@ -36,8 +36,8 @@ endif;
 		<meta name="twitter:url" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/">
 
 		<!-- THUMBNAIL IMAGE-->
-		<meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-YEAR-lineup.jpg" />
-		<meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-YEAR-lineup.jpg" />
+		<meta property="og:image" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-2018-madison-square-garden.jpg" />
+		<meta name="twitter:image:src" content="http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-2018-madison-square-garden.jpg" />
 		<meta property="og:image:width" content="1024" />
 		<meta property="og:image:height" content="512" />
 
@@ -46,13 +46,13 @@ endif;
 		{
 				"@context": "http://schema.org",
 				"@type": "NewsArticle",
-				"headline": "2018 Knicks Keep 'Em Dump 'Em",
+				"headline": "2018 Knicks Keep ‘Em Dump ‘Em",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/",
-				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-YEAR-lineup.jpg",
+				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-2018-madison-square-garden.jpg",
 				"dateCreated": "2018-04-11T07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
-				"keywords": ["interactive","interactive poll","Knicks,New York,news app,online polls,sports,New York Knicks 2018,Knicks lineup,NBA"]
+				"keywords": ["interactive","interactive poll","knicks","nba"]
 		}
 		</script>
 
@@ -144,7 +144,7 @@ endif;
 	</div>
 	<script>
 	var app_config = { 
-		description: "Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep 'Em Dump 'Em",
+		description: "Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em",
 		team: 'New York Knicks',
 		year: 'YEAR',
 		version: '<?php echo $version; ?>',
@@ -159,7 +159,7 @@ endif;
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/&amp;text=Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep 'Em Dump 'Em&amp;via=NYDNi&related=NYDNTransit">Tweet</a></li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/&amp;text=Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em&amp;via=NYDNi&related=NYDNSports,NYDNi">Tweet</a></li>
 						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/">email</a> </li>
 					</ul>
 				</div>
