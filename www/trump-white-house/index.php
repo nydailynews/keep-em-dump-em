@@ -199,6 +199,11 @@ endif;
 				
                 <section id="DUMPED">
 
+                    <div class="large-4 medium-6 small-12 columns left">
+                        <img src="img/bossert.jpg" alt="photo of Tom Bossert">
+                        <div class="dumped">
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/tom-bossert-resigns-trump-top-homeland-security-adviser-article-1.3925668">Tom Bossert</a><span>Homeland Security Adviser</span></p>
+                    </div></div>
 					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="photo of David Shulkin" src="http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg">
                         <div class="dumped">
