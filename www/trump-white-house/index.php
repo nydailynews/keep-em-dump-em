@@ -222,7 +222,7 @@ endif;
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg">
                         <div class="dumped">
-                            <p class="name"<a href="http://www.nydailynews.com/news/politics/rex-tillerson-secretary-state-article-1.3871713">Rex Tillerson</a><span><span style="display:none;"> TITLE: </span>Former Secretary of State</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/rex-tillerson-secretary-state-article-1.3871713">Rex Tillerson</a><span><span style="display:none;"> TITLE: </span>Former Secretary of State</span></p>
                         </div>
                     </div>
 
