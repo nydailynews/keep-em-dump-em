@@ -208,49 +208,49 @@ endif;
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of David Shulkin" src="http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/newswires/news/national/trump-ousts-shulkin-veterans-affairs-taps-doctor-article-1.3902011">David Shulkin</a><span><span style="display:none;">TITLE:</span>Former Secretary of Veterans Affairs</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/newswires/news/national/trump-ousts-shulkin-veterans-affairs-taps-doctor-article-1.3902011">David Shulkin</a><span><span style="display:none;"> TITLE: </span>Former Secretary of Veterans Affairs</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of H.R. McMaster" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/news/politics/national-security-adviser-gen-h-mcmaster-resign-article-1.3890661">H.R.McMaster</a><span><span style="display:none;">TITLE:</span>Former National Security Adviser</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/national-security-adviser-gen-h-mcmaster-resign-article-1.3890661">H.R.McMaster</a><span><span style="display:none;"> TITLE: </span>Former National Security Adviser</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg">
                         <div class="dumped">
-                            <p class="name"<a href="http://www.nydailynews.com/news/politics/rex-tillerson-secretary-state-article-1.3871713">Rex Tillerson</a><span><span style="display:none;">TITLE:</span>Former Secretary of State</span></p>
+                            <p class="name"<a href="http://www.nydailynews.com/news/politics/rex-tillerson-secretary-state-article-1.3871713">Rex Tillerson</a><span><span style="display:none;"> TITLE: </span>Former Secretary of State</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Gary Cohn" src="http://assets.nydailynews.com/polopoly_fs/1.3423766!/img/httpImage/95508954.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/news/politics/gary-cohn-resigns-trump-top-economic-adviser-article-1.3859635">Gary Cohn</a><span><span style="display:none;">TITLE:</span>Former Chief Economic Advisor</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/gary-cohn-resigns-trump-top-economic-adviser-article-1.3859635">Gary Cohn</a><span><span style="display:none;"> TITLE: </span>Former Chief Economic Advisor</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Hope Hicks" src="http://assets.nydailynews.com/polopoly_fs/1.3423772!/img/httpImage/94275395.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/news/politics/trump-aide-hope-hicks-announces-sudden-resignation-report-article-1.3847402">Hope Hicks</a><span><span style="display:none;">TITLE:</span>Former White House Communications Director</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/trump-aide-hope-hicks-announces-sudden-resignation-report-article-1.3847402">Hope Hicks</a><span><span style="display:none;"> TITLE: </span>Former White House Communications Director</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Omarosa Manigault Newman" src="img/omarosa.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/news/politics/omarosa-manigault-newman-resign-trump-administration-article-1.3695668">Omarosa Manigault Newman</a><span><span style="display:none;">TITLE:</span>Former director of communications for the White House Office of Public Liaison</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/omarosa-manigault-newman-resign-trump-administration-article-1.3695668">Omarosa Manigault Newman</a><span><span style="display:none;"> TITLE: </span>Former director of communications for the White House Office of Public Liaison</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="Tom Price hoto" src="http://assets.nydailynews.com/polopoly_fs/1.3423824!/img/httpImage/trump.jpg">
                         <div class="dumped">
-                            <p class="name"><a href="http://www.nydailynews.com/news/national/tom-price-resigns-health-secretary-private-jet-article-1.3530958">Tom Price</a><span><span style="display:none;">TITLE:</span>Former secretary of Health and Human Services</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/national/tom-price-resigns-health-secretary-private-jet-article-1.3530958">Tom Price</a><span><span style="display:none;"> TITLE: </span>Former secretary of Health and Human Services</span></p>
                         </div>
                     </div>
 
