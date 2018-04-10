@@ -52,7 +52,7 @@ endif;
 				"dateCreated": "DATET07:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
-				"keywords": ["interactive","interactive poll","KEYWORDS"]
+				"keywords": ["interactive","interactive poll",""]
 		}
 		</script>
 
@@ -154,12 +154,12 @@ endif;
 		<article>
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
-				<h1>2017 New York Yankees</h1>
-				<p>The Yankees were supposed to be a year away. But thanks to the spark provided by the Baby Bombers, the high-powered Yankees chased the Red Sox all the way to the finish line. But anything short of a World Series title around here means you came up small. Now that the 2017 campaign is over, it's time to put on your GM cap and vote on the future of the Yankees.</p>
+				<h1>YEAR TEAM</h1>
+				<p>INTRO</p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=CANONICALURL">facebook</a> </li>
-						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=NYDNTransit">Tweet</a></li>
+						<li class="ra-share-t"> <a target="_blank" href="https://twitter.com/share?url=CANONICALURL&amp;text=DESCRIPTION&amp;via=NYDNi&related=NYDNSports,NYDNi">Tweet</a></li>
 						<li class="ra-share-e"> <a href="mailto:?subject=&amp;body=Vote%20here%20CANONICALURL">email</a> </li>
 					</ul>
 				</div>
@@ -254,6 +254,7 @@ endif;
 		$(document).foundation();
 	</script>
 	<script>_satellite.pageBottom();</script>
+	<script> (function(s, p, d) { var h=d.location.protocol, i=p+"-"+s, e=d.getElementById(i), r=d.getElementById(p+"-root"), u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net" :"static."+p+".com"; if (e) return; e = d.createElement(s); e.id = i; e.async = true; e.src = h+"//"+u+"/p.js"; r.appendChild(e); })("script", "parsely", document); </script>
 
 	</div>
   </body>
