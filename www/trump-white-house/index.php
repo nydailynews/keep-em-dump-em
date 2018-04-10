@@ -186,7 +186,7 @@ endif;
 			</p>
 			<p class="datestamp" style="text-transform:uppercase; color:#aaa;">
 				<em>
-				Staff list last updated March 22, 2018
+				Staff list last updated March 28, 2018
 				</em>
 			</p>
 		</div>
@@ -198,6 +198,13 @@ endif;
 				<h2 style="clear: both;" class="section">Former members of Trump's White House</h2>
 				
                 <section id="DUMPED">
+
+					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="photo of David Shulkin" src="http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg">
+                        <div class="dumped">
+							<p class="name">David Shulkin<span><span style="display:none;">TITLE:</span>Former Secretary of Veterans Affairs</span></p>
+						</div>
+					</div>
 
 					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
