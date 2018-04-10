@@ -199,6 +199,11 @@ endif;
 				
                 <section id="DUMPED">
 
+                    <div class="large-4 medium-6 small-12 columns left">
+                        <img src="img/bossert.jpg" alt="photo of Tom Bossert">
+                        <div class="dumped">
+                        <p class="name">Tom Bossert<span>Homeland Security Adviser</span></p>
+                    </div></div>
 					<div class="large-4 medium-6 small-12 columns left">
 						<img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
                         <div class="dumped">
