@@ -213,99 +213,99 @@ endif;
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
-                        <img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
+                        <img alt="photo of H.R. McMaster" src="http://assets.nydailynews.com/polopoly_fs/1.3423795!/img/httpImage/96895390.jpg">
                         <div class="dumped">
-                            <p class="name">H.R. McMaster<span><span style="display:none;">TITLE:</span>Former National Security Adviser</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/national-security-adviser-gen-h-mcmaster-resign-article-1.3890661">H.R.McMaster</a><span><span style="display:none;">TITLE:</span>Former National Security Adviser</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Rex Tillerson" src="http://assets.nydailynews.com/polopoly_fs/1.3423821!/img/httpImage/afp-pa7ip.jpg">
                         <div class="dumped">
-                            <p class="name">Rex Tillerson<span><span style="display:none;">TITLE:</span>Former Secretary of State</span></p>
+                            <p class="name"<a href="http://www.nydailynews.com/news/politics/rex-tillerson-secretary-state-article-1.3871713">Rex Tillerson</a><span><span style="display:none;">TITLE:</span>Former Secretary of State</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Gary Cohn" src="http://assets.nydailynews.com/polopoly_fs/1.3423766!/img/httpImage/95508954.jpg">
                         <div class="dumped">
-                            <p class="name">Gary Cohn<span><span style="display:none;">TITLE:</span>Former Chief Economic Advisor</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/gary-cohn-resigns-trump-top-economic-adviser-article-1.3859635">Gary Cohn</a><span><span style="display:none;">TITLE:</span>Former Chief Economic Advisor</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Hope Hicks" src="http://assets.nydailynews.com/polopoly_fs/1.3423772!/img/httpImage/94275395.jpg">
                         <div class="dumped">
-                            <p class="name">Hope Hicks<span><span style="display:none;">TITLE:</span>Former White House Communications Director</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/trump-aide-hope-hicks-announces-sudden-resignation-report-article-1.3847402">Hope Hicks</a><span><span style="display:none;">TITLE:</span>Former White House Communications Director</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of Omarosa Manigault Newman" src="img/omarosa.jpg">
                         <div class="dumped">
-                            <p class="name">Omarosa Manigault Newman<span><span style="display:none;">TITLE:</span>Former director of communications for the White House Office of Public Liaison</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/omarosa-manigault-newman-resign-trump-administration-article-1.3695668">Omarosa Manigault Newman</a><span><span style="display:none;">TITLE:</span>Former director of communications for the White House Office of Public Liaison</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="Tom Price hoto" src="http://assets.nydailynews.com/polopoly_fs/1.3423824!/img/httpImage/trump.jpg">
                         <div class="dumped">
-                            <p class="name">Tom Price<span><span style="display:none;">TITLE:</span>Former secretary of Health and Human Services</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/news/national/tom-price-resigns-health-secretary-private-jet-article-1.3530958">Tom Price</a><span><span style="display:none;">TITLE:</span>Former secretary of Health and Human Services</span></p>
                         </div>
                     </div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3423770!/img/httpImage/96184591.jpg" alt="photo of Sebastian Gorka">
                         <div class="dumped">
-                        <p class="name">Sebastian Gorka<span>Former Deputy Assistant to the President</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/national/trump-aide-sebastian-gorka-resigns-white-house-article-1.3443137">Sebastian Gorka</a><span>Former Deputy Assistant to the President</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449408!/img/httpImage/trump-russia-congress.jpg" alt="photo of Sally Yates">
                         <div class="dumped">
-                        <p class="name">Sally Yates<span>Former acting attorney general</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/white-house-calls-sally-yates-political-opponent-trump-article-1.3150482">Sally Yates</a><span>Former acting attorney general</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449400!/img/httpImage/trump-iran.jpg" alt="photo of Michael Flynn">
                         <div class="dumped">
-                        <p class="name">Michael Flynn<span>Former national security adviser</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/newswires/news/national/trump-alters-story-fired-flynn-article-1.3672794">Michael Flynn</a><span>Former national security adviser</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449407!/img/httpImage/comey.jpg" alt="photo of James Comey">
                         <div class="dumped">
-                        <p class="name">James Comey<span>Former FBI Director</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/national/president-trump-fires-fbi-director-james-comey-article-1.3150918">James Comey</a><span>Former FBI Director</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449409!/img/httpImage/trump.jpg" alt="photo of Michael Dubke">
                         <div class="dumped">
-                        <p class="name">Michael Dubke<span>Former White House communications director</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/newswires/news/national/departure-communications-aide-trump-shake-up-article-1.3206720">Michael Dubke</a><span>Former White House communications director</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449412!/img/httpImage/trump.jpg" alt="photo of Sean Spicer">
                         <div class="dumped">
-                        <p class="name">Sean Spicer<span>Former White House press secretary</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/sean-spicer-resigns-scaramucci-named-white-house-comm-director-article-1.3344119">Sean Spicer</a><span>Former White House press secretary</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449410!/img/httpImage/94204265.jpg" alt="photo of Reince Priebus">
                         <div class="dumped">
-                        <p class="name">Reince Priebus<span>Former White House chief of staff</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/trump-names-new-white-house-chief-staff-article-1.3365793">Reince Priebus</a><span>Former White House chief of staff</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449413!/img/httpImage/afp-qt7xs.jpg" alt="photo of Anthony Scaramucci">
                         <div class="dumped">
-                        <p class="name">Anthony Scaramucci<span>Former White House communications director</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/anthony-scaramucci-resigns-communications-director-article-1.3371914">Anthony Scaramucci</a><span>Former White House communications director</span></p>
                     </div></div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="http://assets.nydailynews.com/polopoly_fs/1.3449411!/img/httpImage/96066699.jpg" alt="photo of Steve Bannon">
                         <div class="dumped">
-                        <p class="name">Steve Bannon<span>Former White House chief strategist</span></p>
+                        <p class="name"><a href="http://www.nydailynews.com/news/politics/steve-bannon-white-house-chief-strategist-article-1.3423222">Steve Bannon</a><span>Former White House chief strategist</span></p>
                     </div></div>
 
                                 </section>
