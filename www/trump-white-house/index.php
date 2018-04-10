@@ -208,7 +208,7 @@ endif;
                     <div class="large-4 medium-6 small-12 columns left">
                         <img alt="photo of David Shulkin" src="http://assets.nydailynews.com/polopoly_fs/1.3423850!/img/httpImage/veterans-hospital.jpg">
                         <div class="dumped">
-                            <p class="name">David Shulkin<span><span style="display:none;">TITLE:</span>Former Secretary of Veterans Affairs</span></p>
+                            <p class="name"><a href="http://www.nydailynews.com/newswires/news/national/trump-ousts-shulkin-veterans-affairs-taps-doctor-article-1.3902011">David Shulkin</a><span><span style="display:none;">TITLE:</span>Former Secretary of Veterans Affairs</span></p>
                         </div>
                     </div>
 
