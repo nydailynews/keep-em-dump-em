@@ -212,12 +212,14 @@ var keepem = {
 On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' times (' + avg_keep_percent + ' percent).\n\
 ';
         var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.to_title_case(this.config.team) + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('On average, r', ' R'));
+
         var len = 0;
         if ( typeof d['kept'] !== 'undefined' ) len = d['kept'].length;
-        var kept_blurb = ' voted to keep', dumped_blurb = ' voted to keep';
+        var kept_blurb = ' voted to keep', dumped_blurb = ' voted to dump';
+
         for ( var i = 0; i < len; i ++ ) {
             kept += '   <li>' + d['kept'][i]['name'] + ': ' + this.to_percent(d['kept'][i]['percent']) + '%' + kept_blurb + '</li>\n';
-            dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + this.to_percent(d['dumped'][i]['percent']) + '%' + dumped_blurb + '</li>\n';
+            dumped += '   <li>' + d['dumped'][i]['name'] + ': ' + ( 100 - this.to_percent(d['dumped'][i]['percent']) ) + '%' + dumped_blurb + '</li>\n';
             kept_blurb = '', dumped_blurb = '';
         }
         jQuery('#players').html('<section id="final">\n\
