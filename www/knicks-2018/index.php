@@ -1,4 +1,4 @@
-i<?php
+<?php
 $append = '';
 $version = '';
 if ( $_SERVER['QUERY_STRING'] !== '' ):
@@ -49,7 +49,7 @@ endif;
 				"headline": "2018 Knicks Keep ‘Em Dump ‘Em",
 				"url": "http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/",
 				"thumbnailUrl": "http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/img/knicks-2018-madison-square-garden.jpg",
-				"dateCreated": "2018-04-11T07:00:00Z",
+				"dateCreated": "2018-04-11T17:00:00Z",
 				"articleSection": "Interactive",
 				"creator": ["Interactive Poll"],
 				"keywords": ["interactive","interactive poll","knicks","nba"]
@@ -58,7 +58,7 @@ endif;
 
 		<!-- NO NEED TO FILL -->
 		<meta property="og:type" content="website" />
-		<meta name="twitter:card" content="summary"> 
+		<meta name="twitter:card" content="summary_card_large"> 
 		<meta name="twitter:domain" content="http://interactive.nydailynews.com"/>
 		<meta name="twitter:site" content="NY Daily News">
 		<meta name="decorator" content="responsive" />
@@ -80,6 +80,12 @@ endif;
   <body style="background-color: black;">
 <div id="nydn-shell">
 		<style>
+@font-face {
+  font-family: 'themify';
+  src: url("http://www.nydailynews.com/nydn/f/themify.eot?-fvbane");
+  src: url("http://www.nydailynews.com/nydn/f/themify.eot?#iefix-fvbane") format("embedded-opentype"), url("http://www.nydailynews.com/nydn/f/themify.woff?-fvbane") format("woff"), url("http://www.nydailynews.com/nydn/f/themify.ttf?-fvbane") format("truetype"), url("http://www.nydailynews.com/nydn/f/themify.svg?-fvbane#themify") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 		.NOV-5{display:none}*,:after,:before{-webkit-box-sizing:border-box;-moz-box-sizing:border-box;box-sizing:border-box}html,body{width:100%;height:100%;margin:0;padding:0}li{list-style:none}.hamburger{background:none;padding:0;border:0}a{text-decoration:none}#nydn-header{background:#222;border-bottom:solid 1px #3B3B3B}#nydn-header #nydn-header-wrap{height:52px;padding:10px 20px;position:relative}#nydn-header #nydn-header-wrap #nydn-logo{display:block;width:192px;height:18px;background:url(http://interactive.nydailynews.com/includes/media/nydn_logo.png) 0 0 no-repeat;margin:10px 10px 10px 32px;float:left;text-indent:-99999px}#nydn-header #nydn-header-wrap #nydn-logo a{display:block;width:100%;height:100%;background:none}#nydn-header #nydn-header-wrap #nydn-menu{position:absolute;left:20px;top:10px}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-open{display:block;width:22px;height:18px;background:url(http://multimedia.nydailynews.com/css/P01/i/icon/icons.png) 0 0 no-repeat;margin-right:10px;margin-top:10px;text-indent:-99999px;cursor:pointer}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-open:hover{opacity:9;filter:alpha(opacity=900);background-position:0 -50px}#nydn-header #nydn-header-wrap #nydn-menu nav{position:absolute;width:224px;top:30px;left:0;background:#000;background:rgba(0,0,0,0.9);display:none;z-index:10}#nydn-header #nydn-header-wrap #nydn-menu nav ul{margin:0;padding:0}#nydn-header #nydn-header-wrap #nydn-menu nav ul li{text-transform:uppercase}#nydn-header #nydn-header-wrap #nydn-menu nav ul li a{display:block;padding:10px 20px;color:#fff;transition:All 300ms ease;-webkit-transition:All 300ms ease;-moz-transition:All 300ms ease;-o-transition:All 300ms ease}#nydn-header #nydn-header-wrap #nydn-menu nav ul li a:hover{color:#e8172d}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-close{width:30px;height:30px;color:#979797;position:absolute;top:30px;left:195px;line-height:30px;text-align:center;cursor:pointer;display:block;z-index:10;opacity:0;filter:alpha(opacity=0)}#nydn-header #nydn-header-wrap #nydn-menu #nydn-menu-close:hover{color:#e8172d}#nydn-header #nydn-header-wrap #nydn-menu.on nav{display:block;height:auto}#nydn-header #nydn-header-wrap #nydn-menu.on #nydn-menu-close{opacity:1;filter:alpha(opacity=100)}#nydn-header #nydn-header-wrap #nydn-sm{float:right;margin-top:8px}#nydn-header #nydn-header-wrap #nydn-sm ul{margin:0}#nydn-header #nydn-header-wrap #nydn-sm ul li{float:left;width:22px;height:22px;float:left;margin-left:10px;background:url(http://multimedia.nydailynews.com/css/P01/i/icon/icons.png) 0 0 no-repeat;text-indent:-99999px;cursor:pointer}#nydn-header #nydn-header-wrap #nydn-sm ul li a{display:block;width:22px;height:22px}#nydn-header #nydn-header-wrap #nydn-sm ul li.twitter{background-position:-100px 0;background:url(http://interactive.nydailynews.com/includes/media/tw_top.png)}#nydn-header #nydn-header-wrap #nydn-sm ul li.twitter:hover{background-position:-100px -50px;background:url(http://interactive.nydailynews.com/includes/media/tw_top.png);opacity:.8}#nydn-header #nydn-header-wrap #nydn-sm ul li.facebook{background-position:-200px 0;background:url(http://interactive.nydailynews.com/includes/media/fb_top.png)}#nydn-header #nydn-header-wrap #nydn-sm ul li.facebook:hover{background-position:-200px -50px;background:url(http://interactive.nydailynews.com/includes/media/fb_top.png);opacity:.8}#nydn-footer{clear:both;font-size:12px;color:#fff;text-align:center}#nydn-footer #nydn-footer-services{height:28px;line-height:28px;vertical-align:middle;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) 0 -71px repeat-x}#nydn-footer #nydn-footer-services ul{width:auto;height:100%;display:inline-block;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) -99px -276px no-repeat;padding-left:1px;margin:0}#nydn-footer #nydn-footer-services ul li{display:block;float:left;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) right -276px no-repeat;padding-right:1px}#nydn-footer #nydn-footer-services ul li a{display:block;height:100%;padding:0 10px;color:#fff}#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services']{display:none}#nydn-footer #nydn-footer-services ul li a:hover{background-position:0 -71px;background:url(http://assets.nydailynews.com/nydn/img/static/bg/header.png) 0 -304px repeat-x}#nydn-footer #nydn-footer-services ul li li a{height:auto;background:none}@media (max-width: 900px){#nydn-footer #nydn-footer-services ul li a{display:none}#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/contact-us'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/contact-us'],#nydn-footer #nydn-footer-services ul li a[href='http://www.nydailynews.com/services/sitemap']{display:block}}#nydn-footer #nydn-disclaimer{font-size:11px;color:#ccc;background:#272727;padding:30px 0;height:100%}#nydn-footer #nydn-disclaimer a{color:#ccc;text-decoration:underline}@media (max-width: 480px){#nydn-header #nydn-header-wrap #nydn-sm ul{overflow:hidden;padding:0;width:56px}#nydn-header #nydn-header-wrap #nydn-sm ul li{margin-left:4px}#nydn-header #nydn-header-wrap #nydn-logo{margin:10px 0 0 42px}#nydn-header #nydn-header-wrap{padding:10px}}#interactive-logo a{color:#cdcdcd;font-size:13px;font-family:"Helvetica";letter-spacing:2px}#interactive-logo{width:192px;height:18px;margin:13px 10px 0 32px;float:left;position:relative;bottom:35px;background: 0 0 no-repeat}#header_line{position:relative;right:225px;top:7px}@media (max-width: 600px){#interactive-logo,#header_line{display:none}}
 		</style>
 		
@@ -135,9 +141,9 @@ endif;
 
 	<!-- banner ad -->
 	<div id="top_ad" class="center">
-		<div id='div-gpt-ad-1423507761396-1'>
+		<div id='div-gpt-ad-x101'>
 			<script>
-				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-1'); });
+				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-x101'); });
 				else $('#top_ad').remove();
 			</script>
 		</div>
@@ -146,7 +152,7 @@ endif;
 	var app_config = { 
 		description: "Vote which New York Knicks players and front-office personnel to keep and which to get rid of on the 2018 Knicks Keep ‘Em Dump ‘Em",
 		team: 'New York Knicks',
-		year: 'YEAR',
+		year: '2018',
 		version: '<?php echo $version; ?>',
 	};
 	</script>
@@ -155,7 +161,14 @@ endif;
 			<div id="intro">
 				<img src="../img/keep-dump-logo.png">
 				<h1>2018 New York Knicks</h1>
-				<p>The Knicks and their fans suffered another dreadful season — one that included star Kristaps Porzingis tearing his ACL. This was the fourth straight season the team lost at least 50 games, which hadn't been done by the franchise since 1964. Now it's time for you to clean up this mess and become the Knicks GM, deciding who should stay and who needs to leave the Garden for good. <strong>VOTE NOW!</strong></p>
+				<p>
+					<strong>The Knicks and their fans suffered another dreadful season</strong> —
+					one that included star <a href="http://www.nydailynews.com/sports/basketball/knicks/kristaps-porzingis-helped-locker-room-knee-injury-article-1.3803986">Kristaps Porzingis tearing his ACL</a>.
+					This was the fourth straight season the team lost at least 50 games
+					<!--
+					(<a href="http://www.nydailynews.com/newswires/sports/drummond-big-night-pistons-beat-knicks-115-109-article-1.3907741">loss number 50 came on March 31’s defeat against Detroit</a>),
+					-->
+					which hadn't been done by the franchise since 1964. Now it's time for you to clean up this mess and become the Knicks GM, deciding who should stay and who needs to leave the Garden for good. <strong>VOTE NOW!</strong></p>
 				<div>
 					<ul class="ra-share" id="ra-share-top" style="text-align: center;">
 						<li class="rt-share-f"><a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=http://interactive.nydailynews.com/poll/keep-em-dump-em/knicks-2018/">facebook</a> </li>
@@ -190,9 +203,9 @@ endif;
 
 	<!-- mobile ad -->
 	<div id="m_bottom_ad" class="center">
-		<div id='div-gpt-ad-1423507761396-2'>
+		<div id='div-gpt-ad-1423507761396-4'>
 			<script>
-				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-2'); });
+				if ( is_mobile ) googletag.cmd.push(function() { googletag.display('div-gpt-ad-1423507761396-4'); });
 				else $('#m_bottom_ad').remove();
 			</script>
 		</div>
@@ -218,7 +231,7 @@ endif;
 	</div>
 	<div id="nydn-disclaimer">
 	  <p>Use of this website signifies your agreement to the <a href="http://www.nydailynews.com/services/terms-services">Terms of Service</a> and <a href="http://www.nydailynews.com/services/privacy-policy">Privacy Policy</a>.</p>
-	  <p>© Copyright 2016-2017 NYDailyNews.com. All rights reserved.</p>
+	  <p>© Copyright 2016-2018 NYDailyNews.com. All rights reserved.</p>
 	</div>
   </footer>
 
@@ -233,6 +246,11 @@ endif;
 	</script>
 	<script>_satellite.pageBottom();</script>
 
+<div id="r-scripts">
+    <div id="parsely-root" style="display: none">
+        <span id="parsely-cfg" data-parsely-site="nydailynews.com"></span>
+    </div>
+</div>
 	<script> (function(s, p, d) { var h=d.location.protocol, i=p+"-"+s, e=d.getElementById(i), r=d.getElementById(p+"-root"), u=h==="https:"?"d1z2jf7jlzjs58.cloudfront.net" :"static."+p+".com"; if (e) return; e = d.createElement(s); e.id = i; e.async = true; e.src = h+"//"+u+"/p.js"; r.appendChild(e); })("script", "parsely", document); </script>
 	</div>
   </body>

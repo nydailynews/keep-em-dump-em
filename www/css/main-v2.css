@@ -53,6 +53,7 @@ article {
 
 #intro img {
 	margin-top: 100px;
+    border: 0;
 }
 
 #intro p {
@@ -283,9 +284,12 @@ p.name span {
 .social{
 	display: none;
 	width: 64px;
-	position: absolute;
-	left: 130px;
-	top: 300px;
+	left: 0;
+    top: -400px;
+    position: relative;
+    margin: auto;
+    height: 50px;
+    z-index: 5;
 }
 
 .facebook{
@@ -320,8 +324,8 @@ p.name span {
 .panel.results {
 	text-transform: uppercase;
 	display: none;
-	height: 372px;
-	top: -372px;
+	height: 382px;
+	top: -382px;
 }
 
 .results-image {
@@ -467,7 +471,7 @@ div.dump, span.dump {
 	}
 
 	.panel.results {
-		top: -328px;
+		top: -382px;
 	}
 
 	.results-chart {
@@ -480,8 +484,6 @@ div.dump, span.dump {
 	}
 
 	.social {
-		left: 114px;
-		top: 280px;
 	}
 }
 

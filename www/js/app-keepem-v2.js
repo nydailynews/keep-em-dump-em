@@ -168,8 +168,8 @@ var keepem = {
             $("#"+player+"_results").find(".keep-bar").css('grid-row-end', Math.floor(percent_k*-1).toString());
             $("#"+player+"_results").find(".dump-bar").css('grid-row-end', Math.floor(percent_d*-1).toString());
             // ** TODO: The greater the difference between the two percentages the more likely the lower of the two numbers will overlap the bar.
-            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d -5)+'%');
-            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k -5)+'%');
+            $("#"+player+"_results").find(".keep_result_num").css('top', Math.floor(percent_d - 5)+'%');
+            $("#"+player+"_results").find(".dump_result_num").css('top', Math.floor(percent_k - 5)+'%');
             $("#"+player+"_results").find(".keep_result_num").html(percent_k+"%");
             $("#"+player+"_results").find(".dump_result_num").html(percent_d+"%");
         });
@@ -208,11 +208,12 @@ var keepem = {
         var keep_percent = this.to_percent(this.votes.keep/this.votes.total);
         var avg_keep_percent = this.to_percent(d.percent_avg);
         var kept = '', dumped = '';
-        var vote_text = 'You voted to dump ' + this.votes.keep + ' out of ' + this.votes.total + ' times (' + keep_percent + ' percent).\n\
-On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' (' + avg_keep_percent + ' percent).\n\
+        var vote_text = 'You voted to dump ' + this.votes.keep + ' out of ' + this.votes.total + ' ' + this.to_title_case(this.config.team) + ' players and staff (' + keep_percent + ' percent).\n\
+On average, readers voted to dump ' + Math.floor(d.keep_avg*10)/10 + ' times (' + avg_keep_percent + ' percent).\n\
 ';
         var vote_text_tweet = this.tweet_link(vote_text.replace('You voted', 'On the ' + this.to_title_case(this.config.team) + ' Keep Em Dump Em I voted').replace(' percent','%25').replace(' percent','%25').replace('On average, r', ' R'));
-        var len = d['kept'].length;
+        var len = 0;
+        if ( typeof d['kept'] !== 'undefined' ) len = d['kept'].length;
         var kept_blurb = ' voted to keep', dumped_blurb = ' voted to keep';
         for ( var i = 0; i < len; i ++ ) {
             kept += '   <li>' + d['kept'][i]['name'] + ': ' + this.to_percent(d['kept'][i]['percent']) + '%' + kept_blurb + '</li>\n';
