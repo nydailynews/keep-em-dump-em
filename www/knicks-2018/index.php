@@ -193,7 +193,7 @@ endif;
 				<div class="large-4 medium-6 small-12 columns left">
 					<img alt="Photo of Jeff Hornacek" src="img/jeff_hornacek.jpg">
 					<div class="dumped">
-						<p class="name">Jeff Hornacek<span><span style="display:none;"> TITLE: </span>Former Head Coach</span></p>
+						<p class="name"><a href="http://www.nydailynews.com/sports/basketball/knicks/knicks-fire-jeff-hornacek-disappointing-seasons-article-1.3929410">Jeff Hornacek</a><span><span style="display:none;"> TITLE: </span>Former Head Coach</span></p>
 					</div>
 				</div>
 			</section>
