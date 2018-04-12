@@ -58,7 +58,7 @@ endif;
 
 		<!-- NO NEED TO FILL -->
 		<meta property="og:type" content="website" />
-		<meta name="twitter:card" content="summary_card_large"> 
+		<meta name="twitter:card" content="summary_large_image"> 
 		<meta name="twitter:domain" content="http://interactive.nydailynews.com"/>
 		<meta name="twitter:site" content="NY Daily News">
 		<meta name="decorator" content="responsive" />
@@ -162,7 +162,7 @@ endif;
 				<img src="../img/keep-dump-logo.png">
 				<h1>2018 New York Knicks</h1>
 				<p>
-					<strong>The Knicks and their fans suffered another dreadful season</strong> —
+					<strong><a href="http://www.nydailynews.com/sports/basketball/knicks">The Knicks</a> and their fans suffered another dreadful season</strong> —
 					one that included star <a href="http://www.nydailynews.com/sports/basketball/knicks/kristaps-porzingis-helped-locker-room-knee-injury-article-1.3803986">Kristaps Porzingis tearing his ACL</a>.
 					This was the fourth straight season the team lost at least 50 games
 					<!--
@@ -181,20 +181,25 @@ endif;
 		<?php include('../php/stats.php'); ?>
 		<div id="players" class="row">
 			<div class="columns">
-				<h2 class="section">Players</h2>
+				<h2 class="section">Knicks Players</h2>
 				<section id="PLAYERS"></section>
 			</div>
 			<div class="columns">
-				<h2 class="section">The Brass</h2>
+				<h2 class="section">Knicks Brass</h2>
 				<section id="BRASS">
 			</div>
+            <h2 style="clear: both;" class="section">Already dumped</h2>
+			<section id="DUMPED">
+				<div class="large-4 medium-6 small-12 columns left">
+					<img alt="Photo of Jeff Hornacek" src="img/jeff_hornacek.jpg">
+					<div class="dumped">
+						<p class="name">Jeff Hornacek<span><span style="display:none;"> TITLE: </span>Former Head Coach</span></p>
+					</div>
+				</div>
+			</section>
 		</div>
     </div>
 </div>
-				
-
-
-
 				</section>
 			</div>
 		</div>
