@@ -222,7 +222,7 @@ endif;
 		<li><a href="http://www.nydailynews.com/services">Services</a></li>
 		<li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li>
 		<li><a href="http://www.nydailynews.com/autos">Autos</a></li>
-		<li><a href="https://homedelivery.nydailynews.com">Home Delivery</a></li>
+		<li><a href="https://myaccount2.nydailynews.com">Home Delivery</a></li>
 		<li><a href="http://www.nydailynews.com/login">Newsletters</a></li>
 		<li><a href="http://local.nydailynews.com/search/en-US/" >Businesses</a></li>
 		<li><a href="http://nydailynews.adperfect.com">Place an Ad</a></li>

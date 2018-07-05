@@ -186,7 +186,7 @@ endif;
             </p>
             <p class="datestamp" style="text-transform:uppercase; color:#aaa;">
                 <em>
-                Staff list last updated April 10, 2018
+                Staff list last updated July 5, 2018
                 </em>
             </p>
         </div>
@@ -198,6 +198,13 @@ endif;
                 <h2 style="clear: both;" class="section">Former members of Trump's White House</h2>
                 
                 <section id="DUMPED">
+
+					<div class="large-4 medium-6 small-12 columns left">
+						<img alt="Scott Pruitt<span><span style='display:none;'>TITLE:</span> Former EPA Administrator</span> photo" src="http://assets.nydailynews.com/polopoly_fs/1.3423801!/img/httpImage/trump-climate.jpg">
+                        <div class="dumped">
+                            <p class="name"><a href="http://www.nydailynews.com/news/politics/ny-news-pruitt-resigns-trump-epa-20180705-story.html">Scott Pruitt</a><span><span style="display:none;"> TITLE: </span>Former EPA Administrator</span></p>
+                        </div>
+					</div>
 
                     <div class="large-4 medium-6 small-12 columns left">
                         <img src="img/bossert.jpg" alt="photo of Tom Bossert">
@@ -336,7 +343,7 @@ endif;
                 <li><a href="http://www.nydailynews.com/services">Services</a></li>
                 <li><a href="http://www.nydailynews.com/services/media-kit/">Media Kit</a></li>
                 <li><a href="http://www.nydailynews.com/autos">Autos</a></li>
-                <li><a href="https://homedelivery.nydailynews.com">Home Delivery</a></li>
+                <li><a href="https://myaccount2.nydailynews.com">Home Delivery</a></li>
                 <li><a href="http://www.nydailynews.com/login">Newsletters</a></li>
                 <li><a href="http://local.nydailynews.com/search/en-US/" >Businesses</a></li>
                 <li><a href="http://nydailynews.adperfect.com">Place an Ad</a></li>
